@@ -494,26 +494,3 @@ Bingo! We’ve found some flat land that is landslide free. This seems like a sa
 ## Conclusion
 
 In this blog post I went through the steps needed to convert and load a KML 2.2 file into a PostGIS enabled PostgreSQL database. We installed PostGIS and all the tools needed to convert our KML file into an ESRI Shapefile and then into SQL statements that could be ran in PostgreSQL. We can now run SQL queries against our database which will return the landslide status for any given longitude and latitude within the focus area.
-
-## Please Comment
-
-If you found this blog post useful then please leave a comment below.
-
-## Related Books
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" height="200px" id="Player_a8377b86-aeb0-4c44-b1a4-cc2044d957a2" width="600px"> 
-
-<param name="movie" value="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2Fa8377b86-aeb0-4c44-b1a4-cc2044d957a2&amp;Operation=GetDisplayTemplate"/>
-
-<param name="quality" value="high"/>
-
-<param name="bgcolor" value="#FFFFFF"/>
-
-<param name="allowscriptaccess" value="always"/>
-
-<embed align="middle" allowscriptaccess="always" bgcolor="#ffffff" height="200px" id="Player_a8377b86-aeb0-4c44-b1a4-cc2044d957a2" name="Player_a8377b86-aeb0-4c44-b1a4-cc2044d957a2" quality="high" src="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2Fa8377b86-aeb0-4c44-b1a4-cc2044d957a2&amp;Operation=GetDisplayTemplate" type="application/x-shockwave-flash" width="600px"/>
-
-</object> 
-
-<noscript><a href="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2Fa8377b86-aeb0-4c44-b1a4-cc2044d957a2&amp;Operation=NoScript">Amazon.com Widgets</a></noscript>
-

@@ -185,8 +185,6 @@ Zero-copy is way to increase performance when transferring static data between t
 *   [Ruby IO Splice Homepage](https://bogomips.org/ruby_io_splice/)
 *   [How to create PI sequentially in Ruby](https://stackoverflow.com/questions/3137594/how-to-create-pi-sequentially-in-ruby)
 
-## Posted in : [ Ruby](/category/ruby-2)
-
 <div class="hentry post publish post-7 odd author-admin category-data-processing category-hadoop-2 category-ruby-2 post_tag-amazon-ec2 post_tag-bash post_tag-cloudera post_tag-data-processing-2 post_tag-hadoop post_tag-hadoop-cluster post_tag-hadoop-streaming post_tag-hdfs post_tag-jclouds post_tag-map-reduce post_tag-ruby post_tag-whirr" id="post-484">
 <h2 class="entry-title"><a href="/map-reduce-with-ruby-using-hadoop" rel="bookmark" title="Map-Reduce With Ruby Using Hadoop">Map-Reduce With Ruby Using Hadoop</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, December 31st, 2010, 9:38 am">December 31, 2010</abbr> </p>

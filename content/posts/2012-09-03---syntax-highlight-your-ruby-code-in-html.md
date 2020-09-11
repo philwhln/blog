@@ -102,8 +102,6 @@ And there it is. Not much more to say about that other than how easy it was. Alt
 *   [CodeRay on GitHub](https://github.com/rubychan/coderay)
 *   [More CodeRay examples (1470 of them!)](https://coderay.rubychan.de/rays)
 
-## Posted in : [ Ruby](/category/ruby-2)
-
 <div id="comments">
   <h3 id="comments-number" class="comments-header">9 responses to “Colorful Ruby Code In HTML Using CodeRay”</h3>
   <ol class="comment-list">

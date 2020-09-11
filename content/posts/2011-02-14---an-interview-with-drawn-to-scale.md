@@ -117,24 +117,6 @@ Since I first contacted Drawn To Scale, they have been [featured on the O’Reil
 
 Whilst they are still at the early stages and are finding their feet with their first customers, Bradford’s background and understanding of the technology show good promise for a successful startup and a good solution in this big data space.
 
-## Recommended Reading
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" height="200px" id="Player_734e145f-2c27-492f-8fb2-eeb0e52bd5b6" width="600px"> 
-
-<param name="movie" value="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2F734e145f-2c27-492f-8fb2-eeb0e52bd5b6&amp;Operation=GetDisplayTemplate"/>
-
-<param name="quality" value="high"/>
-
-<param name="bgcolor" value="#FFFFFF"/>
-
-<param name="allowscriptaccess" value="always"/>
-
-<embed align="middle" allowscriptaccess="always" bgcolor="#ffffff" height="200px" id="Player_734e145f-2c27-492f-8fb2-eeb0e52bd5b6" name="Player_734e145f-2c27-492f-8fb2-eeb0e52bd5b6" quality="high" src="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2F734e145f-2c27-492f-8fb2-eeb0e52bd5b6&amp;Operation=GetDisplayTemplate" type="application/x-shockwave-flash" width="600px"/>
-
-</object> 
-
-<noscript><a href="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2F734e145f-2c27-492f-8fb2-eeb0e52bd5b6&amp;Operation=NoScript">Amazon.com Widgets</a></noscript>
-
 ## Resources
 
 *   [Video interview on the O’Reilly Radar](https://radar.oreilly.com/2011/01/bradford-stephens-drawn-to-scale.html)

@@ -46,24 +46,3 @@ end
 The above example code snippets are part of demo application we have built called [UserViews](https://github.com/BigFastSite/userviews) that you can download from [github.com](https://github.com/BigFastSite/userviews)
 
 In a follow-up post I will demonstrate, step-by-step, how to install the [fluidfeatures-rails gem](https://rubygems.org/gems/fluidfeatures-rails) and the demo application, [UserViews](https://github.com/BigFastSite/userviews), so that you can try out FluidFeatures for yourself.
-
-## Tell me more…
-
-Sign-up to FluidFeatures Beta Users mailing-list if you are Ruby On Rails developer and this is a service you are interested in using.
-
-<!-- Begin MailChimp Signup Form -->
-
-<link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"/>
-
-<div id="mc_embed_signup">
-<form action="https://scalablecreations.us2.list-manage.com/subscribe/post?u=707d1f1a27e889d195e47a636&amp;id=d7b1c949a8" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value=""/>
-<div class="clear">
-<input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe"/></div>
-</form>
-</div>
-
-<!--End mc_embed_signup-->
-
-## Posted in : [ Ruby](/category/ruby-2)
-

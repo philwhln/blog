@@ -407,30 +407,6 @@ I think we will be hearing much more from Summify’s founders, Cristian and Mir
 
 At the time of writing this Summify has aggregated more than 200 million stories.
 
-I intend to keep following Summify’s progress. I will be writing more about them and [the technology of other similar tech companies in future blog posts](/feed).
-
-If you found this post useful then please [__leave a comment below__](/summifys-technology-examined#comments-template) or [__follow this blog__](/feed).
-
-<h2 id="recommended-reading">Recommended Reading</h2>
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" height="200px" id="Player_fbe332d7-592b-4c06-975a-967ba64d98db" width="600px"> 
-
-<param name="movie" value="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2Ffbe332d7-592b-4c06-975a-967ba64d98db&amp;Operation=GetDisplayTemplate"/>
-
-<param name="quality" value="high"/>
-
-<param name="bgcolor" value="#FFFFFF"/>
-
-<param name="allowscriptaccess" value="always"/>
-
-<embed align="middle" allowscriptaccess="always" bgcolor="#ffffff" height="200px" id="Player_fbe332d7-592b-4c06-975a-967ba64d98db" name="Player_fbe332d7-592b-4c06-975a-967ba64d98db" quality="high" src="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2Ffbe332d7-592b-4c06-975a-967ba64d98db&amp;Operation=GetDisplayTemplate" type="application/x-shockwave-flash" width="600px"/>
-
-</object> 
-
-<noscript><a href="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2Ffbe332d7-592b-4c06-975a-967ba64d98db&amp;Operation=NoScript">Amazon.com Widgets</a></noscript>
-
-In this blog post I will delve into the snippets of information available on Quora and look at Quora from a technical perspective. What technical decisions have they made? What does their architecture look like? What languages and frameworks do they use? How do they make that search bar respond so quickly?
-
 <div id="comments">
   <h3 id="comments-number" class="comments-header">9 responses to “Summify’s Technology Examined”</h3>
   <ol class="comment-list">

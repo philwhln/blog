@@ -76,8 +76,6 @@ Other posts in this series
 *   [Part 1 : Event-based Programming](/rubys-eventmachine-part-1-event-based-programming)
 *   [Part 2 : Asynchronous != Faster](/ruby-eventmachine-part-2-asynchronous-not-equal-faster)
 
-## Posted in : [ Ruby](/category/ruby-2)
-
 <div id="comments">
   <h3 id="comments-number" class="comments-header">9 responses to “Ruby’s EventMachine – Part 1 : Event-based Programming”</h3>
   <ol class="comment-list">

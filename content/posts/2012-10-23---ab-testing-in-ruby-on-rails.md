@@ -268,78 +268,9 @@ We can change the exposure level that each version receives and FluidFeatures wi
 You can download the code from the application at  
 <https://github.com/FluidFeatures/MyRailsApp>
 
-## Learn More
-
-In this video, we demonstrate FluidFeatures for feature rollout and A/B testing.
-
-<div class="wistia_embed" data-video-height="400" data-video-width="640" id="wistia_cu1iy2f0vn" style="width:640px;height:400px;">
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="wistia_cu1iy2f0vn_seo" style="display:block;height:400px;position:relative;width:640px;">
-<param name="movie" value="https://embed-0.wistia.com/flash/embed_player_v2.0.swf?2012-06-01"/>
-<param name="allowfullscreen" value="true"/>
-<param name="allowscriptaccess" value="always"/>
-<param name="bgcolor" value="#000000"/>
-<param name="wmode" value="opaque"/>
-<param name="flashvars" value="banner=true&amp;controlsVisibleOnLoad=true&amp;hdUrl%5Bheight%5D=800&amp;hdUrl%5Btype%5D=hdflv&amp;hdUrl%5Burl%5D=https%3A%2F%2Fembed-0.wistia.com%2Fdeliveries%2Ff8e538273e5d816ecc847577438edb59cd78db87.bin&amp;hdUrl%5Bwidth%5D=1280&amp;mediaDuration=522.7&amp;showVolume=true&amp;stillUrl=https%3A%2F%2Fembed-0.wistia.com%2Fdeliveries%2F1134c1888f3ffc77f96ad2242984b943e67a16c3.jpg%3Fimage_crop_resized%3D640x400&amp;unbufferedSeek=true&amp;videoUrl=https%3A%2F%2Fembed-0.wistia.com%2Fdeliveries%2F26b9223ed5ac05de797190485ae6ca65fc686186.bin"/>
-<embed allowfullscreen="true" allowscriptaccess="always" bgcolor="#000000" flashvars="banner=true&amp;controlsVisibleOnLoad=true&amp;hdUrl%5Bheight%5D=800&amp;hdUrl%5Btype%5D=hdflv&amp;hdUrl%5Burl%5D=https%3A%2F%2Fembed-0.wistia.com%2Fdeliveries%2Ff8e538273e5d816ecc847577438edb59cd78db87.bin&amp;hdUrl%5Bwidth%5D=1280&amp;mediaDuration=522.7&amp;showVolume=true&amp;stillUrl=https%3A%2F%2Fembed-0.wistia.com%2Fdeliveries%2F1134c1888f3ffc77f96ad2242984b943e67a16c3.jpg%3Fimage_crop_resized%3D640x400&amp;unbufferedSeek=true&amp;videoUrl=https%3A%2F%2Fembed-0.wistia.com%2Fdeliveries%2F26b9223ed5ac05de797190485ae6ca65fc686186.bin" name="wistia_cu1iy2f0vn_html" src="https://embed-0.wistia.com/flash/embed_player_v2.0.swf?2012-06-01" style="display:block;height:100%;position:relative;width:100%;" type="application/x-shockwave-flash" wmode="opaque"/>
-</object>
-</div>
-
-<script charset="ISO-8859-1" src="https://fast.wistia.com/static/concat/E-v1%2CpostRoll-v1.js"></script>
-
-  
-
-<script>
-wistiaEmbed = Wistia.embed("cu1iy2f0vn", {
-  version: "v1",
-  videoWidth: 640,
-  videoHeight: 400,
-  volumeControl: true,
-  controlsVisibleOnLoad: true
-});
-Wistia.plugin.postRoll(wistiaEmbed, {
-  version: "v1",
-  text: "Click here to visit&lt;br/&gt;FluidFeatures.com",
-  link: "https://www.fluidfeatures.com/?utm_source=bigfastblog.com&amp;#038;utm_medium=video&amp;#038;utm_content=ab_testing_in_rails&amp;#038;utm_campaign=interest",
-  style: {
-    backgroundColor: "#616161",
-    color: "#ffffff",
-    fontSize: "36px",
-    fontFamily: "Gill Sans, Helvetica, Arial, sans-serif"
-  }
-});
-</script>
-
-  
-
-<script charset="ISO-8859-1" src="https://fast.wistia.com/embed/medias/cu1iy2f0vn/metadata.js"></script>
-
-<https://github.com/FluidFeatures/userviews>
-
-## FluidFeatures Trial
-
-FluidFeatures is a new service and the most important thing for the service right now is quality feedback from quality users. We are in closed beta right now and looking for some great Rails developers to start A/B testing their applications using FluidFeatures.
-
-Please sign-up to FluidFeatures Beta Users mailing-list if you are a Ruby On Rails developer and you are interested in using this service.
-
-<!-- Begin MailChimp Signup Form -->
-
-<link href="https://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"/>
-
-<div id="mc_embed_signup">
-<form action="https://scalablecreations.us2.list-manage.com/subscribe/post?u=707d1f1a27e889d195e47a636&amp;id=d7b1c949a8" class="validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-<input class="email" id="mce-EMAIL" name="EMAIL" placeholder="email address" required="" type="email" value=""/>
-<div class="clear">
-<input class="button" id="mc-embedded-subscribe" name="subscribe" type="submit" value="Subscribe"/></div>
-</form>
-</div>
-
 ## Updated
 
 *   Changed fluidfeature\_current\_user to fluidfeature__s__\_current\_user <small>(2013-01-17)</small>
-
-<!--End mc_embed_signup-->
-
-## Posted in : [ Ruby](/category/ruby-2)
 
 <div id="comments">
   <h3 id="comments-number" class="comments-header">One response to “A/B Testing in Ruby On Rails”</h3>

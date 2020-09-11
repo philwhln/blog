@@ -63,8 +63,6 @@ Alternatively, and a better solution, is that we never call “exit” inside an
 
 [Jonathan Rochkind](https://bibwild.wordpress.com/) made a really great clarification of the exit / at\_exit situation in [a comment](/ruby-exit-exit-systemexit-and-at_exit-blunder/comment-page-1#comment-21913) below. I think it is important to read it.
 
-## Posted in : [ Ruby](/category/ruby-2)
-
 <div id="comments">
   <h3 id="comments-number" class="comments-header">11 responses to “Ruby exit, exit!, SystemExit and at_exit blunder”</h3>
   <ol class="comment-list">

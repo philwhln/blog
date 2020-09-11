@@ -521,65 +521,10 @@ __Please post any questions or suggestions you have in the comments below. They 
 *   [Words file on Unix-like operating systems](https://en.wikipedia.org/wiki/Words_(Unix))
 *   [Ruby Weekly](https://rubyweekly.com/)
 
-## Posted in : [ Ruby](/category/ruby-2)
-
 ## Related Books
 
 If you are interested in learning more about Hadoop, then I recommend reading  
-[Hadoop: The Definitive Guide (2nd Edition)](https://www.amazon.com/gp/product/1449389732?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449389732)
-
-<img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=1449389732" style="border:none !important; margin:0px !important;" width="1"/>
-
-  
-by Tom White.
-
-<a href="https://www.amazon.com/gp/product/1449389732?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449389732"><img border="0" src="https://images-na.ssl-images-amazon.com/media/images/I/41VfwSSarkL._SL160_.jpg"/></a>
-
-<img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=1449389732" style="border:none !important; margin:0px !important;" width="1"/>
-
-Here are some other good books related to this blog post… 
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="https://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab" height="200px" id="Player_2ddaa026-5f1d-4b7b-a5bc-7d610d9369dc" width="600px"> 
-
-<param name="movie" value="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2F2ddaa026-5f1d-4b7b-a5bc-7d610d9369dc&amp;Operation=GetDisplayTemplate"/>
-
-<param name="quality" value="high"/>
-
-<param name="bgcolor" value="#FFFFFF"/>
-
-<param name="allowscriptaccess" value="always"/>
-
-<embed align="middle" allowscriptaccess="always" bgcolor="#ffffff" height="200px" id="Player_2ddaa026-5f1d-4b7b-a5bc-7d610d9369dc" name="Player_2ddaa026-5f1d-4b7b-a5bc-7d610d9369dc" quality="high" src="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2F2ddaa026-5f1d-4b7b-a5bc-7d610d9369dc&amp;Operation=GetDisplayTemplate" type="application/x-shockwave-flash" width="600px"/>
-
-</object> 
-
-<noscript><a href="https://ws.amazon.com/widgets/q?ServiceVersion=20070822&amp;MarketPlace=US&amp;ID=V20070822%2FUS%2Fgetafil-20%2F8010%2F2ddaa026-5f1d-4b7b-a5bc-7d610d9369dc&amp;Operation=NoScript">Amazon.com Widgets</a></noscript>
-
-<div class="hentry post publish post-1 odd author-admin category-cassandra-nosql-2 category-web-development post_tag-amazon-ec2 post_tag-cassandra post_tag-cluster post_tag-homebrew post_tag-mac-os-x post_tag-nosql post_tag-whirr" id="post-1051">
-<h2 class="entry-title"><a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2" rel="bookmark" title="Quickly Launch A Cassandra Cluster On Amazon EC2">Quickly Launch A Cassandra Cluster On Amazon EC2</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, January 21st, 2011, 6:58 pm">January 21, 2011</abbr></p>
-<div style="float: left;"><img alt="launch_cassandra_amazon_ec2_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/launch_cassandra_amazon_ec2_sq.jpg" title="launch_cassandra_amazon_ec2_sq" width="180"/></div>
-<div class="entry-content">
-<p>If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it [...]</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2"><strong>Continue reading…</strong></a></div>
-</div>
-
-If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it \[...\]
-
-<div class="hentry post publish post-3 odd author-admin category-ruby-2 category-web-development post_tag-file-server post_tag-gem post_tag-io post_tag-iosplice post_tag-java post_tag-linux post_tag-ruby post_tag-splice post_tag-zero-copy" id="post-836" style="padding-top: 40px;">
-<h2 class="entry-title"><a href="/zero-copy-transfer-data-faster-in-ruby" rel="bookmark" title="Zero-Copy. Transfer Data Faster In Ruby">Zero-Copy. Transfer Data Faster In Ruby</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, January 14th, 2011, 1:27 pm">January 14, 2011</abbr> </p>
-<div style="float: left;"><img alt="zero_copy_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/zero_copy_ruby_sq.jpg" title="zero_copy_ruby_sq" width="180"/></div>
-<div class="entry-content">
-<p>In this post I will explain the concept behind “zero-copy”, which is feature of the Linux allowing for faster transfer of data between pipes, file-descriptors and sockets. I will demonstrate how you can use this functionality in your Ruby projects using a code example. This functionality has been implemented in C, Java, Ruby, Perl and nameless other languages, but in this blog I will focus on the Ruby usage.</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/zero-copy-transfer-data-faster-in-ruby"><strong>Continue reading…</strong></a></div>
-</div>
-
-In this post I will explain the concept behind “zero-copy”, which is feature of the Linux allowing for faster transfer of data between pipes, file-descriptors and sockets. I will demonstrate how you can use this functionality in your Ruby projects using a code example. This functionality has been implemented in C, Java, Ruby, Perl and nameless other languages, but in this blog I will focus on the Ruby usage.
+[Hadoop: The Definitive Guide (2nd Edition)](https://www.amazon.com/gp/product/1449389732?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449389732) by Tom White.
 
 <div id="comments">
   <h3 id="comments-number" class="comments-header">29 responses to “Map-Reduce With Ruby Using Hadoop”</h3>
