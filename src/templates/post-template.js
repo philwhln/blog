@@ -17,7 +17,7 @@ const PostTemplate = ({ data }: Props) => {
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle, description: postDescription, socialImage } = frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
-  const socialImageUrl = typeof socialImage !== 'undefined'
+  const socialImageUrl = (typeof socialImage !== 'undefined' && socialImage !== null)
     ? socialImage['publicURL']['publicURL'] : undefined;
 
   return (
