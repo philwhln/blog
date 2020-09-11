@@ -18,7 +18,7 @@ module.exports = {
   ],
   author: {
     name: 'Phil Whelan',
-    photo: '/images/photo.jpg',
+    photo: '/media/images/photo.jpg',
     bio: 'Software Engineer',
     contacts: {
       email: '',
