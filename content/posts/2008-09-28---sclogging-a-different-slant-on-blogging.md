@@ -8,7 +8,7 @@ category: "Marketing"
 tags: []
 description: "This week I had an idea for a different form of blogging. This stemmed from the fact that we've been seeing a great response with opt-in email and"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://1.bp.blogspot.com/_PQOgjfAsIN4/SOA38YKpuVI/AAAAAAAAAH8/bxVNE75O3Uo/s1600-h/Envelope.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}">
 
@@ -48,7 +48,7 @@ Please leave a comment if you have any thoughts on this. Or would you prefer to 
         <abbr class="comment-date" title="Sunday, September 28th, 2008, 7:26 pm">September 28, 2008</abbr> at <abbr class="comment-time" title="Sunday, September 28th, 2008, 7:26 pm">7:26 pm</abbr>
       </div>
       <div class="comment-text">
-        <p>I’m surprised that Facebook hasn’t jumped on the blogging bandwagon. I’d imagine some day they will and I hope it’s called ‘flogging’ <img src="/images/smilies/icon_surprised.gif" alt=":o" class="wp-smiley" /> ) People already love to share status updates so why don’t they directly integrate blogging as they have a semi-closed platform?</p>
+        <p>I’m surprised that Facebook hasn’t jumped on the blogging bandwagon. I’d imagine some day they will and I hope it’s called ‘flogging’ <img src="/media/images/smilies/icon_surprised.gif" alt=":o" class="wp-smiley" /> ) People already love to share status updates so why don’t they directly integrate blogging as they have a semi-closed platform?</p>
       </div>
       <!-- .comment-text -->
     </li>

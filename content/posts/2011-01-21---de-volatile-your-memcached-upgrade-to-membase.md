@@ -17,9 +17,9 @@ tags:
   - web-development
 description: "Membase's TCP interface is identical Memcached, so migrating your existing code-base will not be an issue at all."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/memcached_to_membase_sq.jpg"
+  publicURL: "/media/images/2011/01/memcached_to_membase_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/hojusaram/484764113/" title="20070505-135556.jpg by hojusaram, on Flickr"><img align="left" alt="20070505-135556.jpg" height="500" src="https://commondatastorage.googleapis.com/philwhln/blog/images/memcached_to_membase/memcached_to_membase.jpg" style="padding-bottom: 20px" width="333"/></a>
+<a href="https://www.flickr.com/photos/hojusaram/484764113/" title="20070505-135556.jpg by hojusaram, on Flickr"><img align="left" alt="20070505-135556.jpg" height="500" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/memcached_to_membase/memcached_to_membase.jpg" style="padding-bottom: 20px" width="333"/></a>
 
 ## Migrate From Memcached
 
@@ -142,7 +142,7 @@ While the focus of this blog post has been on Membase as a replacement to Memcac
 <div class="hentry post publish post-9 odd author-admin category-data-processing post_tag-amazon-ec2 post_tag-bbc post_tag-cassandra post_tag-data-processing-2 post_tag-dbpedia post_tag-ebs post_tag-freebase post_tag-hadoop post_tag-hdfs post_tag-large-datasets post_tag-livedoor post_tag-lucene post_tag-mongodb post_tag-nosql post_tag-rackspace post_tag-solr post_tag-wikipedia post_tag-working-with-data" id="post-394">
 <h2 class="entry-title"><a href="/how-to-get-experience-working-with-large-datasets" rel="bookmark" title="How To Get Experience Working With Large Datasets">How To Get Experience Working With Large Datasets</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Wednesday, December 8th, 2010, 11:50 am">December 8, 2010</abbr></p>
-<div style="float: left;"><img alt="big_dataset_experience_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2010/12/big_dataset_experience_sq.jpg" title="big_dataset_experience_sq" width="180"/></div>
+<div style="float: left;"><img alt="big_dataset_experience_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/big_dataset_experience_sq.jpg" title="big_dataset_experience_sq" width="180"/></div>
 <div class="entry-content">
 <p>There are data sources out there, but which data source you choose depends on which technology you wish to get experience working with. The experience should be of the technologies you are using, rather than what the data is. Certain datasets pair better with certain technologies. Simulating the data can be another approach. You just need a clever way of generating and randomizing your fake data. Thirdly, you can use a hybrid approach. Take real data and replay it on a loop, randomizing it as it goes through. Simulating the Twitter fire-hose should not be too hard, should it?</p>
 </div>
@@ -253,7 +253,7 @@ perry@couchbase.com</p>
     </li>
     <!-- .comment -->
     <li id="comment-4759" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="printf(&quot; SaltwaterC &quot;); » Blog Archive » Use the cache Luke, Part 1: from memcached to Membase memcached buckets" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="printf(&quot; SaltwaterC &quot;); » Blog Archive » Use the cache Luke, Part 1: from memcached to Membase memcached buckets" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.saltwaterc.eu/use-the-cache-luke-part-1-from-memcached-to-membase-memcached-buckets.html">printf(" SaltwaterC "); » Blog Archive » Use the cache Luke, Part 1: from memcached to Membase memcached buckets</cite>

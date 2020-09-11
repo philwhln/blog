@@ -21,9 +21,9 @@ tags:
   - scala
 description: "Last week I attended a presentation by James Golick, CTO of fetlife.com. Intriguingly advertised as Scaling a Website to 300 Million Page Views Per Month with"
 socialImage:
-  publicURL: "/wp-content/uploads/2011/12/rollout-degrade-metrics-and-capacity_sq.jpg"
+  publicURL: "/media/images/2011/12/rollout-degrade-metrics-and-capacity_sq.jpg"
 ---
-<div style="height: 280px"><a href="https://www.flickr.com/photos/yvoictra/3498203833/"><img align="left" height="251" src="https://commondatastorage.googleapis.com/philwhln/blog/images/rollout_degrade_metrics_and_capacity/rollout-degrade-metrics-and-capacity.jpg" width="320"/></a> Last week I attended a presentation by <a href="https://jamesgolick.com/">James Golick</a>, CTO of <a href="https://www.fetlife.com">fetlife.com</a>. Intriguingly advertised as <a href="https://www.meetup.com/vancouver-scala/events/38342382/">“Scaling a Website to 300 Million Page Views Per Month with Scala”</a> I thought it was worth a break from building <a href="https://www.cooq.com/">cooq.com</a> to attend. Fetlife have been heavy users of Ruby, but are transitioning to Scala and having been using Scala code in production for 2 years. Several of the tools mentioned below are built in Ruby, but they plan to migrate them to Scala over time.</div>
+<div style="height: 280px"><a href="https://www.flickr.com/photos/yvoictra/3498203833/"><img align="left" height="251" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/rollout_degrade_metrics_and_capacity/rollout-degrade-metrics-and-capacity.jpg" width="320"/></a> Last week I attended a presentation by <a href="https://jamesgolick.com/">James Golick</a>, CTO of <a href="https://www.fetlife.com">fetlife.com</a>. Intriguingly advertised as <a href="https://www.meetup.com/vancouver-scala/events/38342382/">“Scaling a Website to 300 Million Page Views Per Month with Scala”</a> I thought it was worth a break from building <a href="https://www.cooq.com/">cooq.com</a> to attend. Fetlife have been heavy users of Ruby, but are transitioning to Scala and having been using Scala code in production for 2 years. Several of the tools mentioned below are built in Ruby, but they plan to migrate them to Scala over time.</div>
 
 ## Rollout
 
@@ -88,7 +88,7 @@ Capacity planning is not just about projecting your current usage. Websites have
   <h3 id="comments-number" class="comments-header">One response to “Rollout, Degrade, Metrics and Capacity”</h3>
   <ol class="comment-list">
     <li id="comment-6614" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Link: Rollout Degrade Metrics and Capacity | Loosely Connected" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Link: Rollout Degrade Metrics and Capacity | Loosely Connected" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://looselyconnected.wordpress.com/2011/12/16/link-rollout-degrade-metrics-and-capacity/">Link: Rollout Degrade Metrics and Capacity | Loosely Connected</cite>

@@ -17,9 +17,9 @@ tags:
   - zero-copy
 description: "In this post I will explain the concept behind zero-copy, which is feature of the Linux allowing for faster transfer of data between pipes, file-descriptors and sockets. I will demonstrate how you can use this functionality in your Ruby projects using a code example. This functionality has been implemented in C, Java, Ruby, Perl and nameless other languages, but in this blog I will focus on the Ruby usage."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/zero_copy_ruby_sq.jpg"
+  publicURL: "/media/images/2011/01/zero_copy_ruby_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/zitona/3749382854/" title="McDreamy by Zitona on Flickr"><img align="left" alt="Zero-Copy In Ruby Image" height="323" src="/wp-content/uploads/2011/01/zero_copy_ruby.jpg" style="margin-right: 15px" width="270"/></a>
+<a href="https://www.flickr.com/photos/zitona/3749382854/" title="McDreamy by Zitona on Flickr"><img align="left" alt="Zero-Copy In Ruby Image" height="323" src="/media/images/2011/01/zero_copy_ruby.jpg" style="margin-right: 15px" width="270"/></a>
 
 In this post I will explain the concept behind “zero-copy”, which is feature of the Linux allowing for faster transfer of data between pipes, file-descriptors and sockets. I will demonstrate how you can use this functionality in your Ruby projects using a code example. This functionality has been implemented in C, Java, Ruby, Perl and nameless other languages, but in this blog I will focus on the Ruby usage.
 
@@ -190,7 +190,7 @@ Zero-copy is way to increase performance when transferring static data between t
 <div class="hentry post publish post-7 odd author-admin category-data-processing category-hadoop-2 category-ruby-2 post_tag-amazon-ec2 post_tag-bash post_tag-cloudera post_tag-data-processing-2 post_tag-hadoop post_tag-hadoop-cluster post_tag-hadoop-streaming post_tag-hdfs post_tag-jclouds post_tag-map-reduce post_tag-ruby post_tag-whirr" id="post-484">
 <h2 class="entry-title"><a href="/map-reduce-with-ruby-using-hadoop" rel="bookmark" title="Map-Reduce With Ruby Using Hadoop">Map-Reduce With Ruby Using Hadoop</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, December 31st, 2010, 9:38 am">December 31, 2010</abbr> </p>
-<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
+<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
 <div class="entry-content">
 <p>Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will <em>not</em> need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.</p>
 </div>

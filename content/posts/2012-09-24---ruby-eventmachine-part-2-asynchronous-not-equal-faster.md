@@ -17,7 +17,7 @@ tags:
   - tornado
 description: "In this post I will look synchronous vs asynchronous programming with Ruby's EventMachine, to show that asynchronous does not always mean that your code will run faster. In part 1 of this series on Ruby's EventMachine I discussed the benefits of event-based programming in general. I am a big fan of event-based programming, as you will see in these posts, but I wanted to flip the coin over and look at one of the down-sides of event-based programming."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 In this post I will look synchronous vs asynchronous programming with Ruby’s [EventMachine](https://github.com/eventmachine/eventmachine), to show that asynchronous does not always mean that your code will run faster.
 

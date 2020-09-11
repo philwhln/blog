@@ -14,7 +14,7 @@ tags:
   - ruby on rails
 description: "In this post I am going to demonstrate, step-by-step, a way to A/B test new features from within Ruby-On-Rails using FluidFeatures. FluidFeatures is currently in closed-beta and requires request for inclusion in the beta program. We are looking for enthusiastic A/B testers, so we can get feedback on the service before releasing it to the masses."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 <div style="border: 1px #ddd solid; margin: 5px; margin-bottom: 20px; padding: 5px; background-color: #FFFF99;">
 <strong>Please note</strong>, the latest and greatest integration steps for the <strong>fluidfeatures-rails</strong> gem can be found on<br/>
@@ -111,19 +111,19 @@ end
 
 Once we are logged into FluidFeatures.com, we can create a new “application”. This can be found at <https://www.fluidfeatures.com/dashboard>
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/new-application.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/new-application.png)
 
 Give our application a name.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/input-app-name.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/input-app-name.png)
 
 Find our application’s credentials.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/click-credentials.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/click-credentials.png)
 
 We will copy these credentials and pass them to our rails application as environment variables.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/credentials.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/credentials.png)
 
 ## Flesh Out Our App
 
@@ -207,13 +207,13 @@ script/rails server
 
 fluidfeatures-rails detects new features when it encounters them at run-time, then reports them back to the dashboard. When we make our first make I request, neither “a” or “b” versions are enabled.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/nothing-to-see.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/nothing-to-see.png)
 
 But during this request we have reported back to the fluidfeatures service that we have a new feature “ab-test” and we have detected two versions, “a” and “b”.
 
 If we look at the dashboard we will see this feature.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/ab-test-feature-detected.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/ab-test-feature-detected.png)
 
 ## Configuring The Split
 
@@ -221,7 +221,7 @@ Let’s set version “a” to 75% exposure and version “b” to 25% exposure.
 
 From the code above we can see that version “a” will show the message “Do you like Apples?” and version “b” will show the message “Do you like Bananas?”. Both will give links to “YES” and “NO”. These “YES” and “NO” links are our goals. We want our users to click these links and we will track how successful each version of our question is.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/ab-test-75-25.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/ab-test-75-25.png)
 
 ## And We Are Live!
 
@@ -229,17 +229,17 @@ If we now visit the application, instead of seeing “Nothing to see here”, we
 
 We see “Do you like Bananas?”.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/do-you-like-bananas.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/do-you-like-bananas.png)
 
 ## Keeping Score
 
 Let’s click on “YES” and indicate that we do like bananas.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/great-me-too.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/great-me-too.png)
 
 Meanwhile, back on the dashboard, we see the detected goal pop-up.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/one-banana-lover.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/one-banana-lover.png)
 
 Statistically not very significant, but we can see we are tracking some statistics.
 
@@ -253,7 +253,7 @@ If I open the application in a different browser, I now see “Do you like Apple
 
 Over time, we get more clicks on “YES” and “NO” for “apples” and “bananas”. This application is really popular!
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/yes-goal.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/yes-goal.png)
 
 We can see that “a” (for “apples”) received more clicks than “b” (for “bananas”). 29 for “a” vs 20 “b”. Although, from the percentages it appears that “b” is more than twice as popular. How can that be?
 
@@ -261,7 +261,7 @@ If we look back at the feature settings, we are only showing “b” to 25% of t
 
 We can change the exposure level that each version receives and FluidFeatures will keep track of the statistical significance of each goal (“YES” click) at the time it occurs.
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/images/ab-test-rails/full-dashboard.png)
+![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/ab-test-rails/full-dashboard.png)
 
 ## Download The Code
 

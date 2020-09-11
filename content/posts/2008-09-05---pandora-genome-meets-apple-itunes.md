@@ -8,7 +8,7 @@ category: "Apple"
 tags: []
 description: "With iTunes 8 just around the corner and some rumored changes that include iTunes suggesting songs you might like or in some way to grouping your music better,"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 With iTunes 8 just around the corner and some rumored changes that include iTunes suggesting songs you might like or in some way to grouping your music better, I saw a potential acquisition for Apple or possibility or partnership with the Internet radio station Pandora.<a href="https://4.bp.blogspot.com/_PQOgjfAsIN4/SMFJ8_4hdHI/AAAAAAAAAGI/1s0A8U2JxJg/s1600-h/pandora_itunes.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" rel="nofollow">
 

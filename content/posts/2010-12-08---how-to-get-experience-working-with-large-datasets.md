@@ -26,7 +26,7 @@ tags:
   - working with data
 description: "There are data sources out there, but which data source you choose depends on which technology you wish to get experience working with. The experience should be of the technologies you are using, rather than what the data is. Certain datasets pair better with certain technologies. Simulating the data can be another approach. You just need a clever way of generating and randomizing your fake data. Thirdly, you can use a hybrid approach. Take real data and replay it on a loop, randomizing it as it goes through. Simulating the Twitter fire-hose should not be too hard, should it?"
 socialImage:
-  publicURL: "/wp-content/uploads/2010/12/big_dataset_experience_sq.jpg"
+  publicURL: "/media/images/2010/12/big_dataset_experience_sq.jpg"
 ---
 <a href="https://www.flickr.com/photos/danorbit/1976880927/" title="The Giant Twins by danorbit., on Flickr"><img align="left" alt="The Giant Twins" height="333" src="https://farm3.static.flickr.com/2383/1976880927_8f936fe4e1.jpg" style="border:none; margin:15px; margin-bottom: 40px;" width="251"/></a>  
 I think I have been lucky that several of the projects I been worked on have exposed me to having to manage large volumes of data. The largest dataset was probably at [MailChannels](https://www.mailchannels.com), though [Livedoor.com](https://www.livedoor.com) also had some sizeable data for their books store and department store. Most of the pain with Livedoor’s data was from it being in Japanese. Other than that, it was pretty static. This was similar to the data I worked with at the BBC. You would be surprised at how much data can be involved with a single episode of a TV show. With any in-house generated data the update size and frequency is much less dramatic, even if the data is being regularly pumped in from 3rd parties.
@@ -164,7 +164,7 @@ https://snap.stanford.edu/data/index.html</p>
     </li>
     <!-- .comment -->
     <li id="comment-292" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Revue de presse Industrialisation PHP de la semaine 50 (2010) | Industrialisation PHP" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Revue de presse Industrialisation PHP de la semaine 50 (2010) | Industrialisation PHP" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.industrialisation-php.com/revue-de-presse-industrialisation-php-de-la-semaine-50-2010/">Revue de presse Industrialisation PHP de la semaine 50 (2010) | Industrialisation PHP</cite>
@@ -179,7 +179,7 @@ https://snap.stanford.edu/data/index.html</p>
     </li>
     <!-- .comment -->
     <li id="comment-306" class="pingback odd alt thread-even depth-1 pingback reader">
-      <img alt="LATW Episode 1 (December 1-10, 2010)" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="LATW Episode 1 (December 1-10, 2010)" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://shahriarhaque.com/blog/?p=54">LATW Episode 1 (December 1-10, 2010)</cite>

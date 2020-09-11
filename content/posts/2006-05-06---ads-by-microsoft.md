@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "Microsoft to Put More Money Into MSN - New York TimesI'm surprised so many large companies are so slow to duplicate Google's highly successful Google Ads. We"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 [Microsoft to Put More Money Into MSN – New York Times](https://www.nytimes.com/2006/05/05/technology/05soft.html?ex=1304481600&amp;en=8b152c40c303ba17&amp;ei=5088&amp;partner=rssnyt&amp;emc=rss)
 

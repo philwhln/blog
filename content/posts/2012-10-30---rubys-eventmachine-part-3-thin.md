@@ -17,7 +17,7 @@ tags:
   - web-development
 description: "As mentioned in part 1 and part 2 of this series on Ruby's EventMachine, Thin is where most folks encounter EventMachine for the first time, even if they do not realize it. EventMachine is at the core of Thin and allows for the high concurrency that Thin provides to your Rails application. In this post I will look at Thin's usage of EventMachine."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 As mentioned in [part 1](/rubys-eventmachine-part-1-event-based-programming) and [part 2](/ruby-eventmachine-part-2-asynchronous-not-equal-faster) of this [series on Ruby’s EventMachine](/category/ruby-2/eventmachine), Thin is where most folks encounter EventMachine for the first time, even if they do not realize it. EventMachine is at the core of Thin and allows for the high concurrency that Thin provides to your Rails application. In this post I will look at Thin’s usage of EventMachine.
 
@@ -27,7 +27,7 @@ Let’s start at the basics.
 
 >  
 > Thin is a Ruby web server that glues together 3 of the best Ruby libraries in web history.  
-> <small> – [Thin homepage](https://code.macournoyer.com/thin/)</small>
+> <small> – Thin homepage</small>
 > 
 
 The above quote refers to [Mongrel](https://www.zedshaw.com/tips/ragel_state_charts.html), EventMachine and [Rack](https://rack.rubyforge.org/). I am not going cover Mongrel and Rack.

@@ -26,9 +26,9 @@ tags:
   - tornado swirl
 description: "In this post I will look at the technology infrastructure behind Summify.com, a website that strives to make our lives easier and helps us deal with the information overload we all experience every time we sit down at our computers. Summify has aggregated over 200 million stories from the web and serves them up on-demand through a series of different mediums. The website uses Tornado to push real-time updates out to the users and they have developed over a dozen backend systems, some of which I will cover in this blog post."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/03/summify_technology_sq.jpg"
+  publicURL: "/media/images/2011/03/summify_technology_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/zipckr/3925513417/" title="Web 2.0 icons by zipckr, on Flickr"><img alt="Web 2.0 icons" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/images/summify_technology/summify_technology.jpg?1" width="450"/></a>
+<a href="https://www.flickr.com/photos/zipckr/3925513417/" title="Web 2.0 icons by zipckr, on Flickr"><img alt="Web 2.0 icons" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/summify_technology/summify_technology.jpg?1" width="450"/></a>
 
 Following on from examining [Quora’s technology](/quoras-technology-examined), I thought I would look at a tech company closer to home. Home being [Vancouver, BC](https://www.tourismvancouver.com/visitors/). While the tech scene is much smaller here than in [the valley](https://en.wikipedia.org/wiki/Silicon_Valley), [it is here](https://www.readwriteweb.com/start/2011/01/never-mind-the-valley-heres-va.php). In fact, Vancouver boasts the largest number of [entrepreneurs per capita](https://www.readwriteweb.com/start/2011/01/never-mind-the-valley-heres-va.php).
 
@@ -276,7 +276,7 @@ I will not go into details of the complete API, 1) because I do not have it and 
 
 This request is made when I click the 
 
-<img height="162" src="https://commondatastorage.googleapis.com/philwhln/blog/images/summify_technology/summify_click_more.png" width="500"/>
+<img height="162" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/summify_technology/summify_click_more.png" width="500"/>
 
 ```
 GET /api/recent.json?count=20&order_lt=1298761351.0000%2C1328%2C0000%2C3f4d HTTP/1.1
@@ -351,7 +351,7 @@ The content of the response is [JSON encoded](https://www.json.org/). I have pre
       },
       "image" : {
          "width" : 250,
-         "url" : "https://www.linglom.com/images/Linux/ChangeIPAddress/_1.png",
+         "url" : "https://www.linglom.com/media/images/Linux/ChangeIPAddress/_1.png",
          "height" : 233
       },
       "sources" : [
@@ -523,14 +523,14 @@ To the Summify guys, interesting use of Redis. How much data is Redis storing cu
         <abbr class="comment-date" title="Saturday, July 2nd, 2011, 12:02 am">July 2, 2011</abbr> at <abbr class="comment-time" title="Saturday, July 2nd, 2011, 12:02 am">12:02 am</abbr>
       </div>
       <div class="comment-text">
-        <p>Wow I miss this article. Great one. I knew Cris and Mircea were awesome but not as much <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Thanks for taking the time to break their technology down. Great learning. </p>
+        <p>Wow I miss this article. Great one. I knew Cris and Mircea were awesome but not as much <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Thanks for taking the time to break their technology down. Great learning. </p>
         <p>PS: Go Vancouver Startups Go!</p>
       </div>
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
     <li id="comment-3942" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Downtime Postmortem | Summify" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Downtime Postmortem | Summify" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://newblog.summify.com/2011/03/19/downtime-postmortem/">Downtime Postmortem | Summify</cite>
@@ -545,7 +545,7 @@ To the Summify guys, interesting use of Redis. How much data is Redis storing cu
     </li>
     <!-- .comment -->
     <li id="comment-5297" class="pingback odd alt thread-even depth-1 pingback reader">
-      <img alt="Summify’s Technology Examined « Another Word For It" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Summify’s Technology Examined « Another Word For It" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://tm.durusau.net/?p=17356">Summify’s Technology Examined « Another Word For It</cite>

@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "Ok, so I just updated to the latest version of Ubuntu - Feisty Fawn. Couldn't notice a whole lot of difference on my work machine, and the effects didn't"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 Ok, so I just updated to the latest version of Ubuntu – “Feisty Fawn”. Couldn’t notice a whole lot of difference on my work machine, and the effects didn’t work. But on my laptop it seems much much faster and that’s with the wobbly windows and other effects running full whack.
 

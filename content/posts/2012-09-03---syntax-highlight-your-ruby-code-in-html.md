@@ -18,7 +18,7 @@ tags:
   - syntax highlighting
 description: "In this blog post I will demonstrate a quick and easy way I have found to syntax highlight your Ruby code in pretty colors for your blog posts or other HTML-based display purposes. Please note, this blog post is designed for use with color monitors only, obviously. The focus of this post is Ruby, but this method also applies for syntax highlighting C, C++, Python, CSS, Clojure, diff, Groovy, HAML, ERB, Java, JavaScript, PHP, SQL, XML and YAML."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://www.flickr.com/photos/vinothchandar/4297342496/in/photostream/"><img align="left" src="https://farm5.staticflickr.com/4011/4297342496_985f56d8e2_n.jpg"/></a>In this blog post I will demonstrate a quick and easy way I have found to syntax highlight your Ruby code in pretty colors for your blog posts or other HTML-based display purposes. Please note, this blog post is designed for use with color monitors only, obviously.
 
@@ -149,7 +149,7 @@ And there it is. Not much more to say about that other than how easy it was. Alt
         <abbr class="comment-date" title="Thursday, September 6th, 2012, 6:06 am">September 6, 2012</abbr> at <abbr class="comment-time" title="Thursday, September 6th, 2012, 6:06 am">6:06 am</abbr>
       </div>
       <div class="comment-text">
-        <p>The missing feature from CodeRay is lack of support for CoffeeScript <img src="/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />  I had to implement CS highlighting using client-side libraries in my homepage <img src="/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
+        <p>The missing feature from CodeRay is lack of support for CoffeeScript <img src="/media/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />  I had to implement CS highlighting using client-side libraries in my homepage <img src="/media/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
         </p>
       </div>
       <!-- .comment-text -->
@@ -185,7 +185,7 @@ Phil</p>
                 <p>https://codemirror.net/<br />
 https://github.com/cloudhead/toto</p>
                 <p>My articles are written in Markdown and code examples lie between “@@@ language-identifier”..”@@@” blocks.</p>
-                <p>Most are processed using CodeRay but for CoffeeScript I had to use client-side processing cause I couldn’t find any Ruby highlighting library that understands CoffeeScript <img src="/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
+                <p>Most are processed using CodeRay but for CoffeeScript I had to use client-side processing cause I couldn’t find any Ruby highlighting library that understands CoffeeScript <img src="/media/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
                 </p>
               </div>
               <!-- .comment-text -->
@@ -215,7 +215,7 @@ https://github.com/cloudhead/toto</p>
                         <abbr class="comment-date" title="Sunday, September 9th, 2012, 12:44 pm">September 9, 2012</abbr> at <abbr class="comment-time" title="Sunday, September 9th, 2012, 12:44 pm">12:44 pm</abbr>
                       </div>
                       <div class="comment-text">
-                        <p>I never enabled editing to the codes blocks displayed in my articles <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+                        <p>I never enabled editing to the codes blocks displayed in my articles <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
                         </p>
                         <p>But anyway, Ruby is not involved at all with CodeMirror. It is all handled in the client-side. See an example here:</p>
                         <p>https://codemirror.net/demo/fullscreen.html</p>

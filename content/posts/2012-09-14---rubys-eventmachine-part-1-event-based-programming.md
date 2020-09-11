@@ -21,7 +21,7 @@ tags:
   - tornado
 description: "In this first post, of a series on Ruby's EventMachine, I will introduce EventMachine and explain why event-based programming is good for your wallet. EventMachine, which just turned 1.0.0 this week, is more than just a gem, it is a new paradigm for many Ruby programmers and is not always easy to just drop into your existing stack. As the name suggests, it gives you event-based programming."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 In this first post, of a series on Ruby’s [EventMachine](https://github.com/eventmachine/eventmachine), I will introduce EventMachine and explain why event-based programming is good for your wallet.
 
@@ -158,7 +158,7 @@ Will be very interesting to hear in next parts:<br />
         <abbr class="comment-date" title="Saturday, September 22nd, 2012, 5:18 pm">September 22, 2012</abbr> at <abbr class="comment-time" title="Saturday, September 22nd, 2012, 5:18 pm">5:18 pm</abbr>
       </div>
       <div class="comment-text">
-        <p>Cool! EventMachine is one of those things I’ve been keeping in the corner of my eye for a while, but found the learning curve a bit steep. Any ski-poles you can lend would be greatly appreciated. <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+        <p>Cool! EventMachine is one of those things I’ve been keeping in the corner of my eye for a while, but found the learning curve a bit steep. Any ski-poles you can lend would be greatly appreciated. <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
         </p>
       </div>
       <!-- .comment-text -->

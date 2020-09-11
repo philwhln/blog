@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "Many large companies such Skype, eBay and ICQ have just investing in a new intiative called FON to allow anybody with a home broadband internet connection to"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 Many large companies such Skype, eBay and ICQ have just investing in a new intiative called FON to allow anybody with a home broadband internet connection to install update software on their router (the little internet box, that that allows you to plug in multiple computers to the internet and have wireless internet in your home). This new software on your router will let you join the FON club. Membership means that when you are out and about around town with a wireless device (laptop, PDA, or any other wifi device) you can connect to a wireless internet network connection created by other FON members. In exchange for this you do the same, by letting other FON members to connection wirelessly to the internet through your router the same as you do to theirs.
 

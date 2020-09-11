@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "If you want to download large files, then it's becoming more and more likely that they'll be in bittorrent form. Even Microsoft is developing it's own version"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 If you want to download large files, then it’s becoming more and more likely that they’ll be in bittorrent form. Even Microsoft is developing it’s own version of bittorrent. It’s definately the future of downloading large files on the internet.  
   

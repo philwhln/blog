@@ -15,13 +15,13 @@ tags:
   - spam
 description: "Gmail Priority Inbox is a great idea. Prior to this the Inbox was split into 2 levels - Inbox and Spam. This Priority Inbox creates a third middle level, which"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 Gmail Priority Inbox is a great idea. Prior to this the Inbox was split into 2 levels – Inbox and Spam. This Priority Inbox creates a third middle level, which is essentially “ham”.
 
 Ham is all the things that waste your time, but come from organisations that you are affiliated with in some way, such as “offers from you bank”, or places you purchased things from online. It may be from more loosely affiliated partners that you accidentally opted into, but you haven’t unsubscribed yet.
 
-<a href="/wp-content/uploads/2010/09/Screen-shot-2010-09-03-at-7.28.17-AM.png"><img alt="Google's Gmail Priority Inbox" class="alignleft size-medium wp-image-117" height="182" src="/wp-content/uploads/2010/09/Screen-shot-2010-09-03-at-7.28.17-AM-300x182.png" title="Google's Gmail Priority Inbox" width="300"/></a>This will be a tremendous time-saver, and I really hope it works as accurately as the Gmail’s Spam folder does. Just like the Gmail Spam folder, if this drops to 99% accurate you still have to check a second folder or you risk missing an important email. It’s likely that many users will never or rarely check their original Inbox again if the accuracy of the Priority Inbox is high. It must be over a year since I looked in my Spam folder.
+<a href="/media/images/2010/09/Screen-shot-2010-09-03-at-7.28.17-AM.png"><img alt="Google's Gmail Priority Inbox" class="alignleft size-medium wp-image-117" height="182" src="/media/images/2010/09/Screen-shot-2010-09-03-at-7.28.17-AM-300x182.png" title="Google's Gmail Priority Inbox" width="300"/></a>This will be a tremendous time-saver, and I really hope it works as accurately as the Gmail’s Spam folder does. Just like the Gmail Spam folder, if this drops to 99% accurate you still have to check a second folder or you risk missing an important email. It’s likely that many users will never or rarely check their original Inbox again if the accuracy of the Priority Inbox is high. It must be over a year since I looked in my Spam folder.
 
 This may seriously impact the ability of&nbsp;many marketing companies to do their email marketing. Their emails, although delivered successfully, will go unseen and unread. I can pretty much guarantee that the click-through rate from Gmail accounts will go down significantly. I know from working in the email industry (specifically anti-spam) that email marketers already have a very hard time getting email delivered successfully. This will only add a further blow.
 
@@ -56,7 +56,7 @@ Do you sympathize with the email marketers?&nbsp;Will you use the Gmail Priority
         <abbr class="comment-date" title="Tuesday, December 14th, 2010, 1:16 pm">December 14, 2010</abbr> at <abbr class="comment-time" title="Tuesday, December 14th, 2010, 1:16 pm">1:16 pm</abbr>
       </div>
       <div class="comment-text">
-        <p>Happily using it (on personal and company e-mail) without intention of going back. And now on my android also <img src="/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />
+        <p>Happily using it (on personal and company e-mail) without intention of going back. And now on my android also <img src="/media/images/smilies/icon_biggrin.gif" alt=":D" class="wp-smiley" />
         </p>
       </div>
       <!-- .comment-text -->

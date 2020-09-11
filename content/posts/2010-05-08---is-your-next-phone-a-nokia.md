@@ -17,7 +17,7 @@ tags:
   - smartphone
 description: "This week I attended Mobile Geeks Vancouver where we were given a presentation by Samir Agarwal, Head of Maemo Operations at Nokia in Mountain View, California."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 This week I attended [Mobile Geeks Vancouver](https://www.womworld.com/nokia/tag/mobile-geeks-of-vancouver/) where we were given a presentation by Samir Agarwal, Head of Maemo Operations at Nokia in Mountain View, California. The presentation by Samir was definitely eye opening. After [winning an Android phone](/?p=63 "An Android Developer, I Am") at the Vancouver Android Developers Meetup last week I thought I’d covered all the bases of what’s happening in the mobile world. If I were a mobile applications developer, and I might be, should I be developing for the iPhone or for Android? Well, it appears there’s now a third choice. The N900 was demo’d with a promise of a far superior phone in the second half of 2010. It was running the Meego platform, which we’re told we should all be excited about.
 
@@ -37,8 +37,8 @@ I noticed Nokia as a business is not doing so well, with [frustrated stockholder
 It has Flash in the browser, which I believe was Firefox? It must have one heck of a battery. The video-out on the N900 was impressive, but I doubt personally I’d use the feature too often. It’s here where Apple strives, making decisions on the needs of the majority in order to reduce bulk and weight for everyone. When the phone was demo’d I thought the Meego looked relatively slick, but when I used it hands-on it didn’t feel especially intuitive to me. The Android phone (did I tell you I won?) seemed much more intuitive to me, though I have still to find any Android 1.5 applications that draw me away from my iPhone. Meego, like Android, seemed to be widget friendly. This is an area in which the iPhone is really lacking. I find the home screen on my Android tells me most of what I need to know. The calendar shows what’s next, what time, and where. The news shows what’s happening in the world and I can see if I have new email. All this without entering an application. But this is not a Android review, so I’ll stop there. Multi-touch is not yet in there, but will be in the next \[super\] version.
 
 <div class="wp-caption alignleft" id="attachment_85" style="width: 310px">
-<a href="/wp-content/uploads/2010/05/Picture-3.png">
-<img alt="" class="size-medium wp-image-85" height="173" src="/wp-content/uploads/2010/05/Picture-3-300x173.png" title="404 Not Found" width="300"/>
+<a href="/media/images/2010/05/Picture-3.png">
+<img alt="" class="size-medium wp-image-85" height="173" src="/media/images/2010/05/Picture-3-300x173.png" title="404 Not Found" width="300"/>
 </a>
 <p class="wp-caption-text">Problems with Nokia's websites</p>
 </div>

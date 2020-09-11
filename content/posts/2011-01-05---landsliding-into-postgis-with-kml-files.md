@@ -28,9 +28,9 @@ tags:
   - sql
 description: "In this post I will show, in repeatable steps, how to install PostGIS, load in geospatial data found in a KML file and run queries against that data. The focus of this geospatial data will be landslides and our resulting database will allow us to query, using longitude and latitude co-ordinates, the landslide status of a specific geographical point."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/postgis_kml_sq.jpg"
+  publicURL: "/media/images/2011/01/postgis_kml_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/hitchster/2871036863/" title="Landslide damaged roadway (2005) by Hitchster, on Flickr"><img align="left" alt="Landslide damaged roadway (2005)" height="313" src="/wp-content/uploads/2011/01/postgis_kml.jpg" style="border: none; margin-right: 20px" width="235"/></a>
+<a href="https://www.flickr.com/photos/hitchster/2871036863/" title="Landslide damaged roadway (2005) by Hitchster, on Flickr"><img align="left" alt="Landslide damaged roadway (2005)" height="313" src="/media/images/2011/01/postgis_kml.jpg" style="border: none; margin-right: 20px" width="235"/></a>
 
 In this post I will show, in repeatable steps, how to install [PostGIS](https://postgis.refractions.net/), load in geospatial data found in a [KML](https://en.wikipedia.org/wiki/Keyhole_Markup_Language) file and run queries against that data. The focus of this geospatial data will be landslides and our resulting database will allow us to query, using longitude and latitude co-ordinates, the landslide status of a specific geographical point. The returned status for the given co-ordinates will be “Mostly Landslides”, “Few Landslides”, “Flat Land”, “Not Mapped”.
 

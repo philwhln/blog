@@ -20,11 +20,11 @@ tags:
   - whirr
 description: "Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will not need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java."
 socialImage:
-  publicURL: "/wp-content/uploads/2010/12/hadoop_ruby_sq.jpg"
+  publicURL: "/media/images/2010/12/hadoop_ruby_sq.jpg"
 ---
 <a href="/map-reduce-with-ruby-using-hadoop/hadoop-ruby" rel="attachment wp-att-605">
 
-<img alt="Map-Reduce With Hadoop Using Ruby" class="alignleft size-full wp-image-605" height="189" src="/wp-content/uploads/2010/12/hadoop-ruby.png" style="border: none" title="hadoop-ruby" width="202"/>
+<img alt="Map-Reduce With Hadoop Using Ruby" class="alignleft size-full wp-image-605" height="189" src="/media/images/2010/12/hadoop-ruby.png" style="border: none" title="hadoop-ruby" width="202"/>
 
 </a>  
 Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will _not_ need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.
@@ -144,7 +144,7 @@ You need to configure the SOCKS proxy in either your web browser or, in my case,
 
 <div class="wp-caption alignnone" id="attachment_508" style="width: 720px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-28-at-3-15-55-pm" rel="attachment wp-att-508">
-<img alt="Hadoop SOCKS Proxy Configuration for Mac OS X" class="size-full wp-image-508" height="360" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-28-at-3.15.55-PM.png" title="SOCKS Proxy Configuration" width="710"/>
+<img alt="Hadoop SOCKS Proxy Configuration for Mac OS X" class="size-full wp-image-508" height="360" src="/media/images/2010/12/Screen-shot-2010-12-28-at-3.15.55-PM.png" title="SOCKS Proxy Configuration" width="710"/>
 </a>
 <p class="wp-caption-text">Hadoop SOCKS Proxy Configuration for Mac OS X</p>
 </div>
@@ -169,7 +169,7 @@ https://<hostname>:50070/dfshealth.jsp
 
 <div class="wp-caption alignnone" id="attachment_502" style="width: 588px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-28-at-3-50-23-pm" rel="attachment wp-att-502">
-<img alt="dfshealth.jsp" class="size-full wp-image-502" height="643" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-28-at-3.50.23-PM.png" title="Screen shot 2010-12-28 at 3.50.23 PM" width="578"/>
+<img alt="dfshealth.jsp" class="size-full wp-image-502" height="643" src="/media/images/2010/12/Screen-shot-2010-12-28-at-3.50.23-PM.png" title="Screen shot 2010-12-28 at 3.50.23 PM" width="578"/>
 </a>
 <p class="wp-caption-text">HDFS Health Dashboard</p>
 </div>
@@ -178,7 +178,7 @@ If you click on the link to “Browse the filesystem” then you will notice the
 
 <div class="wp-caption alignnone" id="attachment_505" style="width: 670px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-28-at-3-36-08-pm" rel="attachment wp-att-505">
-<img alt="browseDirectory.jsp" class="size-full wp-image-505" height="391" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-28-at-3.36.08-PM.png" title="Screen shot 2010-12-28 at 3.36.08 PM" width="660"/>
+<img alt="browseDirectory.jsp" class="size-full wp-image-505" height="391" src="/media/images/2010/12/Screen-shot-2010-12-28-at-3.36.08-PM.png" title="Screen shot 2010-12-28 at 3.36.08 PM" width="660"/>
 </a>
 <p class="wp-caption-text">HDFS File Browser</p>
 </div>
@@ -440,7 +440,7 @@ This is reflected if you visit the job tracker console in web browser.
 
 <div class="wp-caption alignnone" id="attachment_577" style="width: 996px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-12-46-pm" rel="attachment wp-att-577">
-<img alt="jobTracker after successful run" class="size-full wp-image-577" height="783" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-30-at-10.12.46-PM.png" title="Screen shot 2010-12-30 at 10.12.46 PM" width="986"/>
+<img alt="jobTracker after successful run" class="size-full wp-image-577" height="783" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.12.46-PM.png" title="Screen shot 2010-12-30 at 10.12.46 PM" width="986"/>
 </a>
 <p class="wp-caption-text">jobTracker after successful run</p>
 </div>
@@ -449,21 +449,21 @@ If you click on the job link you can see lots of information on this job. This j
 
 <div class="wp-caption alignnone" id="attachment_578" style="width: 762px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-15-55-pm" rel="attachment wp-att-578">
-<img alt="Map-Reduce Job Tracker Page (part 1)" class="size-full wp-image-578" height="361" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-30-at-10.15.55-PM.png" title="Screen shot 2010-12-30 at 10.15.55 PM" width="752"/>
+<img alt="Map-Reduce Job Tracker Page (part 1)" class="size-full wp-image-578" height="361" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.15.55-PM.png" title="Screen shot 2010-12-30 at 10.15.55 PM" width="752"/>
 </a>
 <p class="wp-caption-text">Map-Reduce Job Tracker Page (part 1)</p>
 </div>
 
 <div class="wp-caption alignnone" id="attachment_579" style="width: 720px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-16-17-pm" rel="attachment wp-att-579">
-<img alt="Map-Reduce Job Tracker Page (part 2)" class="size-full wp-image-579" height="616" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-30-at-10.16.17-PM.png" title="Screen shot 2010-12-30 at 10.16.17 PM" width="710"/>
+<img alt="Map-Reduce Job Tracker Page (part 2)" class="size-full wp-image-579" height="616" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.16.17-PM.png" title="Screen shot 2010-12-30 at 10.16.17 PM" width="710"/>
 </a>
 <p class="wp-caption-text">Map-Reduce Job Tracker Page (part 2)</p>
 </div>
 
 <div class="wp-caption alignnone" id="attachment_580" style="width: 772px">
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-16-44-pm" rel="attachment wp-att-580">
-<img alt="Map-Reduce Job Tracker Page (part 3) Graphs" class="size-full wp-image-580" height="551" src="/wp-content/uploads/2010/12/Screen-shot-2010-12-30-at-10.16.44-PM.png" title="Screen shot 2010-12-30 at 10.16.44 PM" width="762"/>
+<img alt="Map-Reduce Job Tracker Page (part 3) Graphs" class="size-full wp-image-580" height="551" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.16.44-PM.png" title="Screen shot 2010-12-30 at 10.16.44 PM" width="762"/>
 </a>
 <p class="wp-caption-text">Map-Reduce Job Tracker Page (part 3) Graphs</p>
 </div>
@@ -533,7 +533,7 @@ If you are interested in learning more about Hadoop, then I recommend reading
   
 by Tom White.
 
-<a href="https://www.amazon.com/gp/product/1449389732?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449389732"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/41VfwSSarkL._SL160_.jpg"/></a>
+<a href="https://www.amazon.com/gp/product/1449389732?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449389732"><img border="0" src="https://images-na.ssl-images-amazon.com/media/images/I/41VfwSSarkL._SL160_.jpg"/></a>
 
 <img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=1449389732" style="border:none !important; margin:0px !important;" width="1"/>
 
@@ -558,7 +558,7 @@ Here are some other good books related to this blog post…
 <div class="hentry post publish post-1 odd author-admin category-cassandra-nosql-2 category-web-development post_tag-amazon-ec2 post_tag-cassandra post_tag-cluster post_tag-homebrew post_tag-mac-os-x post_tag-nosql post_tag-whirr" id="post-1051">
 <h2 class="entry-title"><a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2" rel="bookmark" title="Quickly Launch A Cassandra Cluster On Amazon EC2">Quickly Launch A Cassandra Cluster On Amazon EC2</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, January 21st, 2011, 6:58 pm">January 21, 2011</abbr></p>
-<div style="float: left;"><img alt="launch_cassandra_amazon_ec2_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2011/01/launch_cassandra_amazon_ec2_sq.jpg" title="launch_cassandra_amazon_ec2_sq" width="180"/></div>
+<div style="float: left;"><img alt="launch_cassandra_amazon_ec2_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/launch_cassandra_amazon_ec2_sq.jpg" title="launch_cassandra_amazon_ec2_sq" width="180"/></div>
 <div class="entry-content">
 <p>If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it [...]</p>
 </div>
@@ -571,7 +571,7 @@ If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then
 <div class="hentry post publish post-3 odd author-admin category-ruby-2 category-web-development post_tag-file-server post_tag-gem post_tag-io post_tag-iosplice post_tag-java post_tag-linux post_tag-ruby post_tag-splice post_tag-zero-copy" id="post-836" style="padding-top: 40px;">
 <h2 class="entry-title"><a href="/zero-copy-transfer-data-faster-in-ruby" rel="bookmark" title="Zero-Copy. Transfer Data Faster In Ruby">Zero-Copy. Transfer Data Faster In Ruby</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, January 14th, 2011, 1:27 pm">January 14, 2011</abbr> </p>
-<div style="float: left;"><img alt="zero_copy_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2011/01/zero_copy_ruby_sq.jpg" title="zero_copy_ruby_sq" width="180"/></div>
+<div style="float: left;"><img alt="zero_copy_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/zero_copy_ruby_sq.jpg" title="zero_copy_ruby_sq" width="180"/></div>
 <div class="entry-content">
 <p>In this post I will explain the concept behind “zero-copy”, which is feature of the Linux allowing for faster transfer of data between pipes, file-descriptors and sockets. I will demonstrate how you can use this functionality in your Ruby projects using a code example. This functionality has been implemented in C, Java, Ruby, Perl and nameless other languages, but in this blog I will focus on the Ruby usage.</p>
 </div>
@@ -585,7 +585,7 @@ In this post I will explain the concept behind “zero-copy”, which is feature
   <h3 id="comments-number" class="comments-header">29 responses to “Map-Reduce With Ruby Using Hadoop”</h3>
   <ol class="comment-list">
     <li id="comment-665" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="The Apache Projects – The Justice League Of Scalability | Phil Whelan's Blog" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="The Apache Projects – The Justice League Of Scalability | Phil Whelan's Blog" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.bigfastblog.com/the-apache-projects-the-justice-league-of-scalability">The Apache Projects – The Justice League Of Scalability | Phil Whelan's Blog</cite>
@@ -793,7 +793,7 @@ Navin</p>
                 <p>and play some more.  </p>
                 <p>Not all is well though – I received a bill from AWS for $100 this morning!  While following your tutorial I fumbled my way through signing up for AWS and assumed that I would only ever be operating within a free tier – boy was I wrong!  Some three weeks later and I realise that I’ve had “small” EC2 servers going all this time … </p>
                 <p>So, may I suggest that you please augment your post to direct the reader to shut down (and terminate) their EC2 instances after they are done with the tute, and, perhaps, include directions on how to ensure that they use Amazon’s free https://aws.amazon.com/free/ tier?</p>
-                <p>It is evident that I’ve made some silly mistakes while following this but I hope I am not atypical of your garden variety newbie that is curious about big data.  I hope that I find a way to get Amazon to reverse charges (don’t like my chances though).  In any case, my enthusiasm is not dampened – thanks again for getting me started <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+                <p>It is evident that I’ve made some silly mistakes while following this but I hope I am not atypical of your garden variety newbie that is curious about big data.  I hope that I find a way to get Amazon to reverse charges (don’t like my chances though).  In any case, my enthusiasm is not dampened – thanks again for getting me started <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
                 </p>
                 <p>Navin</p>
               </div>
@@ -921,7 +921,7 @@ A</p>
             <abbr class="comment-date" title="Sunday, May 29th, 2011, 1:07 am">May 29, 2011</abbr> at <abbr class="comment-time" title="Sunday, May 29th, 2011, 1:07 am">1:07 am</abbr>
           </div>
           <div class="comment-text">
-            <p>Cool, I will try both, post the questions and new Whirr, will update here later on if i get any solution. Thx <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+            <p>Cool, I will try both, post the questions and new Whirr, will update here later on if i get any solution. Thx <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
             </p>
           </div>
           <!-- .comment-text -->

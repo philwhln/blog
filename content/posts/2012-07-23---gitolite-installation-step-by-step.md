@@ -12,7 +12,7 @@ tags:
   - ssh-keygen
 description: "In this post I will walk you through how to setup your own gitolite server and start hosting your own git repositories. Gitolite is a great tool for doing this and works in a very git-like way for managing users, access-rights and setting up new repositories for collaboration between your team. A common reason to setup Gitolite is to remove reliance on services like GitHub."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 In this post I will walk you through how to setup your own gitolite server and start hosting your own git repositories.
 
@@ -584,7 +584,7 @@ Phil</p>
                 <abbr class="comment-date" title="Sunday, September 30th, 2012, 6:32 am">September 30, 2012</abbr> at <abbr class="comment-time" title="Sunday, September 30th, 2012, 6:32 am">6:32 am</abbr>
               </div>
               <div class="comment-text">
-                <p>This was a problem in the /etc/ssh/sshd_config file, I added “gitolite” user after the AllowUsers directive, and now this is ok <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+                <p>This was a problem in the /etc/ssh/sshd_config file, I added “gitolite” user after the AllowUsers directive, and now this is ok <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
                 </p>
                 <p>(cf: https://sitaramc.github.com/gitolite/sts.html#stsapp1 )</p>
               </div>
@@ -621,7 +621,7 @@ Phil</p>
         <p>Note that whilst you still use the new user’s private key in IdentityFile, the magic comes from entering gitolite as the User as it is this username that is used to make the ssh connection that then passes the new_user_key for authentication. This works because when new users are added to gitolite-admin, the public keys are added as additional keys to the gitolite user on the server in .ssh/authorized_keys.</p>
         <p>You can now clone a remote repo to the new user’s machine with the following:</p>
         <p>git clone gitbox:your_repo_name</p>
-        <p>Hope that saves a bit of someone’s time <img src="/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
+        <p>Hope that saves a bit of someone’s time <img src="/media/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
         </p>
         <p>Thanks</p>
         <p>Geoff.</p>
@@ -658,7 +658,7 @@ Phil</p>
           <div class="comment-text">
             <p>Hi,<br />
 I see the message “remote: Initialized empty Git repository in /home/gitolite/repositories/bigfastblog.git/”<br />
-But… when I my local machine I try to clone this not works <img src="/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
+But… when I my local machine I try to clone this not works <img src="/media/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley" />
               <br />
 $git clone gitbox:bigfastblog<br />
 ======<br />
@@ -822,7 +822,7 @@ What am I doing wrong? Is that possible?</p>
               </div>
               <div class="comment-text">
                 <p>Hi Phil,<br />
-thanks for your answer <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+thanks for your answer <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
                 </p>
                 <p>I’ve already done staging, commit and push the pub key for the user1. I see that with the command git log in user1 pc and I see the key file in /home/gitolite on the remote pc…</p>
                 <p>What do you think about permission of /home/gitolite/user1.pub file on the remote pc? I seek:<br />
@@ -925,7 +925,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
     </li>
     <!-- .comment -->
     <li id="comment-44872" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Getting started with git ← Adm.in Berlin" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Getting started with git ← Adm.in Berlin" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://adminberlin.de/getting-started-with-git/">Getting started with git ← Adm.in Berlin</cite>
@@ -1012,7 +1012,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
         <abbr class="comment-date" title="Friday, May 17th, 2013, 6:04 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 6:04 pm">6:04 pm</abbr> | Permalink  </div>
       <div class="comment-text">
         <p>
-          <img src="/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
+          <img src="/media/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
         </p>
       </div>
       <!-- .comment-text -->

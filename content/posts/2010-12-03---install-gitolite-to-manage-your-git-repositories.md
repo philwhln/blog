@@ -15,7 +15,7 @@ tags:
   - ssh-keygen
 description: "This post has been depreciated. A newer post is available. Gitolite Installation Step-By-Step Recently, netSIGN asked me to setup gitolite to give"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 <div style="border: 1px #ddd solid; margin: 5px; padding: 5px; background-color: #FFFF99;">
 <strong>This post has been depreciated. A newer post is available.<br/>
@@ -259,7 +259,7 @@ $REMOTE_USER=”Phil”</p>
     </li>
     <!-- .comment -->
     <li id="comment-1917" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Getting started with Git" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Getting started with Git" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.benmccann.com/dev-blog/getting-started-with-git/">Getting started with Git</cite>
@@ -387,7 +387,7 @@ https://groups.google.com/group/gitolite/msg/e7579cbd35dc1b3d</p>
         <abbr class="comment-date" title="Tuesday, July 19th, 2011, 9:56 am">July 19, 2011</abbr> at <abbr class="comment-time" title="Tuesday, July 19th, 2011, 9:56 am">9:56 am</abbr>
       </div>
       <div class="comment-text">
-        <p>Of course.. this is what I should do <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+        <p>Of course.. this is what I should do <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
           <br />
 Thank you for making me realize.</p>
       </div>

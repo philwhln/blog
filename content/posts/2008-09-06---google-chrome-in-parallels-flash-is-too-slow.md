@@ -8,7 +8,7 @@ category: "Apple"
 tags: []
 description: "I use Windows on my iMac using Parallels and Firefox runs very well. There's not really anything I cannot do, since it is actually the fasted experience of"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 I use Windows on my iMac using Parallels and Firefox runs very well. There’s not really anything I cannot do, since it is actually the fasted experience of Windows I’ve ever had. This is mainly due to using Macs and having not needed Windows for a long time, whilst the speed to computers and virtualization progressed.
 

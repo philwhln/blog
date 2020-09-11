@@ -22,13 +22,13 @@ tags:
   - twitter
 description: "I've been meeting other Vancouver entrepreneurs at various networking events and discussing ideas with them. A common theme I'm seeing is that most of them are"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 I’ve been meeting other Vancouver entrepreneurs at various networking events and discussing ideas with them. A common theme I’m seeing is that most of them are very focused on building technology with location-based data at the heart of the application. This is the next (or current) big thing and it feels like everyone is jumping on the bandwagon.
 
 <div class="wp-caption alignleft" id="attachment_248" style="width: 293px">
 <a href="https://www.flickr.com/photos/mikebaird/4137562706/">
-<img alt="Moon Checkin Image" class="size-full wp-image-248" height="234" src="/wp-content/uploads/2010/10/moon_checkin1.png" title="Waxing Gibbous Moon 69 Percent 26Nov2009 by mikebaird, on Flickr" width="283"/>
+<img alt="Moon Checkin Image" class="size-full wp-image-248" height="234" src="/media/images/2010/10/moon_checkin1.png" title="Waxing Gibbous Moon 69 Percent 26Nov2009 by mikebaird, on Flickr" width="283"/>
 </a>
 <p class="wp-caption-text">Remember not to restrict your iPhone App to just Earth</p>
 </div>

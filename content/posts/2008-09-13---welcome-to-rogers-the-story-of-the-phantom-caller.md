@@ -8,7 +8,7 @@ category: "Apple"
 tags: []
 description: "I recently purchased my first iPhone. Here in Canada, like every other country, there's only one provider of the iPhone, which is Rogers. I've really not"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 I recently purchased my first iPhone. Here in Canada, like every other country, there’s only one provider of the iPhone, which is Rogers. I’ve really not enjoyed my experience with Bell and I had heard that Rogers was just the same so it made no difference in switching. When I switched our numbers over the Rogers immediately I started receiving long distance calls from the same number 416-645-2105.
 

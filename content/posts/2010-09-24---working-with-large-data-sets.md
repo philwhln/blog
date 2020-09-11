@@ -8,7 +8,7 @@ category: "Software Engineering"
 tags: []
 description: "For the past three and a half years I have been working for a start-up in downtown Vancouver. We have been developing a high performance SMTP proxy that can"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 
 
@@ -158,7 +158,7 @@ Phil</p>
     </li>
     <!-- .comment -->
     <li id="comment-58" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Working With Large Data Sets | Large Data Matters" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Working With Large Data Sets | Large Data Matters" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://india.paxcel.net:6060/LargeDataMatters/?p=550">Working With Large Data Sets | Large Data Matters</cite>
@@ -172,7 +172,7 @@ Phil</p>
     </li>
     <!-- .comment -->
     <li id="comment-64" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Data Mining Without Hadoop" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Data Mining Without Hadoop" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.bigfastblog.com/?p=238">Data Mining Without Hadoop</cite>
@@ -186,7 +186,7 @@ Phil</p>
     </li>
     <!-- .comment -->
     <li id="comment-161" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Working with large data sets « Hansa-Cequity's Knowledge Centre" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Working with large data sets « Hansa-Cequity's Knowledge Centre" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://cequityknowledge.wordpress.com/2010/11/29/working-with-large-data-sets/">Working with large data sets « Hansa-Cequity's Knowledge Centre</cite>

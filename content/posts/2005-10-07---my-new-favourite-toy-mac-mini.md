@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "I think everyone should get one of these. I think it's the future! It's the size of a book, silent, easy to use and looks great. Also you don't need to install"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 I think everyone should get one of these. I think it’s the future!  
   

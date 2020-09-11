@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "Things to look out for when building a large application.Joshua Schachter, del.icio.usA great list of advice for anyone building a large scale website."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 [  
 Things to look out for when building a large application.](https://simon.incutio.com/notes/2006/summit/schachter.txt)

@@ -22,7 +22,7 @@ tags:
   - venture
 description: "A situation in which an entrepreneur starts a company with little capital. An individual is said to be bootstrapping when he or she attempts to found and"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 >  
 > “A situation in which an entrepreneur starts a company with little capital. An individual is said to be bootstrapping when he or she attempts to found and build a company from personal finances or from the operating revenues of the new company.”  

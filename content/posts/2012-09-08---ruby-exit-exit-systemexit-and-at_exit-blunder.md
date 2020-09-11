@@ -18,7 +18,7 @@ tags:
   - systemexit
 description: "Recently, we hit a problem with Ruby's exit command. If something went horribly wrong and it made no sense for our application to continue in its current state then we would abort with exit 1. We use supervisord to manage processes, so in this case when we exited with exit status of 1, supervisord would assume something went wrong and restart the process for us. Or at least that is what we thought..."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 Recently, we hit a problem with Ruby’s “[exit](https://www.ruby-doc.org/core-1.9.3/Kernel.html#method-i-exit)” command. If something went horribly wrong and it made no sense for our application to continue in its current state then we would abort with “exit 1″. We use [supervisord](https://supervisord.org/) to manage processes, so in this case when we exited with exit status of 1, [supervisord](https://supervisord.org/) would assume something went wrong and restart the process for us. Or at least that is what we thought…
 
@@ -172,7 +172,7 @@ Alternatively, and a better solution, is that we never call “exit” inside an
                 <abbr class="comment-date" title="Sunday, September 9th, 2012, 10:54 am">September 9, 2012</abbr> at <abbr class="comment-time" title="Sunday, September 9th, 2012, 10:54 am">10:54 am</abbr>
               </div>
               <div class="comment-text">
-                <p>Great tip Avdi. I love shameless self-promotions! <img src="/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />
+                <p>Great tip Avdi. I love shameless self-promotions! <img src="/media/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" />
                 </p>
               </div>
               <!-- .comment-text -->

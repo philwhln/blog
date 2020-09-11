@@ -22,9 +22,9 @@ tags:
   - zookeeper
 description: "In this post I will define what I believe to be the most important projects within the Apache Projects for building scalable web sites and generally managing large volumes of data."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/apache_justice_league_sq.jpg"
+  publicURL: "/media/images/2011/01/apache_justice_league_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/deskhiker/2636488860/" title="Captain America by DuckBrown, on Flickr"><img alt="Captain Apache" class="alignleft size-full wp-image-777" height="233" src="/wp-content/uploads/2011/01/captain_apache.jpg" title="captain_apache" width="350"/></a>
+<a href="https://www.flickr.com/photos/deskhiker/2636488860/" title="Captain America by DuckBrown, on Flickr"><img alt="Captain Apache" class="alignleft size-full wp-image-777" height="233" src="/media/images/2011/01/captain_apache.jpg" title="captain_apache" width="350"/></a>
 
 In this post I will define what I believe to be the most important projects within the [Apache Projects](https://projects.apache.org/) for building scalable web sites and generally managing large volumes of data.
 

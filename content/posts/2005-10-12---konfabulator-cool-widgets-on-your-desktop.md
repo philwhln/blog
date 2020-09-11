@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "Konfabulator has lots of interesting things you can use on your desktop, or on a separate screen that fades in and out over your desktop. Weather reports, tv"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 [Konfabulator](https://www.konfabulator.com/info)  
   
@@ -20,5 +20,5 @@ Yahoo resently bought the company, and are looking to have widgets related to yo
 
 Here’s a screenshot of Apple’s [Dashboard](https://www.apple.com/macosx/features/dashboard/) for MaxOSX Tiger to give you an idea.  
   
-[![](https://images.apple.com/macosx/features/dashboard/images/dashboardanim.gif)](https://www.apple.com/macosx/features/dashboard/)  
+[![](https://images.apple.com/macosx/features/dashboard/media/images/dashboardanim.gif)](https://www.apple.com/macosx/features/dashboard/)  
 

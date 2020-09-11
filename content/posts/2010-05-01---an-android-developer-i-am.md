@@ -14,7 +14,7 @@ tags:
   - samsung
 description: "Well, I guess I have to be now, because I have just won a Samsung Galaxy Spica Android phone from Rogers. They kindly donated it to the Vancouver Android"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 Well, I guess I have to be now, because I have just won a Samsung Galaxy Spica Android phone from Rogers. They kindly donated it to the Vancouver Android Developers Meetup. It’s running 1.5, so I want to get it updated to 2.1 and multi-touch-ness as soon as possible. More info to follow…
 

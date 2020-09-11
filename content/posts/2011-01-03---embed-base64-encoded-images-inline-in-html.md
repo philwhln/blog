@@ -15,7 +15,7 @@ tags:
   - web-development
 description: "Here is how you can embed an image in HTML inline. This is similar to how you embed an image in a HTML email message."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/html_inline_image_sq.jpg"
+  publicURL: "/media/images/2011/01/html_inline_image_sq.jpg"
 ---
 Here is how you can embed an image in HTML inline. This is similar to how you embed an image in a HTML email message.
 

@@ -33,9 +33,9 @@ tags:
   - webscale
 description: "In this blog post I will delve into the snippets of information available on Quora and look at Quora from a technical perspective. What technical decisions have they made? What does their architecture look like? What languages and frameworks do they use? How do they make that search bar respond so quickly?"
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/quora_microscope_sq.jpg"
+  publicURL: "/media/images/2011/01/quora_microscope_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/a_mason/4280360776/" title="Magnifying the Circuit Board by Andrew Mason, on Flickr"><img alt="Magnifying the Circuit Board" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/images/quora_microscope/quora_microscope.jpg" width="450"/></a>
+<a href="https://www.flickr.com/photos/a_mason/4280360776/" title="Magnifying the Circuit Board by Andrew Mason, on Flickr"><img alt="Magnifying the Circuit Board" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/quora_microscope/quora_microscope.jpg" width="450"/></a>
 
 Quora has taken the tech and entrepreneurial world by storm, providing a system that works so fluidly that it is sometimes hard to see what the big fuss is all about. This slick tool is powered, not only by an intelligent crowd of askers and answerers, but by a well-crafted backend created by co-founders who honed their skills at Facebook.
 
@@ -267,8 +267,8 @@ Steve Souders’ 14 rules are…
 </ul>
 </div>
 <div style="float: left; padding-left: 80px;">
-<a href="https://www.amazon.com/gp/product/0596529309?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596529309"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/41COtT-V1UL._SL160_.jpg"/></a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=0596529309" style="border:none !important; margin:0px !important;" width="1"/>
-<p><a href="https://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304"><img border="0" src="https://images-na.ssl-images-amazon.com/images/I/41vfOvQugoL._SL160_.jpg"/></a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=0596522304" style="border:none !important; margin:0px !important;" width="1"/></p>
+<a href="https://www.amazon.com/gp/product/0596529309?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596529309"><img border="0" src="https://images-na.ssl-images-amazon.com/media/images/I/41COtT-V1UL._SL160_.jpg"/></a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=0596529309" style="border:none !important; margin:0px !important;" width="1"/>
+<p><a href="https://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304"><img border="0" src="https://images-na.ssl-images-amazon.com/media/images/I/41vfOvQugoL._SL160_.jpg"/></a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=0596522304" style="border:none !important; margin:0px !important;" width="1"/></p>
 </div>
 <div style="clear:both;"></div>
 </div>
@@ -292,7 +292,7 @@ If you found this post useful then please [__leave a comment__](/quoras-technolo
 <div class="hentry post publish post-1 odd author-admin category-start-ups category-web-development post_tag-algorithms post_tag-amazon-ec2 post_tag-django post_tag-gunicorn post_tag-guy-kawasaki post_tag-iphone-api post_tag-jquery-template post_tag-json-api post_tag-mongodb post_tag-mysql post_tag-nginx post_tag-python post_tag-redis post_tag-slow-clients post_tag-summify post_tag-the-long-tail post_tag-tornado post_tag-tornado-swirl" id="post-1248">
 <h2 class="entry-title"><a href="/summifys-technology-examined" rel="bookmark" title="Summify’s Technology Examined">Summify’s Technology Examined</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Monday, March 7th, 2011, 2:11 am">March 7, 2011</abbr> </p>
-<div style="float: left;"><img alt="summify_technology_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2011/03/summify_technology_sq.jpg" title="summify_technology_sq" width="180"/></div>
+<div style="float: left;"><img alt="summify_technology_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/03/summify_technology_sq.jpg" title="summify_technology_sq" width="180"/></div>
 <div class="entry-content">
 <p>In this post I will look at the technology infrastructure behind <a href="https://summify.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','summify.com/']);">Summify.com</a>, a website that strives to make our lives easier and helps us deal with the information overload we all experience every time we sit down at our computers. Summify has aggregated over 200 million stories from the web and serves them up on-demand through a series of different mediums. The website uses Tornado to push real-time updates out to the users and they have developed over a dozen backend systems, some of which I will cover in this blog post.</p>
 </div>
@@ -534,7 +534,7 @@ In this post I will look at the technology infrastructure behind <a href="https:
     </li>
     <!-- .comment -->
     <li id="comment-1057" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/What-are-the-good-resources-to-learn-about-distributed-scalable-robust-software-architecture-infrastructure-building#comment252843">Quora</cite>
@@ -552,7 +552,7 @@ In this post I will look at the technology infrastructure behind <a href="https:
     </li>
     <!-- .comment -->
     <li id="comment-1068" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Quora : le test | docnews" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora : le test | docnews" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://docnews.wordpress.com/2011/02/13/quora-le-test/">Quora : le test | docnews</cite>
@@ -567,7 +567,7 @@ In this post I will look at the technology infrastructure behind <a href="https:
     </li>
     <!-- .comment -->
     <li id="comment-1192" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/Does-Quora-use-an-evented-server-And-if-so-which-one#ans409276">Quora</cite>
@@ -585,7 +585,7 @@ In this post I will look at the technology infrastructure behind <a href="https:
     </li>
     <!-- .comment -->
     <li id="comment-1379" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Quora 用了哪些技术 ? - webguo在路上" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora 用了哪些技术 ? - webguo在路上" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.webguo.com/2011/03/8/quora_arch.html">Quora 用了哪些技术 ? - webguo在路上</cite>
@@ -615,7 +615,7 @@ In this post I will look at the technology infrastructure behind <a href="https:
     </li>
     <!-- .comment -->
     <li id="comment-1474" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Naoya Makino (via Quora)" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Naoya Makino (via Quora)" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/Naoya-Makino/I-find-these-article-super-cool-http-www.bigfastblog.com-quoras-technology-examined-and-http-www.bigfastblog.com">Naoya Makino (via Quora)</cite>
@@ -650,7 +650,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-1743" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Tutte le tecnologie che fanno funzionare Quora | Edit - Il blog di HTML.it" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Tutte le tecnologie che fanno funzionare Quora | Edit - Il blog di HTML.it" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://blog.html.it/14/02/2011/tutte-le-tecnologie-che-fanno-funzionare-quora/">Tutte le tecnologie che fanno funzionare Quora | Edit - Il blog di HTML.it</cite>
@@ -665,7 +665,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-2139" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="BrandSocialism – 33 Quora Q&amp;A Resources: get actual ROI out of using it" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="BrandSocialism – 33 Quora Q&amp;A Resources: get actual ROI out of using it" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.brandsocialism.com/2011/02/17/33-quora-qa-resources-actual-roi/">BrandSocialism – 33 Quora Q&amp;A Resources: get actual ROI out of using it</cite>
@@ -695,7 +695,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-3576" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/What-are-the-programming-languages-and-frameworks-the-top-NYC-startups-are-using#ans614276">Quora</cite>
@@ -712,7 +712,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-3622" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/Whats-the-architecture-of-Quora-like#ans619044">Quora</cite>
@@ -729,7 +729,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-3642" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="David Crow | Under the Hood | Chango | StartupNorth" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="David Crow | Under the Hood | Chango | StartupNorth" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://startupnorth.ca/2011/07/07/under-the-hood-chango/">David Crow | Under the Hood | Chango | StartupNorth</cite>
@@ -743,7 +743,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-3655" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/Can-I-build-site-like-Quora-on-wordpress-framework#ans623381">Quora</cite>
@@ -760,7 +760,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-4257" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="The Significance of Quora’s LiveNode Technology « semil's blog" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="The Significance of Quora’s LiveNode Technology « semil's blog" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://semilshah.wordpress.com/2011/08/15/the-significance-of-quoras-livenode-technology/">The Significance of Quora’s LiveNode Technology « semil's blog</cite>
@@ -774,7 +774,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-4293" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/How-is-Quora-planning-to-get-further-traction">Quora</cite>
@@ -791,7 +791,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-4553" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/What-front-end-back-end-technologies-does-Quora-use#ans699602">Quora</cite>
@@ -808,7 +808,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-4576" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/Is-Quora-a-digital-media-company-a-technology-company-or-both#ans701827">Quora</cite>
@@ -825,7 +825,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-4970" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Quora’s Technology Examined « ABENDance" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora’s Technology Examined « ABENDance" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://abendance.wordpress.com/2011/10/11/quora%e2%80%99s-technology-examined/">Quora’s Technology Examined « ABENDance</cite>
@@ -841,7 +841,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
     </li>
     <!-- .comment -->
     <li id="comment-6819" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://www.quora.com/Why-does-Quora-use-so-much-RAM#comment108295">Quora</cite>

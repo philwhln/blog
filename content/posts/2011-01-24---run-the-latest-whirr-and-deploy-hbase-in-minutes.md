@@ -17,9 +17,9 @@ tags:
   - zookeeper
 description: "In a few of my recent posts I have covered the ease of deploying clusters of Hadoop and Cassandra using Whirr. With Whirr you can simply write a"
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/whirr_hbase_sq.jpg"
+  publicURL: "/media/images/2011/01/whirr_hbase_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/wheatfields/3938695154/" title="Fast, faster, faster! by net_efekt, on Flickr"><img align="left" alt="Fast, faster, faster!" height="240" src="https://commondatastorage.googleapis.com/philwhln/blog/images/whirr_0_3_0/whirr_hbase.jpg" width="320"/></a>
+<a href="https://www.flickr.com/photos/wheatfields/3938695154/" title="Fast, faster, faster! by net_efekt, on Flickr"><img align="left" alt="Fast, faster, faster!" height="240" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/whirr_0_3_0/whirr_hbase.jpg" width="320"/></a>
 
 <div style="min-height: 240px">
 In a few of my recent posts I have covered the ease of deploying clusters of <a href="/map-reduce-with-ruby-using-hadoop">Hadoop</a> and <a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2">Cassandra using Whirr</a>. With Whirr you can simply write a configuration file specifying which cloud provider you are using, your credentials and the definition of the cluster you desire and it will build it for you. In this post, I am going to look at the latest Whirr, version 0.3.0, which is currently in <em>release candidate</em> status. I will show you how you can find and build the latest Whirr and live on the edge of what it possible.
@@ -42,7 +42,7 @@ In a few of my recent posts I have covered the ease of deploying clusters of <a 
 
 On [the source repository for Whirr](https://svn.apache.org/repos/asf/incubator/whirr/), we can find the latest and greatest source code for Whirr. 
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/images/whirr_0_3_0/twitter_post.png)](https://twitter.com/andreisavu/status/28815577430622208)
+[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/whirr_0_3_0/twitter_post.png)](https://twitter.com/andreisavu/status/28815577430622208)
 
 We will use the code from [trunk](https://svn.apache.org/repos/asf/incubator/whirr/trunk), which will give you the very latest version of the software.
 
@@ -118,7 +118,7 @@ OS name: "mac os x" version: "10.6.6" arch: "x86_64" Family: "mac"
 
 ```
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/images/whirr_0_3_0/twitter_post2.png)](https://twitter.com/tom_e_white/status/27233840057548800)
+[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/whirr_0_3_0/twitter_post2.png)](https://twitter.com/tom_e_white/status/27233840057548800)
 
 <a id="building-whirr"></a>
 
@@ -348,7 +348,7 @@ google_ad_height = 250;
 <div class="hentry post publish post-1 odd author-admin category-cassandra-nosql-2 category-web-development post_tag-amazon-ec2 post_tag-cassandra post_tag-cluster post_tag-homebrew post_tag-mac-os-x post_tag-nosql post_tag-whirr" id="post-1051">
 <h2 class="entry-title"><a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2" rel="bookmark" title="Quickly Launch A Cassandra Cluster On Amazon EC2">Quickly Launch A Cassandra Cluster On Amazon EC2</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, January 21st, 2011, 6:58 pm">January 21, 2011</abbr></p>
-<div style="float: left;"><img alt="launch_cassandra_amazon_ec2_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2011/01/launch_cassandra_amazon_ec2_sq.jpg" title="launch_cassandra_amazon_ec2_sq" width="180"/></div>
+<div style="float: left;"><img alt="launch_cassandra_amazon_ec2_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/launch_cassandra_amazon_ec2_sq.jpg" title="launch_cassandra_amazon_ec2_sq" width="180"/></div>
 <div class="entry-content">
 <p>If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it [...]</p>
 </div>
@@ -361,7 +361,7 @@ If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then
 <div class="hentry post publish post-8 even alt author-admin category-data-processing category-hadoop-2 category-ruby-2 post_tag-amazon-ec2 post_tag-bash post_tag-cloudera post_tag-data-processing-2 post_tag-hadoop post_tag-hadoop-cluster post_tag-hadoop-streaming post_tag-hdfs post_tag-jclouds post_tag-map-reduce post_tag-ruby post_tag-whirr" id="post-484">
 <h2 class="entry-title"><a href="/map-reduce-with-ruby-using-hadoop" rel="bookmark" title="Map-Reduce With Ruby Using Hadoop">Map-Reduce With Ruby Using Hadoop</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, December 31st, 2010, 9:38 am">December 31, 2010</abbr></p>
-<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
+<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
 <div class="entry-content">
 <p>Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will <em>not</em> need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.</p>
 </div>

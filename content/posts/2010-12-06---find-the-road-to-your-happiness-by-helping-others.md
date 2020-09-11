@@ -19,7 +19,7 @@ tags:
   - web-development
 description: "This is a common theme I've heard in many of the books I've read. Although, in the books I've read, this pearl of wisdom is phrased a little differently. The way to build a successful business is to help as many people as you can. Apparently, the cash will follow, if you concentrate on the helping part. The number of people you help is also important. The more people you help, the better. For instance, Facebook helps 250 million people per day, whereas Google only helps around 90 million people per day. Helping all those people has become very profitable for these two companies and many more. It's all about changing the focus from how do I make money to how do I help more people."
 socialImage:
-  publicURL: "/wp-content/uploads/2010/12/help_others_sq.jpg"
+  publicURL: "/media/images/2010/12/help_others_sq.jpg"
 ---
 <a href="https://www.flickr.com/photos/rhinoneal/2830623548/" title="[one leads to the other] by RHiNO NEAL, on Flickr"><img alt="[one leads to the other]" height="281" src="https://farm4.static.flickr.com/3027/2830623548_41c63392d0.jpg" width="500"/></a>
 

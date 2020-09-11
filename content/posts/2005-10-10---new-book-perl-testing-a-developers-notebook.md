@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "Perl Testing: A Developer's Notebook Just started reading this book. Hopefully it'll expand my brain."
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 [Perl Testing: A Developer’s Notebook](https://www.oreilly.com/catalog/perltestingadn/)  
   

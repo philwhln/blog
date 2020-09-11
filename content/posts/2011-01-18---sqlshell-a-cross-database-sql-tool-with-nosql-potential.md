@@ -27,7 +27,7 @@ tags:
   - sqlshell
 description: "In this blog post I will introduce SQLShell and demonstrate, step-by-step, how to install it and start using it with MySQL. I will also reflect on the possibilites of using this with NoSQL technologies, such as HBase, MongoDB, Hive, CouchDB, Redis and Google BigQuery. SQLShell is a cross-platform, cross-database command-line tool for SQL, much like psql for PostgreSQL or the mysql command-line tool for MySQL."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/sqlshell_nosql_potential_sq.jpg"
+  publicURL: "/media/images/2011/01/sqlshell_nosql_potential_sq.jpg"
 ---
 <a href="https://www.flickr.com/photos/pvera/114420037/" title="Will code for food by pvera, on Flickr"><img align="left" alt="Will code for food" height="180" src="https://farm1.static.flickr.com/45/114420037_f08201d9b8_m.jpg" style="border: none; padding: none; padding-right: 50px; padding-bottom: 20px;" width="240"/></a> 
 
@@ -88,13 +88,13 @@ java -jar sqlshell-0.7.1-install.jar
 
 First thing you see if all goes well is the language prompt. I am speak the English.
 
-<img alt="SQLShell Installer language prompt" height="230" src="https://commondatastorage.googleapis.com/philwhln/blog/images/sqlshell_nosql/sqlshell_install_prompt.png" width="304"/>
+<img alt="SQLShell Installer language prompt" height="230" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/sqlshell_nosql/sqlshell_install_prompt.png" width="304"/>
 
 Following this you will see a welcome screen, then a intro and info page, and then the license page. Be sure to read the license carefully – especially the part about “your first born child”.
 
 Here is what you will see for the intro screen. 
 
-<img alt="SQLShell Installer intro screen" height="515" src="https://commondatastorage.googleapis.com/philwhln/blog/images/sqlshell_nosql/sqlshell_install_intro_screen.png" width="670"/>
+<img alt="SQLShell Installer intro screen" height="515" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/sqlshell_nosql/sqlshell_install_intro_screen.png" width="670"/>
 
 When you get to the end, you will see the following message…
 

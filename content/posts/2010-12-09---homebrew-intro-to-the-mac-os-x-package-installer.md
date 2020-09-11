@@ -18,7 +18,7 @@ tags:
   - sysadmin
 description: "This is demonstration of installing Homebrew, the new Mac OS X package installer. Step-by-step instructions on installing Homebrew and using the brew command."
 socialImage:
-  publicURL: "/wp-content/uploads/2010/12/homebrew_intro_sq.jpg"
+  publicURL: "/media/images/2010/12/homebrew_intro_sq.jpg"
 ---
 I thought I should mention the very easy Homebrew package installer for Mac OS X. I’ve found it quite simple to use and have not turned back since I blew away my MacPorts.
 
@@ -284,7 +284,7 @@ I hope you find this quick intro to Homebrew helpful. Please leave a comment to 
     </li>
     <!-- .comment -->
     <li id="comment-1920" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="TechnoGrad » Blog Archive » MacOSX and homebrew" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
+      <img alt="TechnoGrad » Blog Archive » MacOSX and homebrew" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
         <div class="comment-author vcard">
           <cite class="fn" title="https://trunzer.org/2011/04/11/macosx-and-homebrew/">TechnoGrad » Blog Archive » MacOSX and homebrew</cite>
@@ -308,7 +308,7 @@ I hope you find this quick intro to Homebrew helpful. Please leave a comment to 
         <abbr class="comment-date" title="Tuesday, April 12th, 2011, 2:55 pm">April 12, 2011</abbr> at <abbr class="comment-time" title="Tuesday, April 12th, 2011, 2:55 pm">2:55 pm</abbr>
       </div>
       <div class="comment-text">
-        <p>Stumbled across your post and because of that I read about homebrew… Just wanted to say thanks a lot! I was struggling like hell to get postgis working… and it works flawlessly now <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+        <p>Stumbled across your post and because of that I read about homebrew… Just wanted to say thanks a lot! I was struggling like hell to get postgis working… and it works flawlessly now <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
         </p>
       </div>
       <!-- .comment-text -->

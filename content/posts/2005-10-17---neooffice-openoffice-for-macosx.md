@@ -8,7 +8,7 @@ category: "old"
 tags: []
 description: "If you're looking for a replacement for Microsoft Office on the Mac then this seems to be the best (if not the only) option. Just loaded it up for the first"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 If you’re looking for a replacement for Microsoft Office on the Mac then this seems to be the best (if not the only) option.  
   
@@ -16,7 +16,7 @@ Just loaded it up for the first time on my Mac-Mini and seems to run pretty swee
   
 Who would have thought that a couple of months ago I’d never even used a Mac 
 
-<img alt=":D" class="wp-smiley" src="/images/smilies/icon_biggrin.gif"/>
+<img alt=":D" class="wp-smiley" src="/media/images/smilies/icon_biggrin.gif"/>
 
  
 

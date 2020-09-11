@@ -28,9 +28,9 @@ tags:
   - vancouver
 description: "Remember, Startup Weekend equates to about 21 hours of development time and that includes brainstorming, planning, talking to mentors, other meetings, eating and a bit of fun. Also, skill-sets between developers do not always line up. The key phrase is “ship it!” whether it is good, bad, ugly or broken. The clock is ticking."
 socialImage:
-  publicURL: "/wp-content/uploads/2012/03/office_small.jpg"
+  publicURL: "/media/images/2012/03/office_small.jpg"
 ---
-<img align="left" src="https://commondatastorage.googleapis.com/philwhln/blog/images/swokanagan/office.jpg?3" style="width: 350px;"/>
+<img align="left" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/swokanagan/office.jpg?3" style="width: 350px;"/>
 
 The first, and I’m certain not the last, [Startup Weekend Okanagan](https://okanagan.startupweekend.org/) was hosted by [Accelerate Okanagan](https://www.accelerateokanagan.com/) at the [Kelowna Innovation Centre](https://www.accelerateokanagan.com/venue/kelowna-innovation-centre-2/).
 
@@ -71,7 +71,7 @@ We actually managed to build a decent functioning service at <https://www.timeba
 
 [Check it out](https://www.timebadger.com).
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/images/swokanagan/support_timebadger.png)](https://www.facebook.com/TimeBadger)
+[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/swokanagan/support_timebadger.png)](https://www.facebook.com/TimeBadger)
 
 <h2 id="under-the-hood">Under The Hood</h2>
 
@@ -107,11 +107,11 @@ After not going to Startup Weekend Vancouver a few months ago, I really regrette
 
 I encourage anyone interested in building a startup to join this movement when it comes to your city. Most of these events are organized by volunteers who have been to Startup Weekend’s in other cities and wanted to bring it home. For instance, [Daryl Chymko](https://twitter.com/dchymko) went to Startup Weekend Vancouver and wanted to host one in the Okanagan, as did [Evan Willms](https://twitter.com/#!/EvanWillms), who is hosting Startup Weekend Victoria (BC, Canada) at the beginning of June.
 
-<img src="https://commondatastorage.googleapis.com/philwhln/blog/images/swokanagan/startup_hangover.png" style="margin-left: 20px;"/>
+<img src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/swokanagan/startup_hangover.png" style="margin-left: 20px;"/>
 
-<img src="https://commondatastorage.googleapis.com/philwhln/blog/images/swokanagan/pumped_about_career.png?2" style="margin-left: 100px;"/>
+<img src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/swokanagan/pumped_about_career.png?2" style="margin-left: 100px;"/>
 
-<img src="https://commondatastorage.googleapis.com/philwhln/blog/images/swokanagan/blown_away.png" style="margin-left: 50px;"/>
+<img src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/swokanagan/blown_away.png" style="margin-left: 50px;"/>
 
 <h2 id="54-hours">54 Hours?</h2>
 
@@ -125,7 +125,7 @@ __March 9-11, 2012__
 Bretagne, France  
 Sinapore, Singapore
 
-<a href="https://contractual.ly/"><img align="right" src="https://commondatastorage.googleapis.com/philwhln/blog/images/contractually/contractually_ad.png"/></a>
+<a href="https://contractual.ly/"><img align="right" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/contractually/contractually_ad.png"/></a>
 
 __March 16-18__  
 Cordaba, Argentina
@@ -194,7 +194,7 @@ Bright Spark Media</p>
         <abbr class="comment-date" title="Saturday, March 10th, 2012, 9:08 am">March 10, 2012</abbr> at <abbr class="comment-time" title="Saturday, March 10th, 2012, 9:08 am">9:08 am</abbr>
       </div>
       <div class="comment-text">
-        <p>great summary of the weekend from a participant’s perspective, phil! it was great to have you as a participant. <img src="/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
+        <p>great summary of the weekend from a participant’s perspective, phil! it was great to have you as a participant. <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />
         </p>
       </div>
       <!-- .comment-text -->

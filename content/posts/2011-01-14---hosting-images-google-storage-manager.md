@@ -21,9 +21,9 @@ tags:
   - upload
 description: "Today I received my invite from Google Google Storage for Developers. Yes, like most of us, my life if wrapped in layers of googliness. In this post I'm going to review briefly what Google Storage is and upload the image files, for the images you see in this post, using the Google Storage Manager."
 socialImage:
-  publicURL: "/wp-content/uploads/2011/01/google_storage_sq.jpg"
+  publicURL: "/media/images/2011/01/google_storage_sq.jpg"
 ---
-<a href="/hosting-images-google-storage-manager"><img alt="Google Storage" class="size-full wp-image-887" height="212" src="https://commondatastorage.googleapis.com/philwhln/blog/images/google_storage.png" title="Google Storage" width="380"/></a>
+<a href="/hosting-images-google-storage-manager"><img alt="Google Storage" class="size-full wp-image-887" height="212" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/google_storage.png" title="Google Storage" width="380"/></a>
 
 Today I received my invite from Google “Google Storage for Developers”. Yes, like most of us, my life if wrapped in layers of googliness. In this post I’m going to review briefly what Google Storage is and upload the image files, for the images you see in this post, using the Google Storage Manager. 
 
@@ -59,15 +59,15 @@ At the top-level of the storage system you have buckets and inside a bucket you 
 I jumped right in and went to the [Google Storage Manager](https://sandbox.google.com/storage/#), which is a web interface for the storage.
 
 <div class="wp-caption alignnone" id="attachment_879" style="width: 530px">
-<a href="https://commondatastorage.googleapis.com/philwhln/blog/images/no_buckets.png">
-<img alt="Google Storage Manager" class="size-full wp-image-879" height="167" src="https://commondatastorage.googleapis.com/philwhln/blog/images/no_buckets.png" title="Google Storage Manager" width="520"/>
+<a href="https://commondatastorage.googleapis.com/philwhln/blog/media/images/no_buckets.png">
+<img alt="Google Storage Manager" class="size-full wp-image-879" height="167" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/no_buckets.png" title="Google Storage Manager" width="520"/>
 </a>
 <p class="wp-caption-text">Google Storage Manager</p>
 </div>
 
 Entered a my new bucket name “blog”…
 
-<a href="https://commondatastorage.googleapis.com/philwhln/blog/images/bucket_called_blog.png"><img alt='Google Storage Manager. New bucket called "blog"' class="size-full wp-image-880" height="155" src="https://commondatastorage.googleapis.com/philwhln/blog/images/bucket_called_blog.png" title='Google Storage Manager. New bucket called "blog"' width="369"/></a>
+<a href="https://commondatastorage.googleapis.com/philwhln/blog/media/images/bucket_called_blog.png"><img alt='Google Storage Manager. New bucket called "blog"' class="size-full wp-image-880" height="155" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/bucket_called_blog.png" title='Google Storage Manager. New bucket called "blog"' width="369"/></a>
 
 Doh!
 
@@ -84,15 +84,15 @@ According to Google’s presentation, buckets are name-spaced on domain names th
 Google Storage seems pretty hungry for some files, so I dragged in some images for this post from my desktop. Once your files are uploaded you can click the tick-box to the right of each filename to share those files publicly with the Internet. I selectively chose the ones I wanted to share.
 
 <div class="wp-caption alignnone" id="attachment_884" style="width: 659px">
-<a href="https://commondatastorage.googleapis.com/philwhln/blog/images/shared_images.png">
-<img alt="Shared Images" class="size-full wp-image-884" height="293" src="https://commondatastorage.googleapis.com/philwhln/blog/images/shared_images.png" title="Shared Images" width="649"/>
+<a href="https://commondatastorage.googleapis.com/philwhln/blog/media/images/shared_images.png">
+<img alt="Shared Images" class="size-full wp-image-884" height="293" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/shared_images.png" title="Shared Images" width="649"/>
 </a>
 <p class="wp-caption-text">Use the tick-box to the right of the filename to select the images you wish to share</p>
 </div>
 
 The URL to these file look like this…  
-[https://commondatastorage.googleapis.com/philwhln/blog/images/google\_storage.png](https://commondatastorage.googleapis.com/philwhln/blog/images/google_storage.png)  
-[https://commondatastorage.googleapis.com/philwhln/blog/images/no\_buckets.png](https://commondatastorage.googleapis.com/philwhln/blog/images/no_buckets.png)
+[https://commondatastorage.googleapis.com/philwhln/blog/media/images/google\_storage.png](https://commondatastorage.googleapis.com/philwhln/blog/media/images/google_storage.png)  
+[https://commondatastorage.googleapis.com/philwhln/blog/media/images/no\_buckets.png](https://commondatastorage.googleapis.com/philwhln/blog/media/images/no_buckets.png)
 
 Apart from the rather long “commondatastorage” subdomain, those URLs a very nice. Clean and simple.
 

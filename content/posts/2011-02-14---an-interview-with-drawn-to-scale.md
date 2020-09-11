@@ -27,9 +27,9 @@ tags:
   - startup
 description: "In this blog-post Bradford Stephens, Drawn To Scale's founder, answers a series of technical, business and personal questions to give an overview of what Drawn To Scale is and where it is going. Who are the founders? What is their background, technology and business model? How were they going to manage other people's big data? Can one tool fit the demands from a broad range of data challenges that different businesses are seeing?"
 socialImage:
-  publicURL: "/wp-content/uploads/2011/02/drawn_to_scale_sq.jpg"
+  publicURL: "/media/images/2011/02/drawn_to_scale_sq.jpg"
 ---
-<img alt="Drawn To Scale" height="211" src="https://commondatastorage.googleapis.com/philwhln/blog/images/drawn_to_scale/drawn_to_scale.png" style="border: none" width="408"/>
+<img alt="Drawn To Scale" height="211" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/drawn_to_scale/drawn_to_scale.png" style="border: none" width="408"/>
 
 Early this year I came across a new start-up called “[Drawn To Scale](https://drawntoscalehq.com/)“. Their [website](https://drawntoscalehq.com/) had just enough information to peak my interest, but not enough to answer my questions of who, what and how. Who are the founders? What is their background, technology and business model? How were they going to manage other people’s big data? Can one tool fit the demands from a broad range of data challenges that different businesses are seeing? 
 
@@ -94,7 +94,7 @@ Major challenges (that will always need tuning) are the <a href="https://redstac
 <p>We run in both the datacenter and the cloud, we are not self-hosted.</p>
 <h4>Is there an amusing stories of how you can up with the name Drawn-To-Scale?</h4>
 <p>Bradford’s wife, Myra, is the Lead Chemist at Nintendo (and does product safety testing.) She’s the creative one of the family, and basically came up with it after a brainstorming session. She’s named all of my projects, musical compositions, etc (except for the database itself, Spire). The previous name for the project was “BigSearch” or “BigQuery”, which were rather insipid.</p>
-<p>Other humorous stories are classified for a few years <img alt=";)" class="wp-smiley" src="/images/smilies/icon_wink.gif"/> </p>
+<p>Other humorous stories are classified for a few years <img alt=";)" class="wp-smiley" src="/media/images/smilies/icon_wink.gif"/> </p>
 </div>
 
 <script type="text/javascript">&lt;!--
@@ -147,7 +147,7 @@ Whilst they are still at the early stages and are finding their feet with their 
 <div class="hentry post publish post-2 even alt author-admin category-start-ups category-web-development post_tag-adam-dangelo post_tag-amazon-ec2 post_tag-aws post_tag-charlie-cheever post_tag-comet post_tag-git post_tag-haproxy post_tag-livenode post_tag-long-polling post_tag-memcached post_tag-mysql post_tag-nginx post_tag-nosql post_tag-paste post_tag-pylons post_tag-quora post_tag-quora-com post_tag-search-box post_tag-steve-souders post_tag-technology post_tag-thrift post_tag-tornado post_tag-ubuntu-linux post_tag-webnode2 post_tag-webscale" id="post-1120">
 <h2 class="entry-title"><a href="/quoras-technology-examined" rel="bookmark" title="Quora’s Technology Examined">Quora’s Technology Examined</a></h2>
 <p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Monday, January 31st, 2011, 12:37 pm">January 31, 2011</abbr> </p>
-<div style="float: left;"><img alt="quora_microscope_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/wp-content/uploads/2011/01/quora_microscope_sq.jpg" title="quora_microscope_sq" width="180"/></div>
+<div style="float: left;"><img alt="quora_microscope_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/quora_microscope_sq.jpg" title="quora_microscope_sq" width="180"/></div>
 <div class="entry-content">
 <p>In this blog post I will delve into the snippets of information available on Quora and look at Quora from a technical perspective. What technical decisions have they made? What does their architecture look like? What languages and frameworks do they use? How do they make that search bar respond so quickly?</p>
 </div>

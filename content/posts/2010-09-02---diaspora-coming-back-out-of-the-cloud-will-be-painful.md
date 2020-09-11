@@ -12,19 +12,19 @@ tags:
   - kickstarter
 description: "$200,641 has been pledged for the development of Diaspora, the decentralized web implementation, which intends to replace Facebook with a version that is"
 socialImage:
-  publicURL: "/images/photo.jpg"
+  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr" target="_blank" title="Diaspora pledge on kickstarter">$200,641 has been pledged</a> for the development of Diaspora, the decentralized web implementation, which intends to replace Facebook with a version that is distributed. Each user will retain their own data on their own machine. I see a huge flaw in this. They’re moving in the wrong direction. The web is moving to the cloud, not to home machines. In a few years we’re all going to be running dumb terminals and interacting with data far away. Who wants to look after their own data? Well, us nerds for sure. But your average Joe, or your aunty Barbara? Who’s going backup your data and make sure that you do not lose it when the&nbsp;burglars&nbsp;come for a visit? Will the benefit out-weigh the hassle of installing and maintaining this thing and upgrading your machine as you fill it up with photos and videos? No.
 
 <p style="text-align: center;">
-<a href="/wp-content/uploads/2010/08/diaspora.png">
-<img alt="" class="size-full wp-image-97 aligncenter" height="343" src="/wp-content/uploads/2010/08/diaspora.png" style="border: none;" title="diaspora" width="360"/>
+<a href="/media/images/2010/08/diaspora.png">
+<img alt="" class="size-full wp-image-97 aligncenter" height="343" src="/media/images/2010/08/diaspora.png" style="border: none;" title="diaspora" width="360"/>
 </a>
 </p>
 
 Nobody really cares that much about privacy. Sure, we all care, but not if we need to get up off our butts and “install what now?”. “I don’t get it. Why do I have to leave my computer on all the time to use my Facebook (Diaspora) from my mobile phone?”. Which brings me to another point – average folks do not run servers, they run desktop computers or sometimes they only have a laptop. If we are expected to leave them on 24×7 so that our friends can see our data, how bad for the environment and our electricity bill fund is that?!&nbsp;In the near future many of us may only have a mobile phone. Can I install my Diaspora node server on my phone? Hmm… why’s my phone bill so high? Oh no, the HD video of me falling out of a tree went viral and I’ve served it up to half of China from my iPhone.
 
-[None](/wp-content/uploads/2010/08/diaspora.png)
+[None](/media/images/2010/08/diaspora.png)
 
 Facebook will charge ahead as Diaspora struggles to support all different platforms they need to support, since following the HTML standard is much simpler than understanding all the ins-and-outs of every Operating Systems.
 
