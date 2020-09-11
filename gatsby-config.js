@@ -25,8 +25,15 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/media`,
-        name: 'media'
+        path: `${__dirname}/static/images`,
+        name: 'images'
+      }
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/static/wp-content`,
+        name: 'wp-content'
       }
     },
     {
@@ -104,12 +111,6 @@ module.exports = {
         plugins: [
           'gatsby-remark-relative-images',
           {
-            resolve: 'gatsby-remark-katex',
-            options: {
-              strict: 'ignore'
-            }
-          },
-          {
             resolve: 'gatsby-remark-images',
             options: {
               maxWidth: 960,
@@ -122,10 +123,15 @@ module.exports = {
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' }
           },
           'gatsby-remark-autolink-headers',
-          'gatsby-remark-prismjs',
+          {
+            resolve: 'gatsby-remark-vscode',
+            options: {
+              theme: 'Monokai' // Or install your favorite theme from GitHub
+            }
+          },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
-          'gatsby-remark-external-links'
+          'gatsby-remark-external-links',
         ]
       }
     },
@@ -187,7 +193,7 @@ module.exports = {
         background_color: '#FFF',
         theme_color: '#F7A046',
         display: 'standalone',
-        icon: 'static/photo.jpg'
+        icon: 'static/images/photo.jpg'
       },
     },
     'gatsby-plugin-offline',

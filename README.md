@@ -108,7 +108,7 @@ $ gatsby serve
     └── posts
 └── static
     ├── admin
-    └── media
+    └── images
 └── src
     ├── assets
     │   └── scss

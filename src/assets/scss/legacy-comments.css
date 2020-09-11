@@ -1,0 +1,42 @@
+/* Comment headers */
+.comments-header {
+    font-size: 1.2em;
+}
+
+/* Comment list */
+#comments li, #comments li li li, #comments li li li li li {
+    overflow: hidden;
+    margin: 0 0 15px 0;
+    padding: 15px 15px 0 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+#comments li li, #comments li li li li {
+    background: #f9f9f9;
+}
+
+/* Comment metadata */
+.comment-meta {
+    margin: 10px 0 21px 0;
+    font-size: 13px;
+    color: #666;
+}
+.comment-author {
+    font-size: 15px;
+    color: #000;
+}
+.comment-reply-link, .permalink, .comment-edit-link {
+    font-style: italic;
+    color: #666;
+}
+
+/* Comment text */
+.comment-text {
+    clear: left;
+    margin: 0 15px;
+}
+
+.comment img.avatar {
+    padding: 10px;
+    float: left;
+}

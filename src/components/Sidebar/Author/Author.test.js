@@ -7,7 +7,7 @@ describe('Author', () => {
   const props = {
     author: {
       name: 'test',
-      photo: '/photo.jpg',
+      photo: '/images/photo.jpg',
       bio: 'test'
     },
     isIndex: false

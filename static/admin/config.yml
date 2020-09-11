@@ -2,9 +2,6 @@ backend:
   name: git-gateway
   branch: master
 
-media_folder: "static/media"
-public_folder: "/media"
-
 # Uncomment to leverage Netlify CMS UI authoring flow
 # see: https://www.netlifycms.org/docs/configuration-options/#publish-mode
 # publish_mode: editorial_workflow

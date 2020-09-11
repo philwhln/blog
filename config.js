@@ -1,48 +1,40 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://bigfastblog.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Big Fast Blog',
+  subtitle: 'Musings on technology',
+  copyright: 'Copyright © 2020 Phil Whelan',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 10,
+  googleAnalyticsId: 'UA-15826070-1',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
-    {
-      label: 'About me',
-      path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Phil Whelan',
+    photo: '/images/photo.jpg',
+    bio: 'Software Engineer',
     contacts: {
       email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      facebook: '',
+      telegram: '',
+      twitter: 'philwhln',
+      github: 'philwhln',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'ca/philwhln',
+      instagram: 'philwhln',
       line: '',
       gitlab: '',
       weibo: '',
       codepen: '',
-      youtube: '',
+      youtube: 'UCPoEu5suo5AEE_qXcQLfWZw',
       soundcloud: '',
     }
   }
