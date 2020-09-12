@@ -28,7 +28,7 @@ module.exports = {
       github: 'philwhln',
       rss: '',
       vkontakte: '',
-      linkedin: 'ca/philwhln',
+      linkedin: 'philwhln',
       instagram: 'philwhln',
       line: '',
       gitlab: '',
