@@ -9,10 +9,19 @@ const onCreateNode = ({ node, actions, getNode }) => {
   if (node.internal.type === 'MarkdownRemark') {
     if (typeof node.frontmatter.slug !== 'undefined') {
       const dirname = getNode(node.parent).relativeDirectory;
+      let slug;
+      if (dirname) {
+        slug = `/${dirname}/${node.frontmatter.slug}`;
+      } else {
+        slug = `/${node.frontmatter.slug}`;
+      }
+      if (slug.startsWith('//')) {
+        console.error('slug starts with //');
+      }
       createNodeField({
         node,
         name: 'slug',
-        value: `/${dirname}/${node.frontmatter.slug}`
+        value: slug,
       });
     } else {
       const value = createFilePath({ node, getNode });
