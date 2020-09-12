@@ -122,8 +122,6 @@ __March 9-11, 2012__
 Bretagne, France  
 Sinapore, Singapore
 
-<a href="https://contractual.ly/"><img align="right" src="/media/images/contractually/contractually_ad.png"/></a>
-
 __March 16-18__  
 Cordaba, Argentina
 
