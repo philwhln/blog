@@ -22,22 +22,20 @@ description: "Here I demonstrate, with repeatable steps, how to fire-up a Hadoop
 socialImage:
   publicURL: "/media/images/2010/12/hadoop_ruby_sq.jpg"
 ---
-<a href="/map-reduce-with-ruby-using-hadoop/hadoop-ruby" rel="attachment wp-att-605">
 
 <img alt="Map-Reduce With Hadoop Using Ruby" class="alignleft size-full wp-image-605" height="189" src="/media/images/2010/12/hadoop-ruby.png" style="border: none" title="hadoop-ruby" width="202"/>
 
-</a>  
 Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will _not_ need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.
 
-*   [Fire-Up Your Hadoop Cluster](/map-reduce-with-ruby-using-hadoop#fire-up-your-hadoop-cluster)
-*   [Setting Up Your Local Hadoop Client](/map-reduce-with-ruby-using-hadoop#setting-up-your-local-hadoop-client)
-*   [Defining The Map-Reduce Task](/map-reduce-with-ruby-using-hadoop#defining-the-map-reduce-task)
-*   [Uploading Your Data To HDFS (Hadoop Distributed FileSystem)](/map-reduce-with-ruby-using-hadoop#uploading-your-data-to-hdfs)
-*   [Coding Your Map And Reduce Scripts in Ruby](/map-reduce-with-ruby-using-hadoop#coding-your-map-and-reduce-scripts-in-ruby)
-*   [Running The Hadoop Job](/map-reduce-with-ruby-using-hadoop#running-the-hadoop-job)
-*   [The Results](/map-reduce-with-ruby-using-hadoop#the-results)
-*   [Conclusion](/map-reduce-with-ruby-using-hadoop#conclusion)
-*   [Resources](/map-reduce-with-ruby-using-hadoop#resources)
+*   [Fire-Up Your Hadoop Cluster](#fire-up-your-hadoop-cluster)
+*   [Setting Up Your Local Hadoop Client](#setting-up-your-local-hadoop-client)
+*   [Defining The Map-Reduce Task](#defining-the-map-reduce-task)
+*   [Uploading Your Data To HDFS (Hadoop Distributed FileSystem)](#uploading-your-data-to-hdfs)
+*   [Coding Your Map And Reduce Scripts in Ruby](#coding-your-map-and-reduce-scripts-in-ruby)
+*   [Running The Hadoop Job](#running-the-hadoop-job)
+*   [The Results](#the-results)
+*   [Conclusion](#conclusion)
+*   [Resources](#resources)
 
 <a id="fire-up-your-hadoop-cluster" name="fire-up-your-hadoop-cluster"></a>
 
@@ -51,7 +49,7 @@ If you are on Debian or Redhat you can use either apt-get or yum to install whir
 
 The current version of Whirr 0.2.0, hosted on the Apache Incubator site, is not compatible with Cloudera’s Distribution for Hadoop (CDH), so I’m am downloading [version 0.1.0+23](https://archive.cloudera.com/cdh/3/whirr-0.1.0+23.tar.gz).
 
-```
+```bash
 mkdir ~/src/cloudera
 cd ~/src/cloudera
 wget https://archive.cloudera.com/cdh/3/whirr-0.1.0+23.tar.gz
@@ -60,14 +58,14 @@ tar -xvzf whirr-0.1.0+23.tar.gz
 
 To build Whirr you’ll need to install Java (version 1.6), [Maven](https://maven.apache.org/download.html) ( &gt;= 2.2.1) and [Ruby](https://www.ruby-lang.org/en/) ( &gt;= 1.8.7). If you’re running with the latest Mac OS X, then you should have the latest Java and I’ll assume, due to the title of this post, that you can manage the Ruby version. If you are not familiar with Maven, you can [install it via Homebrew on Mac OS X](/homebrew-intro-to-the-mac-os-x-package-installer) using the brew command below. On Debian use _apt-get install maven2_.
 
-```
+```bash
 sudo brew update
 sudo brew install maven
 ```
 
 Once the dependencies are installed we can build the whirr tool.
 
-```
+```bash
 cd whirr-0.1.0+23
 mvn clean install
 mvn package -Ppackage
@@ -77,7 +75,7 @@ In true Maven style, it will download a long list of dependencies the first time
 
 Ok, it should be built now and if you’re anything like me, you would have used the time to get a nice cuppa tea or a sandwich. Let’s sanity check the whirr script…
 
-```
+```bash
 bin/whirr version
 ```
 
@@ -102,20 +100,20 @@ Replace _&lt;cloud-provider-identity&gt;_ and _&lt;cloud-provider-credential&gt;
 
 This configuration is a little boring with only two machines. One machine for the master and one machine for the worker. You can get more creative once you are up and running. Let’s fire up our “cluster”.
 
-```
+```bash
 bin/whirr launch-cluster --config hadoop.properties
 ```
 
 This is another good time to put the kettle on, as it takes a few minutes to get up and running. If you are curious, or worried that things have come to a halt then Whirr outputs a whirr.log in the current directory. Fire-up another terminal window and tail the log.
 
-```
+```bash
 cd ~/src/cloudera/whirr-0.1.0+23
 tail -F whirr.log
 ```
 
 16 minutes (and several cups of tea) later the cluster is up and running. Here is the output I saw in my terminal.
 
-```
+```bash
 Launching myhadoopcluster cluster
 Configuring template
 Starting master node
@@ -133,7 +131,7 @@ HadoopCluster{instances=[Instance{roles=[jt, nn], publicAddress=ec2-72-44-45-199
 
 Whirr has created a directory with some files in our home directory…
 
-```
+```bash
 ~/.whirr/myhadoopcluster/hadoop-proxy.sh
 ~/.whirr/myhadoopcluster/hadoop-site.xml
 ```
@@ -142,17 +140,14 @@ This hadoop-proxy.sh is used to access the web interface of Hadoop securely. Whe
 
 You need to configure the SOCKS proxy in either your web browser or, in my case, the Mac OS X settings menu.
 
-<div class="wp-caption alignnone" id="attachment_508" style="width: 720px">
-<a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-28-at-3-15-55-pm" rel="attachment wp-att-508">
 <img alt="Hadoop SOCKS Proxy Configuration for Mac OS X" class="size-full wp-image-508" height="360" src="/media/images/2010/12/Screen-shot-2010-12-28-at-3.15.55-PM.png" title="SOCKS Proxy Configuration" width="710"/>
-</a>
-<p class="wp-caption-text">Hadoop SOCKS Proxy Configuration for Mac OS X</p>
-</div>
+
+_Hadoop SOCKS Proxy Configuration for Mac OS X_
 
 Now start the proxy in your terminal…  
 _(Note: There has still been no need to ssh into the cluster. Everything in this post is done on our local machine)_
 
-```
+```bash
 sh ~/.whirr/myhadoopcluster/hadoop-proxy.sh
 
    Running proxy to Hadoop cluster at
@@ -167,21 +162,15 @@ The above will output the hostname that you can access the cluster at. On Amazon
 https://<hostname>:50070/dfshealth.jsp
 ```
 
-<div class="wp-caption alignnone" id="attachment_502" style="width: 588px">
-<a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-28-at-3-50-23-pm" rel="attachment wp-att-502">
 <img alt="dfshealth.jsp" class="size-full wp-image-502" height="643" src="/media/images/2010/12/Screen-shot-2010-12-28-at-3.50.23-PM.png" title="Screen shot 2010-12-28 at 3.50.23 PM" width="578"/>
-</a>
-<p class="wp-caption-text">HDFS Health Dashboard</p>
-</div>
+
+_HDFS Health Dashboard_
 
 If you click on the link to “Browse the filesystem” then you will notice the hostname changes. This will jump around the data-nodes in your cluster, due to HDFS’s distributed nature. You only currently have one data-node. On Amazon EC2 this new hostname will be the internal hostname of data-node server, which is visible because you are tunnelling through the SOCKS proxy.
 
-<div class="wp-caption alignnone" id="attachment_505" style="width: 670px">
-<a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-28-at-3-36-08-pm" rel="attachment wp-att-505">
 <img alt="browseDirectory.jsp" class="size-full wp-image-505" height="391" src="/media/images/2010/12/Screen-shot-2010-12-28-at-3.36.08-PM.png" title="Screen shot 2010-12-28 at 3.36.08 PM" width="660"/>
-</a>
-<p class="wp-caption-text">HDFS File Browser</p>
-</div>
+
+_HDFS File Browser_
 
 Ok! It looks as though our Hadoop cluster is up and running. Let’s upload our data.
 
@@ -389,7 +378,7 @@ af  380
 
 I wrote this bash-based runner script to start the job. It uses Hadoop’s streaming service. This streaming service is what allows us to write our map-reduce scripts in Ruby. It _streams_ to our script’s STDIN and reads our script’s output from our script’s STDOUT.
 
-```
+```bash
 #!/bin/bash
 
 HADOOP_HOME=/usr/local/hadoop
@@ -412,7 +401,7 @@ We specify the command to run for the mapper and reducer and use the “-file”
 
 Once again, it is important that our SOCKS proxy is running, as this is the secure way that we communicate through to our Hadoop cluster.
 
-```
+```bash
 sh ~/.whirr/myhadoopcluster/hadoop-proxy.sh
     Running proxy to Hadoop cluster at ec2-72-44-45-199.compute-1.amazonaws.com. Use Ctrl-c to quit.
 ```
@@ -438,35 +427,23 @@ packageJobJar: [map.rb, reduce.rb, /tmp/hadoop-phil/hadoop-unjar3366245269477540
 
 This is reflected if you visit the job tracker console in web browser.
 
-<div class="wp-caption alignnone" id="attachment_577" style="width: 996px">
-<a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-12-46-pm" rel="attachment wp-att-577">
 <img alt="jobTracker after successful run" class="size-full wp-image-577" height="783" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.12.46-PM.png" title="Screen shot 2010-12-30 at 10.12.46 PM" width="986"/>
-</a>
-<p class="wp-caption-text">jobTracker after successful run</p>
-</div>
+
+_jobTracker after successful run_
 
 If you click on the job link you can see lots of information on this job. This job is completed in these images, but with a longer running job you would see the progress as the job runs. I have split the job tracker page into the following three images.
 
-<div class="wp-caption alignnone" id="attachment_578" style="width: 762px">
-<a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-15-55-pm" rel="attachment wp-att-578">
 <img alt="Map-Reduce Job Tracker Page (part 1)" class="size-full wp-image-578" height="361" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.15.55-PM.png" title="Screen shot 2010-12-30 at 10.15.55 PM" width="752"/>
-</a>
-<p class="wp-caption-text">Map-Reduce Job Tracker Page (part 1)</p>
-</div>
 
-<div class="wp-caption alignnone" id="attachment_579" style="width: 720px">
-<a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-16-17-pm" rel="attachment wp-att-579">
+_Map-Reduce Job Tracker Page (part 1)_
+
 <img alt="Map-Reduce Job Tracker Page (part 2)" class="size-full wp-image-579" height="616" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.16.17-PM.png" title="Screen shot 2010-12-30 at 10.16.17 PM" width="710"/>
-</a>
-<p class="wp-caption-text">Map-Reduce Job Tracker Page (part 2)</p>
-</div>
 
-<div class="wp-caption alignnone" id="attachment_580" style="width: 772px">
+_Map-Reduce Job Tracker Page (part 2)_
+
 <a href="/map-reduce-with-ruby-using-hadoop/screen-shot-2010-12-30-at-10-16-44-pm" rel="attachment wp-att-580">
-<img alt="Map-Reduce Job Tracker Page (part 3) Graphs" class="size-full wp-image-580" height="551" src="/media/images/2010/12/Screen-shot-2010-12-30-at-10.16.44-PM.png" title="Screen shot 2010-12-30 at 10.16.44 PM" width="762"/>
-</a>
-<p class="wp-caption-text">Map-Reduce Job Tracker Page (part 3) Graphs</p>
-</div>
+
+_Map-Reduce Job Tracker Page (part 3) Graphs_
 
 <a id="the-results" name="the-results"></a>
 
@@ -529,21 +506,6 @@ If you are interested in learning more about Hadoop, then I recommend reading
 <div id="comments">
   <h3 id="comments-number" class="comments-header">29 responses to “Map-Reduce With Ruby Using Hadoop”</h3>
   <ol class="comment-list">
-    <li id="comment-665" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="The Apache Projects – The Justice League Of Scalability | Phil Whelan's Blog" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.bigfastblog.com/the-apache-projects-the-justice-league-of-scalability">The Apache Projects – The Justice League Of Scalability | Phil Whelan's Blog</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Tuesday, January 11th, 2011, 3:48 pm">January 11, 2011</abbr> at <abbr class="comment-time" title="Tuesday, January 11th, 2011, 3:48 pm">3:48 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] and manages the running of distributed Map-Reduce jobs. In an previous post I gave an example using Ruby with Hadoop to perform Map-Reduce [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-679" class="comment odd alt thread-odd thread-alt depth-1 comment reader">
       <img alt="andy" src="https://1.gravatar.com/avatar/10a8337cf8879d37affd54e1cab4d79e?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
@@ -826,10 +788,10 @@ Navin</p>
       </div>
       <div class="comment-text">
         <p>When i would like fire up a customized ec2 instance, i added following parameters into hadoop.properties:</p>
-        <p>whirr.image-id= us-west-1/ami-**********<br />
-jclouds.ec2.ami-owners=******************<br />
-whirr.hardware-id= m1.large<br />
-whirr.location-id=us-west-1</p>
+        <pre>whirr.image-id= us-west-1/ami-**********
+jclouds.ec2.ami-owners=******************
+whirr.hardware-id= m1.large
+whirr.location-id=us-west-1</pre>
         <p>But it doesn’t work. Any thought? thanks</p>
       </div>
       <!-- .comment-text -->
@@ -882,23 +844,27 @@ A</p>
             <abbr class="comment-date" title="Sunday, May 29th, 2011, 3:54 am">May 29, 2011</abbr> at <abbr class="comment-time" title="Sunday, May 29th, 2011, 3:54 am">3:54 am</abbr>
           </div>
           <div class="comment-text">
-            <p>I tried whirr 0.5.0, and it still doesn’t work. </p>
+            <p>I tried whirr 0.5.0, and it still doesn’t work.</p>
             <p>It worked well if my hadoop.properties as below:</p>
-            <p>whirr.service-name=hadoop<br />
-whirr.cluster-name=myhadoopcluster<br />
-whirr.instance-templates=1 jt+nn,1 dn+tt<br />
-whirr.provider=ec2<br />
-whirr.identity=<br />
-whirr.credential=<br />
-whirr.private-key-file=${sys:user.home}/.ssh/id_rsa<br />
-whirr.public-key-file=${sys:user.home}/.ssh/id_rsa.pub<br />
-whirr.hardware-id= m1.large<br />
-whirr.location-id=us-west-1<br />
-whirr.hadoop-install-runurl=cloudera/cdh/install<br />
-whirr.hadoop-configure-runurl=cloudera/cdh/post-configure</p>
-            <p>But once i added two more lines into hadoop.properties file, it went wrong:<br />
-whirr.image-id= us-west-1/ami-***** (my ami)<br />
-jclouds.ec2.ami-owners=(my owner id&gt;</p>
+<pre>
+whirr.service-name=hadoop
+whirr.cluster-name=myhadoopcluster
+whirr.instance-templates=1 jt+nn,1 dn+tt
+whirr.provider=ec2
+whirr.identity=
+whirr.credential=
+whirr.private-key-file=${sys:user.home}/.ssh/id_rsa
+whirr.public-key-file=${sys:user.home}/.ssh/id_rsa.pub
+whirr.hardware-id= m1.large
+whirr.location-id=us-west-1
+whirr.hadoop-install-runurl=cloudera/cdh/install
+whirr.hadoop-configure-runurl=cloudera/cdh/post-configure
+</pre>
+<p>But once i added two more lines into hadoop.properties file, it went wrong:</p>
+<pre>
+whirr.image-id= us-west-1/ami-***** (my ami)
+jclouds.ec2.ami-owners=(my owner id&gt;
+</pre>
             <p>I have posted a question on whirr forum and see if i could get any solution. Will update here if i get anything. thx</p>
           </div>
           <!-- .comment-text -->
@@ -1037,37 +1003,37 @@ And my mapper output is a predicted structure but not in order</p>
       <div class="comment-text">
         <p>Hello,</p>
         <p>We have following properties set :</p>
-        <p>whirr.service-name=hadoop<br />
-whirr.cluster-name=myhadoopcluster<br />
-whirr.instance-templates=1 jt+nn,1 dn+tt<br />
-whirr.provider=ec2<br />
-whirr.credential=mYar/KSbx+UL+nqGr9hSgGHIOqXC9tjNcuO9UwF/<br />
-whirr.identity=AKIAJCDTYGREJYIECQZA<br />
-whirr.private-key-file=${sys:user.home}/.ssh/id_rsa<br />
-whirr.public-key-file=${sys:user.home}/.ssh/id_rsa.pub<br />
-whirr.hadoop-install-runurl=cloudera/cdh/install<br />
-whirr.hadoop-configure-runurl=cloudera/cdh/post-configure<br />
-whirr.image-id=ami-3bc9997e<br />
-whirr.hardware-id=i-bffa23f8<br />
-whirr.location-id=us.west-1c</p>
+        <pre>whirr.service-name=hadoop
+whirr.cluster-name=myhadoopcluster
+whirr.instance-templates=1 jt+nn,1 dn+tt
+whirr.provider=ec2
+whirr.credential=mYar/KSbx+UL+nqGr9hSgGHIOqXC9tjNcuO9UwF/
+whirr.identity=AKIAJCDTYGREJYIECQZA
+whirr.private-key-file=${sys:user.home}/.ssh/id_rsa
+whirr.public-key-file=${sys:user.home}/.ssh/id_rsa.pub
+whirr.hadoop-install-runurl=cloudera/cdh/install
+whirr.hadoop-configure-runurl=cloudera/cdh/post-configure
+whirr.image-id=ami-3bc9997e
+whirr.hardware-id=i-bffa23f8
+whirr.location-id=us.west-1c</pre>
         <p>But we are getting following error:</p>
-        <p>[ec2-user@ip-10-170-103-243 ~]$ ./whirr-0.3.0-cdh3u1/bin/whirr launch-cluster –config hadoop.properties –run-url-base https://whirr.s3.amazonaws.com/0.3.0-cdh3u0/util<br />
-Bootstrapping cluster<br />
-Configuring template<br />
-Exception in thread “main” java.util.NoSuchElementException<br />
-        at com.google.common.collect.AbstractIterator.next(AbstractIterator.java:147)<br />
-        at com.google.common.collect.Iterators.find(Iterators.java:679)<br />
-        at com.google.common.collect.Iterables.find(Iterables.java:555)<br />
-        at org.jclouds.compute.domain.internal.TemplateBuilderImpl.locationId(TemplateBuilderImpl.java:492)<br />
-        at org.apache.whirr.service.jclouds.TemplateBuilderStrategy.configureTemplateBuilder(TemplateBuilderStrategy.java:41)<br />
-        at org.apache.whirr.service.hadoop.HadoopTemplateBuilderStrategy.configureTemplateBuilder(HadoopTemplateBuilderStrategy.java:31)<br />
-        at org.apache.whirr.cluster.actions.BootstrapClusterAction.buildTemplate(BootstrapClusterAction.java:144)<br />
-        at org.apache.whirr.cluster.actions.BootstrapClusterAction.doAction(BootstrapClusterAction.java:94)<br />
-        at org.apache.whirr.cluster.actions.ScriptBasedClusterAction.execute(ScriptBasedClusterAction.java:74)<br />
-        at org.apache.whirr.service.Service.launchCluster(Service.java:71)<br />
-        at org.apache.whirr.cli.command.LaunchClusterCommand.run(LaunchClusterCommand.java:61)<br />
-        at org.apache.whirr.cli.Main.run(Main.java:65)<br />
-        at org.apache.whirr.cli.Main.main(Main.java:91)</p>
+        <pre>[ec2-user@ip-10-170-103-243 ~]$ ./whirr-0.3.0-cdh3u1/bin/whirr launch-cluster –config hadoop.properties –run-url-base https://whirr.s3.amazonaws.com/0.3.0-cdh3u0/util
+Bootstrapping cluster
+Configuring template
+Exception in thread “main” java.util.NoSuchElementException
+        at com.google.common.collect.AbstractIterator.next(AbstractIterator.java:147)
+        at com.google.common.collect.Iterators.find(Iterators.java:679)
+        at com.google.common.collect.Iterables.find(Iterables.java:555)
+        at org.jclouds.compute.domain.internal.TemplateBuilderImpl.locationId(TemplateBuilderImpl.java:492)
+        at org.apache.whirr.service.jclouds.TemplateBuilderStrategy.configureTemplateBuilder(TemplateBuilderStrategy.java:41)
+        at org.apache.whirr.service.hadoop.HadoopTemplateBuilderStrategy.configureTemplateBuilder(HadoopTemplateBuilderStrategy.java:31)
+        at org.apache.whirr.cluster.actions.BootstrapClusterAction.buildTemplate(BootstrapClusterAction.java:144)
+        at org.apache.whirr.cluster.actions.BootstrapClusterAction.doAction(BootstrapClusterAction.java:94)
+        at org.apache.whirr.cluster.actions.ScriptBasedClusterAction.execute(ScriptBasedClusterAction.java:74)
+        at org.apache.whirr.service.Service.launchCluster(Service.java:71)
+        at org.apache.whirr.cli.command.LaunchClusterCommand.run(LaunchClusterCommand.java:61)
+        at org.apache.whirr.cli.Main.run(Main.java:65)
+        at org.apache.whirr.cli.Main.main(Main.java:91)</pre>
         <p>Can we get any help ?  What shold we do ?</p>
         <p>Thanks,<br />
 S.Sarkar</p>

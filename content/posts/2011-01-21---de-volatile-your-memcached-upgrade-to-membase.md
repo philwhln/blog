@@ -19,7 +19,7 @@ description: "Membase's TCP interface is identical Memcached, so migrating your 
 socialImage:
   publicURL: "/media/images/2011/01/memcached_to_membase_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/hojusaram/484764113/" title="20070505-135556.jpg by hojusaram, on Flickr"><img align="left" alt="20070505-135556.jpg" height="500" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/memcached_to_membase/memcached_to_membase.jpg" style="padding-bottom: 20px" width="333"/></a>
+<a href="https://www.flickr.com/photos/hojusaram/484764113/" title="20070505-135556.jpg by hojusaram, on Flickr"><img align="left" alt="20070505-135556.jpg" height="500" src="/media/images/memcached_to_membase/memcached_to_membase.jpg" style="padding-bottom: 20px" width="333"/></a>
 
 ## Migrate From Memcached
 
@@ -40,20 +40,6 @@ Memcached servers know nothing of the other Memcached servers in the cluster. Th
 ### It’s Fast!
 
 On the plus side, using a hashing algorithm is incredibly fast and means you do not need to talk to any other service to find the data. The more you look at Memcached the more you can see these areas where speed has been made the priority. It has been this speed that has made Memcached such a powerful force as a caching solution and so successful.
-
-<script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln inner content leader */
-google_ad_slot = "1476289318";
-google_ad_width = 728;
-google_ad_height = 90;
-//--&gt;
-</script>
-
-  
-
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
 
 ### The Shuffle
 
@@ -112,18 +98,6 @@ If you have used Memcached and have gotten carried away with how it can make eve
 Membase persists data to disk. This may be the single thing you want to know. Even if you do not care about how it works, or you have no time to investigate and compare it to other NoSQL data-stores, you should be able to sleep better knowing there is “an upgrade” for Memcached that is less votatile.
 
 Membase’s configuration specifies two conditions for writing data to the disk. It will be written when it reaches a certain age or if it has been updated frequently. Frequently updated data will never get old enough to reach the required age for persistence, so this alternative rule is required. 
-
-<div style="float: left; width: 300px; height: 250px; padding: 30px; padding-left: 0px; padding-bottom: 50px;"><script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln post resources left big sq */
-google_ad_slot = "8297487856";
-google_ad_width = 300;
-google_ad_height = 250;
-//--&gt;
-</script><br/>
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
-</div>
 
 ## Conclusion
 
@@ -248,21 +222,6 @@ https://www.mikeperham.com/2009/01/14/consistent-hashing-in-memcache-client/</p>
         <p>Perry Krug<br />
 Sr. Solutions Architect, Couchbase<br />
 perry@couchbase.com</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-4759" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="printf(&quot; SaltwaterC &quot;); » Blog Archive » Use the cache Luke, Part 1: from memcached to Membase memcached buckets" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.saltwaterc.eu/use-the-cache-luke-part-1-from-memcached-to-membase-memcached-buckets.html">printf(" SaltwaterC "); » Blog Archive » Use the cache Luke, Part 1: from memcached to Membase memcached buckets</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, September 21st, 2011, 11:42 pm">September 21, 2011</abbr> at <abbr class="comment-time" title="Wednesday, September 21st, 2011, 11:42 pm">11:42 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] start with a quote: Matt Ingenthron said internally at Membase Inc they view Memcached as a rabbit. It is fast, but it [...]</p>
       </div>
       <!-- .comment-text -->
     </li>

@@ -162,37 +162,6 @@ https://snap.stanford.edu/data/index.html</p>
         <!-- .comment -->
       </ol>
     </li>
-    <!-- .comment -->
-    <li id="comment-292" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Revue de presse Industrialisation PHP de la semaine 50 (2010) | Industrialisation PHP" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.industrialisation-php.com/revue-de-presse-industrialisation-php-de-la-semaine-50-2010/">Revue de presse Industrialisation PHP de la semaine 50 (2010) | Industrialisation PHP</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, December 13th, 2010, 1:37 am">December 13, 2010</abbr> at <abbr class="comment-time" title="Monday, December 13th, 2010, 1:37 am">1:37 am</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] Une application fonctionnant parfaitement peut subitement s'effondrer sous une affluence soudaine et massive de données. Pour anticiper ce genre de problème, on effectue en amont des tests de charge. La difficulté est généralement de trouver suffisamment de données pour charger le système. Phil Whelan propose différentes pistes pour récupérer ou générer de grandes quantités de données réalistes. [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-306" class="pingback odd alt thread-even depth-1 pingback reader">
-      <img alt="LATW Episode 1 (December 1-10, 2010)" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://shahriarhaque.com/blog/?p=54">LATW Episode 1 (December 1-10, 2010)</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, December 13th, 2010, 3:22 pm">December 13, 2010</abbr> at <abbr class="comment-time" title="Monday, December 13th, 2010, 3:22 pm">3:22 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] How To Get Experience Working With Large Datasets [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-338" class="comment even thread-odd thread-alt depth-1 comment reader">
       <img alt="Brad" src="https://0.gravatar.com/avatar/ecb6e867287ff5b52ee44259faee63fc?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">

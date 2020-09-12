@@ -30,7 +30,7 @@ Let’s start at the basics.
 > <small> – Thin homepage</small>
 > 
 
-The above quote refers to [Mongrel](https://www.zedshaw.com/tips/ragel_state_charts.html), EventMachine and [Rack](https://rack.rubyforge.org/). I am not going cover Mongrel and Rack.
+The above quote refers to Mongrel, EventMachine and Rack. I am not going cover Mongrel and Rack.
 
 ## Up And Running With Thin
 
@@ -61,10 +61,6 @@ thin start
 ```
 
 And just like that you are now up and running with Thin and your code is running inside the EventMachine event-loop.
-
-<small>
-<a href="https://gist.github.com/3981703" target="gist">Gist of full terminal output</a>
-</small>
 
 ## Concurrent Requests
 
@@ -98,11 +94,11 @@ My complaint of the spooling requests to disk is that Thin is not doing this in 
 
 It looks a little like this…
 
-```
+```ruby
 @body = Tempfile.new('thin-body')
 ```
 
-```
+```ruby
 # for each chunk of data received
 @body << data
 

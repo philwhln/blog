@@ -29,7 +29,7 @@ description: "In this blog-post Bradford Stephens, Drawn To Scale's founder, ans
 socialImage:
   publicURL: "/media/images/2011/02/drawn_to_scale_sq.jpg"
 ---
-<img alt="Drawn To Scale" height="211" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/drawn_to_scale/drawn_to_scale.png" style="border: none" width="408"/>
+<img alt="Drawn To Scale" height="211" src="/media/images/drawn_to_scale/drawn_to_scale.png" style="border: none" width="408"/>
 
 Early this year I came across a new start-up called “[Drawn To Scale](https://drawntoscalehq.com/)“. Their [website](https://drawntoscalehq.com/) had just enough information to peak my interest, but not enough to answer my questions of who, what and how. Who are the founders? What is their background, technology and business model? How were they going to manage other people’s big data? Can one tool fit the demands from a broad range of data challenges that different businesses are seeing? 
 
@@ -96,20 +96,6 @@ Major challenges (that will always need tuning) are the <a href="https://redstac
 <p>Bradford’s wife, Myra, is the Lead Chemist at Nintendo (and does product safety testing.) She’s the creative one of the family, and basically came up with it after a brainstorming session. She’s named all of my projects, musical compositions, etc (except for the database itself, Spire). The previous name for the project was “BigSearch” or “BigQuery”, which were rather insipid.</p>
 <p>Other humorous stories are classified for a few years <img alt=";)" class="wp-smiley" src="/media/images/smilies/icon_wink.gif"/> </p>
 </div>
-
-<script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln post end ldrbrd 728x90 */
-google_ad_slot = "7456241966";
-google_ad_width = 728;
-google_ad_height = 90;
-//--&gt;
-</script>
-
-  
-
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
 
 ## Conclusion
 

@@ -17,7 +17,6 @@ description: "If you have read my previous post, Map-Reduce With Ruby Using Hado
 socialImage:
   publicURL: "/media/images/2011/01/launch_cassandra_amazon_ec2_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/johanbrook/4481758659/" title="Today's Workplace by Johan Brook, on Flickr"><img alt="Today's Workplace" height="285" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/launch_cassandra_amazon_ec2/launch_cassandra_cluster_ec2.jpg" width="380"/></a>
 
 If you have read my previous post, “[Map-Reduce With Ruby Using Hadoop](/map-reduce-with-ruby-using-hadoop)“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it is just as easy to fire up a Cassandra cluster on Amazon EC2.
 
@@ -58,24 +57,9 @@ whirr.provider=ec2
 whirr.identity=<YOUR_AMAZON_EC2_ACCESS_KEY_ID_GOES_HERE>
 whirr.credential=<YOUR_AMAZON_EC2_SECRET_ACCESS_KEY_GOES_HERE>
 whirr.private-key-file=${sys:user.home}/.ssh/id_rsa
-
 ```
 
 Replace the obvious fields with your Amazon EC2 Access Key ID and Amazon EC2 Secret Access Key.
-
-<script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln inner content leader */
-google_ad_slot = "1476289318";
-google_ad_width = 728;
-google_ad_height = 90;
-//--&gt;
-</script>
-
-  
-
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
 
 ## Launch Your Cluster
 
@@ -113,41 +97,11 @@ bin/whirr destroy-cluster --config cassandra.properties
 
 Destroying mycassandracluster cluster
 Cluster mycassandracluster destroyed
-
 ```
 
-<div style="padding-bottom: 40px">
-<div style="float: left; width: 300px; margin: 0px; padding: 0px; padding-right: 30px"><script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln post resources left big sq */
-google_ad_slot = "8297487856";
-google_ad_width = 300;
-google_ad_height = 250;
-//--&gt;
-</script><br/>
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
-</div>
-<div style="padding-top: 40px">
-<h2>Conclusion</h2>
-<p>Whirr makes it very easy to start and stop a Cassandra cluster in the cloud without leaving the comfort of your laptop. What you do with that cluster is up to you, but I will be give you some ideas of what you could do in future posts.</p>
-<p><a href="/feed">Stay tuned</a>!
-</p></div>
-<div style="clear:both;"></div>
-</div>
+## Conclusion
 
-<div class="hentry post publish post-8 even alt author-admin category-data-processing category-hadoop-2 category-ruby-2 post_tag-amazon-ec2 post_tag-bash post_tag-cloudera post_tag-data-processing-2 post_tag-hadoop post_tag-hadoop-cluster post_tag-hadoop-streaming post_tag-hdfs post_tag-jclouds post_tag-map-reduce post_tag-ruby post_tag-whirr" id="post-484">
-<h2 class="entry-title"><a href="/map-reduce-with-ruby-using-hadoop" rel="bookmark" title="Map-Reduce With Ruby Using Hadoop">Map-Reduce With Ruby Using Hadoop</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, December 31st, 2010, 9:38 am">December 31, 2010</abbr></p>
-<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
-<div class="entry-content">
-<p>Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will <em>not</em> need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/map-reduce-with-ruby-using-hadoop"><strong>Continue reading…</strong></a></div>
-</div>
-
-Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will _not_ need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.
+Whirr makes it very easy to start and stop a Cassandra cluster in the cloud without leaving the comfort of your laptop. What you do with that cluster is up to you, but I will be give you some ideas of what you could do in future posts.
 
 <div id="comments">
   <h3 id="comments-number" class="comments-header">4 responses to “Quickly Launch A Cassandra Cluster On Amazon EC2”</h3>

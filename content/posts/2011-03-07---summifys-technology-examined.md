@@ -28,7 +28,7 @@ description: "In this post I will look at the technology infrastructure behind S
 socialImage:
   publicURL: "/media/images/2011/03/summify_technology_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/zipckr/3925513417/" title="Web 2.0 icons by zipckr, on Flickr"><img alt="Web 2.0 icons" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/summify_technology/summify_technology.jpg?1" width="450"/></a>
+<a href="https://www.flickr.com/photos/zipckr/3925513417/" title="Web 2.0 icons by zipckr, on Flickr"><img alt="Web 2.0 icons" height="338" src="/media/images/summify_technology/summify_technology.jpg?1" width="450"/></a>
 
 Following on from examining [Quora’s technology](/quoras-technology-examined), I thought I would look at a tech company closer to home. Home being [Vancouver, BC](https://www.tourismvancouver.com/visitors/). While the tech scene is much smaller here than in [the valley](https://en.wikipedia.org/wiki/Silicon_Valley), [it is here](https://www.readwriteweb.com/start/2011/01/never-mind-the-valley-heres-va.php). In fact, Vancouver boasts the largest number of [entrepreneurs per capita](https://www.readwriteweb.com/start/2011/01/never-mind-the-valley-heres-va.php).
 
@@ -276,7 +276,7 @@ I will not go into details of the complete API, 1) because I do not have it and 
 
 This request is made when I click the 
 
-<img height="162" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/summify_technology/summify_click_more.png" width="500"/>
+<img height="162" src="/media/images/summify_technology/summify_click_more.png" width="500"/>
 
 ```
 GET /api/recent.json?count=20&order_lt=1298761351.0000%2C1328%2C0000%2C3f4d HTTP/1.1
@@ -501,40 +501,6 @@ To the Summify guys, interesting use of Redis. How much data is Redis storing cu
       <div class="comment-text">
         <p>Wow I miss this article. Great one. I knew Cris and Mircea were awesome but not as much <img src="/media/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  Thanks for taking the time to break their technology down. Great learning. </p>
         <p>PS: Go Vancouver Startups Go!</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-3942" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Downtime Postmortem | Summify" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://newblog.summify.com/2011/03/19/downtime-postmortem/">Downtime Postmortem | Summify</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, July 28th, 2011, 12:25 pm">July 28, 2011</abbr> at <abbr class="comment-time" title="Thursday, July 28th, 2011, 12:25 pm">12:25 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] Yesterday, in order to cope with the increased volume of links we added more crawler processes on one of our machines. (more details about our infrastructure) [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-5297" class="pingback odd alt thread-even depth-1 pingback reader">
-      <img alt="Summify’s Technology Examined « Another Word For It" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://tm.durusau.net/?p=17356">Summify’s Technology Examined « Another Word For It</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, November 2nd, 2011, 4:25 pm">November 2, 2011</abbr> at <abbr class="comment-time" title="Wednesday, November 2nd, 2011, 4:25 pm">4:25 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <blockquote>
-          <p>May just be me but I would think the semantics of the feeds would rank pretty high. Both in terms of recognition of items of interest in terminology familiar to the user as well as new terminology. For example, what if I say I wants feeds on P2P systems, an information overload reducing application would also give me distributed network entries.</p>
-          <p>That’s an easy example but you get the idea. And the system should do that across different interests of users and update its recognition of relevant items to include new terminology as it emerges.</p>
-          <p>BTW, you might want to check out the Summify FAQ on how they determine your interests.</p>
-        </blockquote>
       </div>
       <!-- .comment-text -->
     </li>

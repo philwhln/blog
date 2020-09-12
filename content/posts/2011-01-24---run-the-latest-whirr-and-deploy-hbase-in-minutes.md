@@ -19,7 +19,7 @@ description: "In a few of my recent posts I have covered the ease of deploying c
 socialImage:
   publicURL: "/media/images/2011/01/whirr_hbase_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/wheatfields/3938695154/" title="Fast, faster, faster! by net_efekt, on Flickr"><img align="left" alt="Fast, faster, faster!" height="240" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/whirr_0_3_0/whirr_hbase.jpg" width="320"/></a>
+<a href="https://www.flickr.com/photos/wheatfields/3938695154/" title="Fast, faster, faster! by net_efekt, on Flickr"><img align="left" alt="Fast, faster, faster!" height="240" src="/media/images/whirr_0_3_0/whirr_hbase.jpg" width="320"/></a>
 
 <div style="min-height: 240px">
 In a few of my recent posts I have covered the ease of deploying clusters of <a href="/map-reduce-with-ruby-using-hadoop">Hadoop</a> and <a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2">Cassandra using Whirr</a>. With Whirr you can simply write a configuration file specifying which cloud provider you are using, your credentials and the definition of the cluster you desire and it will build it for you. In this post, I am going to look at the latest Whirr, version 0.3.0, which is currently in <em>release candidate</em> status. I will show you how you can find and build the latest Whirr and live on the edge of what it possible.
@@ -28,12 +28,12 @@ In a few of my recent posts I have covered the ease of deploying clusters of <a 
 
 
 <ul style="padding-bottom: 30px">
-<li><a href="/run-the-latest-whirr-and-deploy-hbase-in-minutes#grabbing-the-source-code">Grabbing The Source Code</a></li>
-<li><a href="/run-the-latest-whirr-and-deploy-hbase-in-minutes#make-sure-you-have-those-dependencies">Make Sure You Have Those Dependencies</a></li>
-<li><a href="/run-the-latest-whirr-and-deploy-hbase-in-minutes#building-whirr">Building Whirr</a></li>
-<li><a href="/run-the-latest-whirr-and-deploy-hbase-in-minutes#launch-a-hbase-cluster&gt;Launch A HBase Cluster&lt;/a&gt;&lt;/li&gt;
+<li><a href="#grabbing-the-source-code">Grabbing The Source Code</a></li>
+<li><a href="#make-sure-you-have-those-dependencies">Make Sure You Have Those Dependencies</a></li>
+<li><a href="#building-whirr">Building Whirr</a></li>
+<li><a href="#launch-a-hbase-cluster&gt;Launch A HBase Cluster&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=">Destroy!</a></li>
-<li><a href="/run-the-latest-whirr-and-deploy-hbase-in-minutes#conclusion">Conclusion</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
 </ul>
 
 <a id="grabbing-the-source-code"></a>
@@ -42,7 +42,7 @@ In a few of my recent posts I have covered the ease of deploying clusters of <a 
 
 On [the source repository for Whirr](https://svn.apache.org/repos/asf/incubator/whirr/), we can find the latest and greatest source code for Whirr. 
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/whirr_0_3_0/twitter_post.png)](https://twitter.com/andreisavu/status/28815577430622208)
+[![](/media/images/whirr_0_3_0/twitter_post.png)](https://twitter.com/andreisavu/status/28815577430622208)
 
 We will use the code from [trunk](https://svn.apache.org/repos/asf/incubator/whirr/trunk), which will give you the very latest version of the software.
 
@@ -115,10 +115,9 @@ Java version: 1.6.0_22
 Java home: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
 Default locale: en_US, platform encoding: MacRoman
 OS name: "mac os x" version: "10.6.6" arch: "x86_64" Family: "mac"
-
 ```
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/whirr_0_3_0/twitter_post2.png)](https://twitter.com/tom_e_white/status/27233840057548800)
+[![](/media/images/whirr_0_3_0/twitter_post2.png)](https://twitter.com/tom_e_white/status/27233840057548800)
 
 <a id="building-whirr"></a>
 
@@ -150,7 +149,6 @@ from central failed
 Missing:
 ----------
 1) org.apache.hadoop:hadoop-core:jar:0.20.2
-
 ```
 
 The path to this dependency was ok, so it must have just been one of those unfortunate glitches in the magic workings of the Internet. Please let me know if you have a similar experience. The chances of this happening to you are very slim.
@@ -184,7 +182,6 @@ This time is only took 2 minutes and built successfully.
 [INFO] Finished at: Mon Jan 24 12:49:58 PST 2011
 [INFO] Final Memory: 90M/123M
 [INFO] ------------------------------------------------------------------------
-
 ```
 
 Now that our code is compiled, we can run the final build command.
@@ -209,8 +206,6 @@ mvn package -Ppackage
 [INFO] Building Whirr
 [INFO]    task-segment: [package]
 [INFO] ------------------------------------------------------------------------
-
-
 ```
 
 <a id="launch-a-hbase-cluster"></a>
@@ -234,7 +229,6 @@ whirr.credential=${env:AWS_SECRET_ACCESS_KEY}
 whirr.hardware-id=c1.xlarge
 whirr.image-id=us-east-1/ami-da0cf8b3
 whirr.location-id=us-east-1
-
 ```
 
 In the above, the line you will want to play with is “whirr.instance-templates”, as this defines the shape and size of your cluster. Increasing the value “5″ will give you a bigger cluster.
@@ -253,20 +247,6 @@ We have a total of 6 machines here. 1 machine runs all the master services and 5
 </table>
 
 If you are interested in how all these Hadoop and HBase components work together, see Lars George’s excellent posts “[HBase Architecture 101 – Storage](https://www.larsgeorge.com/2009/10/hbase-architecture-101-storage.html)” and [HBase Architecture 101 – Write-ahead-Log](https://www.larsgeorge.com/2010/01/hbase-architecture-101-write-ahead-log.html)” or check-out the [HBase wiki](https://wiki.apache.org/hadoop/Hbase/HbaseArchitecture).
-
-<script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln inner content leader */
-google_ad_slot = "1476289318";
-google_ad_width = 728;
-google_ad_height = 90;
-//--&gt;
-</script>
-
-  
-
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
 
 In previous Whirr examples I have defined the Amazon EC2 credentials in this properties file, but the above will pick them up from the environment, which is a better way to go. Export you credentials into your environment (here I use dumby credentials as an example). 
 

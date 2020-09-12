@@ -33,7 +33,7 @@ Occasionally I come across a nugget of technology that is so simple and elegant 
 
 We have a location on the world map (see the red dot) and we want to represent this point as a single value Geohash.
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/geohash/geohash-0.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
+[![](/media/images/geohash/geohash-0.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
 
 First we divide the world into two halves with a vertical line and give each half a binary value of either 0 or 1. Our point on the map is in the “0″ half.
 
@@ -43,13 +43,13 @@ Let’s improve the resolution of our Geohash…
 
 Next we sub-divide our “0″ half of planet into two halves with a horizontal line and assign each half a “0″ or “1″. 
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/geohash/geohash-00.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
+[![](/media/images/geohash/geohash-00.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
 
 We can see our red dot is located in the “0″ half, so we have a higher resolution Geohash of “00″ (“0″ from the first division, and “0″ from the sub-division).
 
 Great! Your chances of attending the party have doubled, but we will need to raise the resolution further to pin-point more accurately.
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/geohash/geohash-001.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
+[![](/media/images/geohash/geohash-001.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
 
 Another sub-division gives us a location of “001″ (“0″ from the first division, and “0″ from the first sub-division and “1″ from this second sub-division).
 
@@ -143,7 +143,7 @@ You get extra points if you have already spotted the problem with finding neares
 
 The nearest point can have wildly different Geohash value, if the location is close to a grid-square boundary. This is similar to two nearby houses that reside on opposite sides of an international border (eg. Canada and USA). There will be no commonality in the addresses of these two houses.
 
-[![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/geohash/geohash-gotcha.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
+[![](/media/images/geohash/geohash-gotcha.png)](https://www.psdgraphics.com/backgrounds/world-map-background/)
 
 In this example above you can see that these 2 locations (green dot and red dot) are pretty close, but they on opposite sides of a boundary. Immediately they will start with opposite binary values. Many subsequent horizontal divisions will see the green dot on the far right (“1″) of the division and the red dot on the far left (“0″). There will be very little correlation in the geohash values of these two neighbouring dots.
 

@@ -924,20 +924,6 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
-    <li id="comment-44872" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Getting started with git ← Adm.in Berlin" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://adminberlin.de/getting-started-with-git/">Getting started with git ← Adm.in Berlin</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, May 9th, 2013, 5:53 am">May 9, 2013</abbr> at <abbr class="comment-time" title="Thursday, May 9th, 2013, 5:53 am">5:53 am</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <p>[...] During the journey I was inspired by: https://www.bigfastblog.com/gitolite-installation-step-by-step [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-45816" class="comment odd alt thread-even depth-1 comment reader">
       <img alt="D Israel" src="https://0.gravatar.com/avatar/2d3cb0cd560fa69f41eca7f9ef417a77?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">

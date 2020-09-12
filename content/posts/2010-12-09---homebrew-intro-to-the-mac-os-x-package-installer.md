@@ -283,21 +283,6 @@ I hope you find this quick intro to Homebrew helpful. Please leave a comment to 
       </ol>
     </li>
     <!-- .comment -->
-    <li id="comment-1920" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="TechnoGrad » Blog Archive » MacOSX and homebrew" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://trunzer.org/2011/04/11/macosx-and-homebrew/">TechnoGrad » Blog Archive » MacOSX and homebrew</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, April 11th, 2011, 2:55 am">April 11, 2011</abbr> at <abbr class="comment-time" title="Monday, April 11th, 2011, 2:55 am">2:55 am</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] Wie bei allen Dingen, die stark ins System eingreifen, funktionierte bei mir der empfohlene Weg der Installation von ‘homebrew’ mal wieder nicht. Google sei Dank fand ich (kurz bevor ich alle Haare verlor) diesen wertvollen Link zur einfachen Installation des neuen ‘macports’ oder ‘fink’. Ein Befehl in der console und es wuppt! 2 thumbs up to heaven!!! Und hier ist der wertvolle Link. [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-1944" class="comment odd alt thread-even depth-1 comment reader">
       <img alt="Jasper" src="https://1.gravatar.com/avatar/5dc8d9906bf5ac3e07ee47a99f9c197e?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">

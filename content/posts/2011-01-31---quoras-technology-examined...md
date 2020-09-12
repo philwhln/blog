@@ -33,7 +33,7 @@ tags:
   - webscale
 description: "In this blog post I will delve into the snippets of information available on Quora and look at Quora from a technical perspective. What technical decisions have they made? What does their architecture look like? What languages and frameworks do they use? How do they make that search bar respond so quickly?"
 ---
-<a href="https://www.flickr.com/photos/a_mason/4280360776/" title="Magnifying the Circuit Board by Andrew Mason, on Flickr"><img alt="Magnifying the Circuit Board" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/quora_microscope/quora_microscope.jpg" width="450"/></a>
+<a href="https://www.flickr.com/photos/a_mason/4280360776/" title="Magnifying the Circuit Board by Andrew Mason, on Flickr"><img alt="Magnifying the Circuit Board" height="338" src="/media/images/quora_microscope/quora_microscope.jpg" width="450"/></a>
 
 Quora has taken the tech and entrepreneurial world by storm, providing a system that works so fluidly that it is sometimes hard to see what the big fuss is all about. This slick tool is powered, not only by an intelligent crowd of askers and answerers, but by a well-crafted backend created by co-founders who honed their skills at Facebook.
 

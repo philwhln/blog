@@ -157,48 +157,6 @@ Phil</p>
       </ol>
     </li>
     <!-- .comment -->
-    <li id="comment-58" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Working With Large Data Sets | Large Data Matters" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://india.paxcel.net:6060/LargeDataMatters/?p=550">Working With Large Data Sets | Large Data Matters</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Tuesday, September 28th, 2010, 1:58 am">September 28, 2010</abbr> at <abbr class="comment-time" title="Tuesday, September 28th, 2010, 1:58 am">1:58 am</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <p>[...] post on Large Data Sets.   This entry was posted in General. Bookmark the permalink.    ← Webinar [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-64" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Data Mining Without Hadoop" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.bigfastblog.com/?p=238">Data Mining Without Hadoop</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, October 1st, 2010, 5:41 am">October 1, 2010</abbr> at <abbr class="comment-time" title="Friday, October 1st, 2010, 5:41 am">5:41 am</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <p>[...] is a follow-up to my recent blog-post on Working With Large Data Sets. That post had some interest, so I thought it would be a good idea to go through the methodologies [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-161" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Working with large data sets « Hansa-Cequity's Knowledge Centre" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://cequityknowledge.wordpress.com/2010/11/29/working-with-large-data-sets/">Working with large data sets « Hansa-Cequity's Knowledge Centre</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, November 29th, 2010, 5:32 am">November 29, 2010</abbr> at <abbr class="comment-time" title="Monday, November 29th, 2010, 5:32 am">5:32 am</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <p>[...] Take a look           LikeBe the first to like this post. [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-489" class="comment odd alt thread-odd thread-alt depth-1 comment reader">
       <img alt="Montreal Web Design" src="https://0.gravatar.com/avatar/2e41d52b2986c0c63a2f464e34b7b3f3?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">

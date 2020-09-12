@@ -29,7 +29,7 @@ description: "In this blog post I will introduce SQLShell and demonstrate, step-
 socialImage:
   publicURL: "/media/images/2011/01/sqlshell_nosql_potential_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/pvera/114420037/" title="Will code for food by pvera, on Flickr"><img align="left" alt="Will code for food" height="180" src="https://farm1.static.flickr.com/45/114420037_f08201d9b8_m.jpg" style="border: none; padding: none; padding-right: 50px; padding-bottom: 20px;" width="240"/></a> 
+<a href="https://www.flickr.com/photos/pvera/114420037/" title="Will code for food by pvera, on Flickr"><img align="left" alt="Will code for food" height="180" src="/media/images/sqlshell_nosql/einstein_blackboard.jpg" style="border: none; padding: none; padding-right: 50px; padding-bottom: 20px;" width="240"/></a> 
 
 In this blog post I will introduce SQLShell and demonstrate, step-by-step, how to install it and start using it with MySQL. I will also reflect on the possibilites of using this with NoSQL technologies, such as HBase, MongoDB, Hive, CouchDB, Redis and Google BigQuery.
 
@@ -88,13 +88,13 @@ java -jar sqlshell-0.7.1-install.jar
 
 First thing you see if all goes well is the language prompt. I am speak the English.
 
-<img alt="SQLShell Installer language prompt" height="230" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/sqlshell_nosql/sqlshell_install_prompt.png" width="304"/>
+<img alt="SQLShell Installer language prompt" height="230" src="/media/images/sqlshell_nosql/sqlshell_install_prompt.png" width="304"/>
 
 Following this you will see a welcome screen, then a intro and info page, and then the license page. Be sure to read the license carefully – especially the part about “your first born child”.
 
 Here is what you will see for the intro screen. 
 
-<img alt="SQLShell Installer intro screen" height="515" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/sqlshell_nosql/sqlshell_install_intro_screen.png" width="670"/>
+<img alt="SQLShell Installer intro screen" height="515" src="/media/images/sqlshell_nosql/sqlshell_install_intro_screen.png" width="670"/>
 
 When you get to the end, you will see the following message…
 
@@ -169,7 +169,6 @@ db     Name of database to which to connect, or an on-the-fly database
        databases (like SQLite) don't require them at all.
 
 @file  Path of file of commands to run
-
 ```
 
 ## SQLShell With MySQL
@@ -189,7 +188,6 @@ To configure the “mysql” alias we will edit the default configuration file _
 ```
 mkdir ~/.sqlshell
 vim ~/.sqlshell/config # I use vim to edit files
-
 ```
 
 Add the following configuration…
@@ -197,7 +195,6 @@ Add the following configuration…
 ```
 [drivers]
 mysql = com.mysql.jdbc.Driver
-
 ```
 
 ### Connect To MySQL Using SQLShell
@@ -221,7 +218,6 @@ Using JLine
 Type "help" for help. Type ".about" for more information.
 
 sqlshell>
-
 ```
 
 Ok, we are connected to MySQL and can start running some queries.
@@ -235,7 +231,6 @@ Help is available for the following commands:
 .about    .capture  .desc     .echo     .run      .set      .show
 alter     begin     commit    create    delete    drop      exit
 help      history   insert    r         rollback  select    update
-
 ```
 
 Let’s see what databases we have…
@@ -252,7 +247,6 @@ information_schema
 test
 
 sqlshell>
-
 ```
 
 We can create an new database.
@@ -261,29 +255,13 @@ We can create an new database.
 sqlshell> create database sqlshell_test;
 1 row affected.
 Execution time: 0.5 seconds
-
 ```
 
 SQLShell passes SQL statements in full to the database, so you can use any commands that your database understands.
 
-<table style="margin: none; border: none" width="100%">
-<tr>
-<td align="left" style="border: none">
-<h2>Conclusion</h2>
-<p>The initial purpose of this blog post was to demonstrate SQLShell with a NoSQL database, but unfortunately I failed to find a JDBC driver that implemented all the features that SQLShell requires. I’m hoping that development of such drivers will continue, as it will be good to have standard inferface to all these NoSQL technologies directly from the command-line. I look forward to seeing how SQLShell and these JDBC develop over time.</p>
-</td>
-<td align="left" style="width: 300px; border: none"><script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln sqlshell sq cnclsn */
-google_ad_slot = "3689646111";
-google_ad_width = 336;
-google_ad_height = 280;
-//--&gt;
-</script><br/>
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script></td>
-</tr>
-</table>
+##Conclusion
+
+The initial purpose of this blog post was to demonstrate SQLShell with a NoSQL database, but unfortunately I failed to find a JDBC driver that implemented all the features that SQLShell requires. I’m hoping that development of such drivers will continue, as it will be good to have standard inferface to all these NoSQL technologies directly from the command-line. I look forward to seeing how SQLShell and these JDBC develop over time.
 
 <div id="comments">
   <h3 id="comments-number" class="comments-header">2 responses to “SQLShell. A Cross-Database SQL Tool With NoSQL Potential”</h3>

@@ -23,7 +23,7 @@ description: "In this blog post I'll go through an example, in repeatable steps,
 socialImage:
   publicURL: "/media/images/photo.jpg"
 ---
-<img align="left" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/stackato-tornado-demo/stackato-logo.png"/>
+<img align="left" src="/media/images/stackato-tornado-demo/stackato-logo.png"/>
 
 [ActiveState](https://www.activestate.com/) have recently released their [Stackato](https://www.activestate.com/cloud) PaaS (Platform-as-a-Service) which is based on VMware’s open-source PaaS, [Cloud Foundry](https://www.cloudfoundry.com/), and offers an enterprise PaaS solution that will run on any public cloud, private cloud, laptop or desktop.
 
@@ -183,7 +183,7 @@ After clicking “Allow”, we’re taken to the rather basic chat interface tha
 
 We are logged in our as Google Accounts user and can start chatting!
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/stackato-tornado-demo/chat.png)
+![](/media/images/stackato-tornado-demo/chat.png)
 
 <h2 id="stop-the-chatter">Stop The Chatter</h2>
 
@@ -202,7 +202,7 @@ $ stackato apps
 
 Encase you are curious, this is what you’ve seen when you visit your sub-domain for this app…
 
-![](https://commondatastorage.googleapis.com/philwhln/blog/media/images/stackato-tornado-demo/deleted.png)
+![](/media/images/stackato-tornado-demo/deleted.png)
 
 ```
 VCAP ROUTER: 404 - DESTINATION NOT FOUND

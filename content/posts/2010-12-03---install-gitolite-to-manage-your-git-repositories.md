@@ -258,21 +258,6 @@ $REMOTE_USER=”Phil”</p>
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
-    <li id="comment-1917" class="pingback even thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Getting started with Git" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.benmccann.com/dev-blog/getting-started-with-git/">Getting started with Git</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, April 11th, 2011, 1:04 am">April 11, 2011</abbr> at <abbr class="comment-time" title="Monday, April 11th, 2011, 1:04 am">1:04 am</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] There are two downsides with Git. The first is that there’s no central server to store the code base. GitHub can fulfill this role if you don’t mind someone else hosting your source code. If you want to set up a central server yourself it seems the best solution is gitolite. The documentation isn’t for beginners, but I found a decent tutorial on setting up gitolite. [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-3638" class="comment odd alt thread-even depth-1 comment reader">
       <img alt="Pradeep Sharma" src="https://0.gravatar.com/avatar/0bb106b95fc10c738cab68c357558262?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">

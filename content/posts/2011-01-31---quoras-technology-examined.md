@@ -35,7 +35,7 @@ description: "In this blog post I will delve into the snippets of information av
 socialImage:
   publicURL: "/media/images/2011/01/quora_microscope_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/a_mason/4280360776/" title="Magnifying the Circuit Board by Andrew Mason, on Flickr"><img alt="Magnifying the Circuit Board" height="338" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/quora_microscope/quora_microscope.jpg" width="450"/></a>
+<a href="https://www.flickr.com/photos/a_mason/4280360776/" title="Magnifying the Circuit Board by Andrew Mason, on Flickr"><img alt="Magnifying the Circuit Board" height="338" src="/media/images/quora_microscope/quora_microscope.jpg" width="450"/></a>
 
 Quora has taken the tech and entrepreneurial world by storm, providing a system that works so fluidly that it is sometimes hard to see what the big fuss is all about. This slick tool is powered, not only by an intelligent crowd of askers and answerers, but by a well-crafted backend created by co-founders who honed their skills at Facebook.
 
@@ -551,21 +551,6 @@ In this post I will look at the technology infrastructure behind <a href="https:
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
-    <li id="comment-1068" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Quora : le test | docnews" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://docnews.wordpress.com/2011/02/13/quora-le-test/">Quora : le test | docnews</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, February 13th, 2011, 4:59 am">February 13, 2011</abbr> at <abbr class="comment-time" title="Sunday, February 13th, 2011, 4:59 am">4:59 am</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] Notons d’abord, qu’en déhors de ses défauts, Quora a d’extraordinaires qualités, parmi lesquelles une fluidité à toute épreuve. Tout est facile à faire : poser une question, la commenter, la modifier, la retrouver, y répondre, suivre des gens, ne plus les suivre, suivre une question, une thématique. Toutes les fonctionnalités et les choix techniques de Quora sont détaillés ici. [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-1192" class="trackback even thread-even depth-1 trackback reader">
       <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
@@ -580,21 +565,6 @@ In this post I will look at the technology infrastructure behind <a href="https:
           <strong>Does Quora use an evented server? And if so which one?…</strong>
         </p>
         <p>They use Tornado, and a framework called LiveNode. https://www.bigfastblog.com/quoras-technology-examined provides an excellent, recent summary gleaned from the founders’ answers on this site….</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-1379" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Quora 用了哪些技术 ? - webguo在路上" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.webguo.com/2011/03/8/quora_arch.html">Quora 用了哪些技术 ? - webguo在路上</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Tuesday, March 8th, 2011, 7:19 am">March 8, 2011</abbr> at <abbr class="comment-time" title="Tuesday, March 8th, 2011, 7:19 am">7:19 am</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...]  by Fenng@dbanotes.net很多团队都在学习、研究 Quora 。前段时间看到这篇 Quora's Technology Examined ，阐述了 Quora [...]</p>
       </div>
       <!-- .comment-text -->
     </li>
@@ -649,36 +619,6 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
-    <li id="comment-1743" class="pingback odd alt thread-odd thread-alt depth-1 pingback reader">
-      <img alt="Tutte le tecnologie che fanno funzionare Quora | Edit - Il blog di HTML.it" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://blog.html.it/14/02/2011/tutte-le-tecnologie-che-fanno-funzionare-quora/">Tutte le tecnologie che fanno funzionare Quora | Edit - Il blog di HTML.it</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, March 28th, 2011, 7:30 am">March 28, 2011</abbr> at <abbr class="comment-time" title="Monday, March 28th, 2011, 7:30 am">7:30 am</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] Interessante post questo sul blog di Phil Whelan, che esamina Quora e le tecnologie che ne permettono il funzionamento, quasi tutte (se non tutte) Open Source. [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-2139" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="BrandSocialism – 33 Quora Q&amp;A Resources: get actual ROI out of using it" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.brandsocialism.com/2011/02/17/33-quora-qa-resources-actual-roi/">BrandSocialism – 33 Quora Q&amp;A Resources: get actual ROI out of using it</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, April 20th, 2011, 8:05 pm">April 20, 2011</abbr> at <abbr class="comment-time" title="Wednesday, April 20th, 2011, 8:05 pm">8:05 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>[...] Quora’s Technology Examined | Phil Whelan’s Blog [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-2836" class="comment odd alt thread-odd thread-alt depth-1 comment reader">
       <img alt="Ramesh" src="https://1.gravatar.com/avatar/978281c699050200f917d81a2ff6ca87?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
@@ -728,20 +668,6 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
-    <li id="comment-3642" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="David Crow | Under the Hood | Chango | StartupNorth" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://startupnorth.ca/2011/07/07/under-the-hood-chango/">David Crow | Under the Hood | Chango | StartupNorth</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, July 7th, 2011, 9:00 am">July 7, 2011</abbr> at <abbr class="comment-time" title="Thursday, July 7th, 2011, 9:00 am">9:00 am</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <p>[...] I am always curious at what startups are using for the technology under the hood [...]</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-3655" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
       <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
@@ -755,20 +681,6 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <strong>Can I build site like Quora on wordpress framework?…</strong>
         </p>
         <p>You could build a site like Quora (Questions &amp; Answers) but not exactly like Quora. Quora uses some open source but also in-house developed technologies and you or who is developing your site using WordPress will need to replicate, not an easy task (es…</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-4257" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="The Significance of Quora’s LiveNode Technology « semil's blog" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://semilshah.wordpress.com/2011/08/15/the-significance-of-quoras-livenode-technology/">The Significance of Quora’s LiveNode Technology « semil's blog</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, August 15th, 2011, 3:10 pm">August 15, 2011</abbr> at <abbr class="comment-time" title="Monday, August 15th, 2011, 3:10 pm">3:10 pm</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <p>[...] Two: Quora’s own internal development of frameworks, specifically LiveNode (LN) and WebNode2 (WN2), put this company in another class of technology endeavors. Earlier in 2011, Phil Whelan wrote a very thorough assessment of Quora’s technology stack — it’s a must read and touches on LN and WN2, too. (I’d highly recommend this piece, click here.) [...]</p>
       </div>
       <!-- .comment-text -->
     </li>
@@ -820,22 +732,6 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <strong>Is Quora a digital media company, a technology company, or both?…</strong>
         </p>
         <p>My take is a bit different. I would say that Quora is, at this time, more of a technology company and less than a media one. Why? Because they have built among the first real time Q&amp;A websites (as far as I know none of the rivals has something like thi…</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-4970" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Quora’s Technology Examined « ABENDance" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://abendance.wordpress.com/2011/10/11/quora%e2%80%99s-technology-examined/">Quora’s Technology Examined « ABENDance</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, October 10th, 2011, 11:48 pm">October 10, 2011</abbr> at <abbr class="comment-time" title="Monday, October 10th, 2011, 11:48 pm">11:48 pm</abbr> | Permalink  </div>
-      <div class="comment-text">
-        <blockquote>
-          <p>interesting article</p>
-        </blockquote>
       </div>
       <!-- .comment-text -->
     </li>

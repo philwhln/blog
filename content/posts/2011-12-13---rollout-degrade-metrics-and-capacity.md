@@ -23,7 +23,6 @@ description: "Last week I attended a presentation by James Golick, CTO of fetlif
 socialImage:
   publicURL: "/media/images/2011/12/rollout-degrade-metrics-and-capacity_sq.jpg"
 ---
-<div style="height: 280px"><a href="https://www.flickr.com/photos/yvoictra/3498203833/"><img align="left" height="251" src="https://commondatastorage.googleapis.com/philwhln/blog/media/images/rollout_degrade_metrics_and_capacity/rollout-degrade-metrics-and-capacity.jpg" width="320"/></a> Last week I attended a presentation by <a href="https://jamesgolick.com/">James Golick</a>, CTO of <a href="https://www.fetlife.com">fetlife.com</a>. Intriguingly advertised as <a href="https://www.meetup.com/vancouver-scala/events/38342382/">“Scaling a Website to 300 Million Page Views Per Month with Scala”</a> I thought it was worth a break from building <a href="https://www.cooq.com/">cooq.com</a> to attend. Fetlife have been heavy users of Ruby, but are transitioning to Scala and having been using Scala code in production for 2 years. Several of the tools mentioned below are built in Ruby, but they plan to migrate them to Scala over time.</div>
 
 ## Rollout
 
@@ -83,29 +82,4 @@ James suggested looking at the book [The Art Of Capacity Planning](https://shop.
 ### Understand Your Spikes
 
 Capacity planning is not just about projecting your current usage. Websites have spikes. During certain sports events Twitter and Facebook see large spikes in traffic. They understand their spikes, know how big their potential are and plan accordingly. James points out that for most sites spikes are very small and even with the worst spiky offenders, after a couple of spikes you have a pretty good idea of what to expect.
-
-<div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Rollout, Degrade, Metrics and Capacity”</h3>
-  <ol class="comment-list">
-    <li id="comment-6614" class="pingback even thread-even depth-1 pingback reader">
-      <img alt="Link: Rollout Degrade Metrics and Capacity | Loosely Connected" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/pingback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://looselyconnected.wordpress.com/2011/12/16/link-rollout-degrade-metrics-and-capacity/">Link: Rollout Degrade Metrics and Capacity | Loosely Connected</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, December 16th, 2011, 8:13 am">December 16, 2011</abbr> at <abbr class="comment-time" title="Friday, December 16th, 2011, 8:13 am">8:13 am</abbr>
-      </div>
-      <div class="comment-text">
-        <blockquote>
-          <p>This is a pretty fascinating article. While very high level, it talks about things I’ve been interested in (on a much smaller scale) for a while.</p>
-          <p>I’ve hand-coded some solutions that do these sorts of things, but not to this scale or completeness. The article surprised me with the nature of some of the technologies they were using; for example, I’d always thought of Ganglia as a monitoring solution, not for metrics gathering.</p>
-        </blockquote>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-  </ol>
-  <!-- .comment-list -->
-</div>
 
