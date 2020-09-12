@@ -8,7 +8,7 @@ exports[`Post renders correctly 1`] = `
     className="post__home-button"
     href="/"
   >
-    All Articles
+    Posts
   </a>
   <div
     className="post__content"
@@ -31,6 +31,14 @@ exports[`Post renders correctly 1`] = `
       />
     </div>
   </div>
+  <a
+    className="post__home-button"
+    href="/"
+  >
+    <b>
+      More posts
+    </b>
+  </a>
   <div
     className="post__footer"
   >
