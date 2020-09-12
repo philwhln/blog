@@ -185,19 +185,6 @@ Zero-copy is way to increase performance when transferring static data between t
 *   [Ruby IO Splice Homepage](https://bogomips.org/ruby_io_splice/)
 *   [How to create PI sequentially in Ruby](https://stackoverflow.com/questions/3137594/how-to-create-pi-sequentially-in-ruby)
 
-<div class="hentry post publish post-7 odd author-admin category-data-processing category-hadoop-2 category-ruby-2 post_tag-amazon-ec2 post_tag-bash post_tag-cloudera post_tag-data-processing-2 post_tag-hadoop post_tag-hadoop-cluster post_tag-hadoop-streaming post_tag-hdfs post_tag-jclouds post_tag-map-reduce post_tag-ruby post_tag-whirr" id="post-484">
-<h2 class="entry-title"><a href="/map-reduce-with-ruby-using-hadoop" rel="bookmark" title="Map-Reduce With Ruby Using Hadoop">Map-Reduce With Ruby Using Hadoop</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, December 31st, 2010, 9:38 am">December 31, 2010</abbr> </p>
-<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
-<div class="entry-content">
-<p>Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will <em>not</em> need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/map-reduce-with-ruby-using-hadoop"><strong>Continue reading…</strong></a></div>
-</div>
-
-Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will _not_ need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.
-
 <div id="comments">
   <h3 id="comments-number" class="comments-header">2 responses to “Zero-Copy. Transfer Data Faster In Ruby”</h3>
   <ol class="comment-list">

@@ -213,11 +213,11 @@ Other posts in this series
           <div class="comment-text">
             <p>Hi Ludovic,</p>
             <p>I added EM.epoll before EM.run and here are the results</p>
-            <p>$ ruby memcached.rb<br />
-sync:<br />
-  3.950000   4.240000   8.190000 ( 16.496183)<br />
-async:<br />
- 40.090000   1.110000  41.200000 ( 41.708882)</p>
+            <pre>$ ruby memcached.rb
+sync:
+  3.950000   4.240000   8.190000 ( 16.496183)
+async:
+ 40.090000   1.110000  41.200000 ( 41.708882)</pre>
             <p>Actually a little worse performance, but this is running on my Mac and epoll is for multiplexed I/O that is available in Linux 2.6 kernels.</p>
             <p>Cheers,<br />
 Phil</p>
@@ -344,7 +344,7 @@ puts Benchmark.measure { puts "async:"; async2 }
           </div>
           <div class="comment-text">
             <p>Be careful what you wish for…<br />
-https://www.bigfastblog.com/rubys-eventmachine-part-3-thin</p>
+<a href="/rubys-eventmachine-part-3-thin">Ruby’s EventMachine – Part 3 : Thin</a></p>
           </div>
           <!-- .comment-text -->
         </li>

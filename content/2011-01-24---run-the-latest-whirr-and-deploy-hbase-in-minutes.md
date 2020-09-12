@@ -288,7 +288,6 @@ Wrote HBase proxy script /Users/phil/.whirr/hbase/hbase-proxy.sh
 Wrote instances file /Users/phil/.whirr/hbase/instances
 Started cluster of 6 instances
 Cluster{instances=[Instance{roles=[tt, hbase-regionserver, dn], publicAddress=/204.236.242.78, privateAddress=/10.195.6.143, id=us-east-1/i-f5348099}, Instance{roles=[tt, hbase-regionserver, dn], publicAddress=/174.129.72.44, privateAddress=/10.119.22.224, id=us-east-1/i-f9348095}, Instance{roles=[tt, hbase-regionserver, dn], publicAddress=/50.16.71.166, privateAddress=/10.98.33.250, id=us-east-1/i-fb348097}, Instance{roles=[jt, nn, zk, hbase-master], publicAddress=ec2-184-72-159-249.compute-1.amazonaws.com/184.72.159.249, privateAddress=/10.112.205.48, id=us-east-1/i-e134808d}, Instance{roles=[tt, hbase-regionserver, dn], publicAddress=/174.129.142.130, privateAddress=/10.98.146.48, id=us-east-1/i-f134809d}, Instance{roles=[tt, hbase-regionserver, dn], publicAddress=/50.16.154.13, privateAddress=/10.194.127.79, id=us-east-1/i-f734809b}], configuration={hbase.zookeeper.quorum=ec2-184-72-159-249.compute-1.amazonaws.com:2181}}
-
 ```
 
 <a id="destroy"></a>
@@ -302,54 +301,13 @@ bin/whirr destroy-cluster --config hbase-ec2.properties
 
 Destroying hbase cluster
 Cluster hbase destroyed
-
 ```
 
-<div style="padding-bottom: 40px">
-<div style="float: left; width: 300px; margin: 0px; padding: 0px; padding-right: 30px"><script type="text/javascript">&lt;!--
-google_ad_client = "pub-5260338827095335";
-/* philwhln post resources left big sq */
-google_ad_slot = "8297487856";
-google_ad_width = 300;
-google_ad_height = 250;
-//--&gt;
-</script><br/>
-<script src="https://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
-</script>
-</div>
-<div style="padding-top: 40px">
-<p><a id="conclusion"></a></p>
-<h2>Conclusion</h2>
-<p>Congratulations! If you have followed through this example, then you now have your own HBase cluster running in the cloud. Now… what to do with that HBase cluster? <a href="/feed">Stay tuned for a future posts</a>.</p>
-</div>
-<div style="clear:both;"></div>
-</div>
+<a id="conclusion"></a>
 
-<div class="hentry post publish post-1 odd author-admin category-cassandra-nosql-2 category-web-development post_tag-amazon-ec2 post_tag-cassandra post_tag-cluster post_tag-homebrew post_tag-mac-os-x post_tag-nosql post_tag-whirr" id="post-1051">
-<h2 class="entry-title"><a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2" rel="bookmark" title="Quickly Launch A Cassandra Cluster On Amazon EC2">Quickly Launch A Cassandra Cluster On Amazon EC2</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, January 21st, 2011, 6:58 pm">January 21, 2011</abbr></p>
-<div style="float: left;"><img alt="launch_cassandra_amazon_ec2_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/launch_cassandra_amazon_ec2_sq.jpg" title="launch_cassandra_amazon_ec2_sq" width="180"/></div>
-<div class="entry-content">
-<p>If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it [...]</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2"><strong>Continue reading…</strong></a></div>
-</div>
+##Conclusion
 
-If you have read my previous post, “Map-Reduce With Ruby Using Hadoop“, then you will know that firing up a Hadoop cluster is really simple when you use Whirr. Without even ssh’ing on the machines in the cloud you can start-up your cluster and interact with it. In this post I’ll show you that it \[...\]
-
-<div class="hentry post publish post-8 even alt author-admin category-data-processing category-hadoop-2 category-ruby-2 post_tag-amazon-ec2 post_tag-bash post_tag-cloudera post_tag-data-processing-2 post_tag-hadoop post_tag-hadoop-cluster post_tag-hadoop-streaming post_tag-hdfs post_tag-jclouds post_tag-map-reduce post_tag-ruby post_tag-whirr" id="post-484">
-<h2 class="entry-title"><a href="/map-reduce-with-ruby-using-hadoop" rel="bookmark" title="Map-Reduce With Ruby Using Hadoop">Map-Reduce With Ruby Using Hadoop</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Friday, December 31st, 2010, 9:38 am">December 31, 2010</abbr></p>
-<div style="float: left;"><img alt="hadoop_ruby_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/hadoop_ruby_sq.jpg" title="hadoop_ruby_sq" width="180"/></div>
-<div class="entry-content">
-<p>Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will <em>not</em> need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/map-reduce-with-ruby-using-hadoop"><strong>Continue reading…</strong></a></div>
-</div>
-
-Here I demonstrate, with repeatable steps, how to fire-up a Hadoop cluster on Amazon EC2, load data onto the HDFS (Hadoop Distributed File-System), write map-reduce scripts in Ruby and use them to run a map-reduce job on your Hadoop cluster. You will _not_ need to ssh into the cluster, as all tasks are run from your local machine. Below I am using my MacBook Pro as my local machine, but the steps I have provided should be reproducible on other platforms running bash and Java.
+Congratulations! If you have followed through this example, then you now have your own HBase cluster running in the cloud. Now… what to do with that HBase cluster? [/](Stay tuned for a future posts).
 
 <div id="comments">
   <h3 id="comments-number" class="comments-header">6 responses to “Run The Latest Whirr And Deploy HBase In Minutes”</h3>

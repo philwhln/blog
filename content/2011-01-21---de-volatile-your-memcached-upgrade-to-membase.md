@@ -113,19 +113,6 @@ While the focus of this blog post has been on Membase as a replacement to Memcac
 *   [“Moxi – Memcached Proxy”. Good presentation on Slideshare](https://www.slideshare.net/northscale/moxi-memcached-proxy)
 *   [Membase NoSQL Whitepaper (PDF)](https://www.membase.com/sites/default/files/uploads/all/whitepapers/Membase-NoSQL-Whitepaper.pdf)
 
-<div class="hentry post publish post-9 odd author-admin category-data-processing post_tag-amazon-ec2 post_tag-bbc post_tag-cassandra post_tag-data-processing-2 post_tag-dbpedia post_tag-ebs post_tag-freebase post_tag-hadoop post_tag-hdfs post_tag-large-datasets post_tag-livedoor post_tag-lucene post_tag-mongodb post_tag-nosql post_tag-rackspace post_tag-solr post_tag-wikipedia post_tag-working-with-data" id="post-394">
-<h2 class="entry-title"><a href="/how-to-get-experience-working-with-large-datasets" rel="bookmark" title="How To Get Experience Working With Large Datasets">How To Get Experience Working With Large Datasets</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Wednesday, December 8th, 2010, 11:50 am">December 8, 2010</abbr></p>
-<div style="float: left;"><img alt="big_dataset_experience_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2010/12/big_dataset_experience_sq.jpg" title="big_dataset_experience_sq" width="180"/></div>
-<div class="entry-content">
-<p>There are data sources out there, but which data source you choose depends on which technology you wish to get experience working with. The experience should be of the technologies you are using, rather than what the data is. Certain datasets pair better with certain technologies. Simulating the data can be another approach. You just need a clever way of generating and randomizing your fake data. Thirdly, you can use a hybrid approach. Take real data and replay it on a loop, randomizing it as it goes through. Simulating the Twitter fire-hose should not be too hard, should it?</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/how-to-get-experience-working-with-large-datasets"><strong>Continue reading…</strong></a></div>
-</div>
-
-There are data sources out there, but which data source you choose depends on which technology you wish to get experience working with. The experience should be of the technologies you are using, rather than what the data is. Certain datasets pair better with certain technologies. Simulating the data can be another approach. You just need a clever way of generating and randomizing your fake data. Thirdly, you can use a hybrid approach. Take real data and replay it on a loop, randomizing it as it goes through. Simulating the Twitter fire-hose should not be too hard, should it?
-
 <div id="comments">
   <h3 id="comments-number" class="comments-header">6 responses to “De-volatile Your Memcached. Upgrade to Membase”</h3>
   <ol class="comment-list">

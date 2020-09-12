@@ -7,12 +7,10 @@ slug: "is-ichat-the-future-of-iphone-4-0"
 category: "Apple"
 tags:
   - apple
-  - Engadget
   - iChat
   - iPad
   - iPhone 4G
   - phone
-  - Skype
 description: "After seeing the iPhone 4G on Engadget and the front facing camera that will be included, I started to think about what Apple intends as the future of the"
 socialImage:
   publicURL: "/media/images/photo.jpg"

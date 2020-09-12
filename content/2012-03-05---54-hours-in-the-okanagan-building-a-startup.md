@@ -6,10 +6,7 @@ draft: false
 slug: "54-hours-in-the-okanagan-building-a-startup"
 category: "Startups"
 tags:
-  - 54hours
-  - accelerate okanagan
   - amazon s3
-  - bc
   - canvas
   - html5
   - html5 canvas

@@ -7,11 +7,7 @@ slug: "iphone-3gs-ios-4-1-upgrade-cannot-come-soon-enough"
 category: "Apple"
 tags:
   - apple
-  - iOS 4.0
-  - iOS 4.1
   - iphone
-  - iphone 3G
-  - September 8th
   - slow
   - upgrade
 description: "When I signed up to Apple's iPhone Developer programme I had full intention of developing some really cool apps. It has not happened yet, but I have been able"

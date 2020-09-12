@@ -112,16 +112,3 @@ Whilst they are still at the early stages and are finding their feet with their 
 *   [Nick Dimiduk on Twitter](https://twitter.com/#!/xefyr)
 *   [“Pig, Making Hadoop Easy” – uploaded to Slideshare by Nick Dimiduk](https://www.slideshare.net/xefyr/pig-making-hadoop-easy)
 
-<div class="hentry post publish post-2 even alt author-admin category-start-ups category-web-development post_tag-adam-dangelo post_tag-amazon-ec2 post_tag-aws post_tag-charlie-cheever post_tag-comet post_tag-git post_tag-haproxy post_tag-livenode post_tag-long-polling post_tag-memcached post_tag-mysql post_tag-nginx post_tag-nosql post_tag-paste post_tag-pylons post_tag-quora post_tag-quora-com post_tag-search-box post_tag-steve-souders post_tag-technology post_tag-thrift post_tag-tornado post_tag-ubuntu-linux post_tag-webnode2 post_tag-webscale" id="post-1120">
-<h2 class="entry-title"><a href="/quoras-technology-examined" rel="bookmark" title="Quora’s Technology Examined">Quora’s Technology Examined</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Monday, January 31st, 2011, 12:37 pm">January 31, 2011</abbr> </p>
-<div style="float: left;"><img alt="quora_microscope_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/01/quora_microscope_sq.jpg" title="quora_microscope_sq" width="180"/></div>
-<div class="entry-content">
-<p>In this blog post I will delve into the snippets of information available on Quora and look at Quora from a technical perspective. What technical decisions have they made? What does their architecture look like? What languages and frameworks do they use? How do they make that search bar respond so quickly?</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/quoras-technology-examined"><strong>Continue reading…</strong></a></div>
-</div>
-
-In this blog post I will delve into the snippets of information available on Quora and look at Quora from a technical perspective. What technical decisions have they made? What does their architecture look like? What languages and frameworks do they use? How do they make that search bar respond so quickly?
-

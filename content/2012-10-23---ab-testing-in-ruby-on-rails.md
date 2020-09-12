@@ -16,10 +16,6 @@ description: "In this post I am going to demonstrate, step-by-step, a way to A/B
 socialImage:
   publicURL: "/media/images/photo.jpg"
 ---
-<div style="border: 1px #ddd solid; margin: 5px; margin-bottom: 20px; padding: 5px; background-color: #FFFF99;">
-<strong>Please note</strong>, the latest and greatest integration steps for the <strong>fluidfeatures-rails</strong> gem can be found on<br/>
-<a href="https://github.com/FluidFeatures/fluidfeatures-rails#readme">GitHub</a> at <a href="https://github.com/FluidFeatures/fluidfeatures-rails#readme">https://github.com/FluidFeatures/fluidfeatures-rails#readme</a></div>
-
 In this post I am going to demonstrate, step-by-step, a way to A/B test new features from within Ruby-On-Rails using FluidFeatures. FluidFeatures is currently in closed-beta and requires request for inclusion in the beta program. We are looking for enthusiastic A/B testers, so we can get feedback on the service before releasing it to the masses.
 
 ## A/B Testing?
