@@ -53,7 +53,7 @@ If you manage your A/B testing on the server-side then it is easier to push info
 First we add the __fluidfeatures-rails__ gem to your Rails application’s Gemfile.
 
 ```
-gem "
+gem "fluidfeatures-rails"
 ```
 
 In your __app/controllers/application\_controller.rb__ file you need a method that fluidfeatures-rails can call to find out who the current user is, or if the user is anonymous. In our example we call this __get\_current\_user__, which will return a Hash with at least and __:id__ value.
