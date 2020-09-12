@@ -19,7 +19,7 @@ description: "As mentioned in part 1 and part 2 of this series on Ruby's EventMa
 socialImage:
   publicURL: "/media/images/photo.jpg"
 ---
-As mentioned in [part 1](/rubys-eventmachine-part-1-event-based-programming) and [part 2](/ruby-eventmachine-part-2-asynchronous-not-equal-faster) of this [series on Ruby’s EventMachine](/category/ruby-2/eventmachine), Thin is where most folks encounter EventMachine for the first time, even if they do not realize it. EventMachine is at the core of Thin and allows for the high concurrency that Thin provides to your Rails application. In this post I will look at Thin’s usage of EventMachine.
+As mentioned in [part 1](/rubys-eventmachine-part-1-event-based-programming) and [part 2](/ruby-eventmachine-part-2-asynchronous-not-equal-faster) of this [series on Ruby’s EventMachine](/tag/eventmachine), Thin is where most folks encounter EventMachine for the first time, even if they do not realize it. EventMachine is at the core of Thin and allows for the high concurrency that Thin provides to your Rails application. In this post I will look at Thin’s usage of EventMachine.
 
 ## Thin?
 

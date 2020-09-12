@@ -30,7 +30,7 @@ description: "Remember, Startup Weekend equates to about 21 hours of development
 socialImage:
   publicURL: "/media/images/2012/03/office_small.jpg"
 ---
-<img align="left" src="/media/images/swokanagan/office.jpg?3" style="width: 350px;"/>
+<img align="left" src="/media/images/swokanagan/office.jpg" style="width: 350px;"/>
 
 The first, and I’m certain not the last, [Startup Weekend Okanagan](https://okanagan.startupweekend.org/) was hosted by [Accelerate Okanagan](https://www.accelerateokanagan.com/) at the [Kelowna Innovation Centre](https://www.accelerateokanagan.com/venue/kelowna-innovation-centre-2/).
 
@@ -109,7 +109,7 @@ I encourage anyone interested in building a startup to join this movement when i
 
 <img src="/media/images/swokanagan/startup_hangover.png" style="margin-left: 20px;"/>
 
-<img src="/media/images/swokanagan/pumped_about_career.png?2" style="margin-left: 100px;"/>
+<img src="/media/images/swokanagan/pumped_about_career.png" style="margin-left: 100px;"/>
 
 <img src="/media/images/swokanagan/blown_away.png" style="margin-left: 50px;"/>
 

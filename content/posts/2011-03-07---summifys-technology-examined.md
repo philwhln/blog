@@ -28,7 +28,7 @@ description: "In this post I will look at the technology infrastructure behind S
 socialImage:
   publicURL: "/media/images/2011/03/summify_technology_sq.jpg"
 ---
-<a href="https://www.flickr.com/photos/zipckr/3925513417/" title="Web 2.0 icons by zipckr, on Flickr"><img alt="Web 2.0 icons" height="338" src="/media/images/summify_technology/summify_technology.jpg?1" width="450"/></a>
+<a href="https://www.flickr.com/photos/zipckr/3925513417/" title="Web 2.0 icons by zipckr, on Flickr"><img alt="Web 2.0 icons" height="338" src="/media/images/summify_technology/summify_technology.jpg" width="450"/></a>
 
 Following on from examining [Quora’s technology](/quoras-technology-examined), I thought I would look at a tech company closer to home. Home being [Vancouver, BC](https://www.tourismvancouver.com/visitors/). While the tech scene is much smaller here than in [the valley](https://en.wikipedia.org/wiki/Silicon_Valley), [it is here](https://www.readwriteweb.com/start/2011/01/never-mind-the-valley-heres-va.php). In fact, Vancouver boasts the largest number of [entrepreneurs per capita](https://www.readwriteweb.com/start/2011/01/never-mind-the-valley-heres-va.php).
 
