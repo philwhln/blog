@@ -20,8 +20,6 @@ tags:
   - tornado
   - vmware
 description: "In this blog post I'll go through an example, in repeatable steps, of how to get up and running with the Tornado chat demo on ActiveState's public sandbox for Stackato. ActiveState's Stackato PaaS (Platform-as-a-Service) is based on VMware's open-source PaaS, Cloud Foundry, and offers an enterprise PaaS solution that will run on any public cloud, private cloud, laptop or desktop."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 <img align="left" src="/media/images/stackato-tornado-demo/stackato-logo.png"/>
 

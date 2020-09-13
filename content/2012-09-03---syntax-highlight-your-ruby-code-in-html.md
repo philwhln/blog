@@ -17,8 +17,6 @@ tags:
   - ruby
   - syntax highlighting
 description: "In this blog post I will demonstrate a quick and easy way I have found to syntax highlight your Ruby code in pretty colors for your blog posts or other HTML-based display purposes. Please note, this blog post is designed for use with color monitors only, obviously. The focus of this post is Ruby, but this method also applies for syntax highlighting C, C++, Python, CSS, Clojure, diff, Groovy, HAML, ERB, Java, JavaScript, PHP, SQL, XML and YAML."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://www.flickr.com/photos/vinothchandar/4297342496/in/photostream/"><img align="left" src="https://farm5.staticflickr.com/4011/4297342496_985f56d8e2_n.jpg"/></a>In this blog post I will demonstrate a quick and easy way I have found to syntax highlight your Ruby code in pretty colors for your blog posts or other HTML-based display purposes. Please note, this blog post is designed for use with color monitors only, obviously.
 

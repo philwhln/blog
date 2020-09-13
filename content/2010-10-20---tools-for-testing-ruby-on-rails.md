@@ -25,8 +25,6 @@ tags:
   - testing
   - webrat
 description: "I'm getting stuck into learning Ruby On Rails and the topic of which tools / frameworks to use for testing came up. Here's some notes. I'll be reading up on"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 I’m getting stuck into learning Ruby On Rails and the topic of which tools / frameworks to use for testing came up. Here’s some notes. I’ll be reading up on these testing frameworks in the following order. If you’ve got an thoughts, comments or other ideas, please let me know in the comments.
 

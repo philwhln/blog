@@ -7,8 +7,6 @@ slug: "lunarpages-amazing-support"
 category: "old"
 tags: []
 description: "For nearly 3 years now I've been using Lunarpages web hosting, and every now and then I have to contact their support. Rarely has it ever been a problem with"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 For nearly 3 years now I’ve been using <a id="though2">Lunarpages</a> web hosting, and every now and then I have to contact their support. Rarely has it ever been a problem with service. Mostly it’s to install a new Perl module I need to use. But everytime, no matter what day or time it is over in the states, they send me back friendly emails to say it’s been installed within an hour.  
 This time there was a small problem with my website, so I tried out their IRC browser chat with their support staff. A couple of minutes later my problem was fixed, and once again I felt hope that good support is still available in the world. But for product I get and price it costs, I’m surprised they offer any support.  

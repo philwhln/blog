@@ -13,8 +13,6 @@ tags:
   - facebook
   - kickstarter
 description: "$200,641 has been pledged for the development of Diaspora, the decentralized web implementation, which intends to replace Facebook with a version that is"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://www.kickstarter.com/projects/196017994/diaspora-the-personally-controlled-do-it-all-distr" target="_blank" title="Diaspora pledge on kickstarter">$200,641 has been pledged</a> for the development of Diaspora, the decentralized web implementation, which intends to replace Facebook with a version that is distributed. Each user will retain their own data on their own machine. I see a huge flaw in this. They’re moving in the wrong direction. The web is moving to the cloud, not to home machines. In a few years we’re all going to be running dumb terminals and interacting with data far away. Who wants to look after their own data? Well, us nerds for sure. But your average Joe, or your aunty Barbara? Who’s going backup your data and make sure that you do not lose it when the&nbsp;burglars&nbsp;come for a visit? Will the benefit out-weigh the hassle of installing and maintaining this thing and upgrading your machine as you fill it up with photos and videos? No.
 

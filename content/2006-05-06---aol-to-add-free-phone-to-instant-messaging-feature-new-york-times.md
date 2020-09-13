@@ -7,8 +7,6 @@ slug: "aol-to-add-free-phone-to-instant-messaging-feature-new-york-times"
 category: "old"
 tags: []
 description: "AOL to Add Free Phone to Instant Messaging Feature - New York TimesThis is a great idea. Quite an investment for AOL, but is definately a way to catch up with"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 [AOL to Add Free Phone to Instant Messaging Feature – New York Times](https://www.nytimes.com/2006/05/05/technology/05phone.html)
 

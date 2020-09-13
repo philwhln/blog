@@ -16,8 +16,6 @@ tags:
   - word-of-mouth
   - zappos
 description: "Customer service has been on my mind recently. Funny, because I do not currently have any customers. I've been reading (listening to an audiobook, but it sounds"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 Customer service has been on my mind recently. Funny, because I do not currently have any customers. I’ve been reading (listening to an audiobook, but it sounds funny if I say “listening to”) the [Zappos: Delivering Happiness](https://www.deliveringhappinessbook.com/) book. Last night I spoke with [Alex Toul](https://twitter.com/alextoul) on Twitter who has just written a post entitled [The Secret Sauce behind Zappos Word Of Mouth](https://blog.alextoul.fr/business-inspiration/the-secret-sauce-behind-zappos-word-of-mouth), and it fired me up to write my own post.
 

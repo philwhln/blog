@@ -7,8 +7,6 @@ slug: "software-firewall-like-zonealarm-are-we-safe"
 category: "old"
 tags: []
 description: "Security Now! Transcript of Episode 3 Interesting point made by Leo Laporte that software firewalls, since they run on the same computer as potential spyware"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 [Security Now! Transcript of Episode 3](https://www.grc.com/sn/SN-003.htm)  
   

@@ -16,8 +16,6 @@ tags:
   - ruby
   - ruby on rails
 description: "In this blog post I am going to introduce a new service for Ruby On Rails developers called FluidFeatures that helps you manage rolling out new features to your site and provides a way to easily do A/B testing (competing versions of a feature) right in the belly of your code."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 In this blog post I am going to introduce a new service for Ruby On Rails developers, that I have been working on, called [FluidFeatures](https://fluidfeatures.com/) that helps you manage rolling out new features to your site and provides a way to easily do A/B testing (competing versions of a feature) right in the belly of your code.
 

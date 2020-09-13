@@ -20,8 +20,6 @@ tags:
   - thin
   - tornado
 description: "In this first post, of a series on Ruby's EventMachine, I will introduce EventMachine and explain why event-based programming is good for your wallet. EventMachine, which just turned 1.0.0 this week, is more than just a gem, it is a new paradigm for many Ruby programmers and is not always easy to just drop into your existing stack. As the name suggests, it gives you event-based programming."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 In this first post, of a series on Ruby’s [EventMachine](https://github.com/eventmachine/eventmachine), I will introduce EventMachine and explain why event-based programming is good for your wallet.
 

@@ -9,8 +9,6 @@ tags:
   - adsense
   - wikipedia
 description: "I was just reading An appeal from Wikipedia founder Jimmy Wales, where he is asking for donations for supporting the continuation of Wikipedia, ad-free. I do"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 I was just reading [“An appeal from Wikipedia founder Jimmy Wales”](https://wikimediafoundation.org/w/index.php?title=WMFJA1/en), where he is asking for donations for supporting the continuation of Wikipedia, ad-free. I do not need to tell you what an amazing website Wikipedia is. It’s a vast pool of information with a very large volume of visitors. It would be a perfect marriage for targeted ads from services such as Google Adsense. The money that would be generated from ads would be tremendous. So why not advertise?
 

@@ -11,8 +11,6 @@ tags:
   - slow
   - upgrade
 description: "When I signed up to Apple's iPhone Developer programme I had full intention of developing some really cool apps. It has not happened yet, but I have been able"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 When I signed up to Apple’s iPhone Developer programme I had full intention of developing some really cool apps. It has not happened yet, but I have been able to get the latest and greatest iPhone OS betas installed on my phone and have been able to start using the latest features early, which is always a good feeling. The down-side to this is that it is sometimes a rather buggy experience. I feel Apple uses the word “beta” too loosely, when it should be using “alpha”.
 

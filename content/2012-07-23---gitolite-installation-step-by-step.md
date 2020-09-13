@@ -11,8 +11,6 @@ tags:
   - gitolite
   - ssh-keygen
 description: "In this post I will walk you through how to setup your own gitolite server and start hosting your own git repositories. Gitolite is a great tool for doing this and works in a very git-like way for managing users, access-rights and setting up new repositories for collaboration between your team. A common reason to setup Gitolite is to remove reliance on services like GitHub."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 In this post I will walk you through how to setup your own gitolite server and start hosting your own git repositories.
 

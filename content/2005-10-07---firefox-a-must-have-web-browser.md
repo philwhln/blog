@@ -7,8 +7,6 @@ slug: "firefox-a-must-have-web-browser"
 category: "old"
 tags: []
 description: "Ok, I thought this was the best place to start my techy blog; with my favourite web browser. Anyone who is still using Internet Explorer (IE) should strongly"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 Ok, I thought this was the best place to start my techy blog; with my favourite web browser.  
   

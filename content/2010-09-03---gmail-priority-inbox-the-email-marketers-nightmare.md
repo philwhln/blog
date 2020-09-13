@@ -14,8 +14,6 @@ tags:
   - priority inbox
   - spam
 description: "Gmail Priority Inbox is a great idea. Prior to this the Inbox was split into 2 levels - Inbox and Spam. This Priority Inbox creates a third middle level, which"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 Gmail Priority Inbox is a great idea. Prior to this the Inbox was split into 2 levels – Inbox and Spam. This Priority Inbox creates a third middle level, which is essentially “ham”.
 

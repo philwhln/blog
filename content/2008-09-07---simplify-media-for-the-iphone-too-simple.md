@@ -7,8 +7,6 @@ slug: "simplify-media-for-the-iphone-too-simple"
 category: "Apple"
 tags: []
 description: "Like most people nowadays my computer's music collection has grown out of all proportion. I have more music on there than I could ever hope to listen to."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 Like most people nowadays my computer’s music collection has grown out of all proportion. I have more music on there than I could ever hope to listen to. Gigabytes on top of gigabytes. Luckily there are plenty of great apps out there like iTunes that can manage this and let me search, rate, sort, structure my collection so that I can find and play what I want when I want.
 

@@ -7,10 +7,7 @@ slug: "working-with-large-data-sets"
 category: "Software Engineering"
 tags: []
 description: "For the past three and a half years I have been working for a start-up in downtown Vancouver. We have been developing a high performance SMTP proxy that can"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
-
 For the past three and a half years I have been working for a start-up in downtown Vancouver. We have been developing a high performance SMTP proxy that can scale to handle tens of thousands of connections per second on each machine, even with pretty standard hardware.
 
 For the past 18 months I’ve moved from working on the SMTP proxy to working on our other systems, all of which make use of the data we collect from each connection. It’s a fair amount of data and it can be up to 2Kb in size for each connection. Our servers receive approximately 1000 of these pieces of data per second, which is fairly sustained due to our global distribution of customers. If you compare that to [Twitter’s peak of 3,283 tweets per second](https://mashable.com/2010/06/25/tps-record/) (maximum of 140 characters), you can see it’s not a small amount of data that we are dealing with here.

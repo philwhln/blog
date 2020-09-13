@@ -19,8 +19,6 @@ tags:
   - svg
   - web-development
 description: "In previous projects at MailChannels I have used Flot.js for graphing. There were many reasons I chose this originally. The graphs are interactive and can be"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 In previous projects at [MailChannels](https://www.mailchannels.com/blog) I have used [Flot.js](https://code.google.com/p/flot/) for graphing. There were many reasons I chose this originally. The graphs are interactive and can be manipulated within the browser without having to communicate back to the server. You can retrieve additional data from the server which enables you to be able to scan left and right on graph. You can animate transitions, zoom in and out, get the values at precise points on the graph and select an area data. When I found Flot.js I was mainly looking for something that was not ugly. I was using Perl on the server side, and Perl has a history of having ugly graphing solutions. I’ve since found some alternatives on the Perl side, but for me Flot.js was the new hotness at that time. You can read my presentation on [Graphs In Perl and Flot.js](https://www.slideshare.net/philwhln/graphs-in-perl-and-flotjs) over at slideshare.
 

@@ -7,8 +7,6 @@ slug: "amazon-buys-shelfari-will-they-buy-delicious-library-too"
 category: "Startups"
 tags: []
 description: "No not Del.ici.ous, or is it De.li.cio.us? Can never remember. Anyway, neither of those. I'm talking about the Mac app Delicious Library. I thought of this"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://3.bp.blogspot.com/_PQOgjfAsIN4/SL9er2hSe8I/AAAAAAAAAF0/8p_e2q_zhdc/s1600-h/delicious_library.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}">
 

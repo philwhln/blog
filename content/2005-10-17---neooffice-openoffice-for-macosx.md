@@ -7,8 +7,6 @@ slug: "neooffice-openoffice-for-macosx"
 category: "old"
 tags: []
 description: "If you're looking for a replacement for Microsoft Office on the Mac then this seems to be the best (if not the only) option. Just loaded it up for the first"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 If you’re looking for a replacement for Microsoft Office on the Mac then this seems to be the best (if not the only) option.  
   

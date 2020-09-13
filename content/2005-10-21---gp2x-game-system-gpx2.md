@@ -7,8 +7,6 @@ slug: "gp2x-game-system-gpx2"
 category: "old"
 tags: []
 description: "The GP2X Game System (GPX2) looks like a good cheap alternative to the video iPod offered by Apple, especially if you already have a 1Gb SD card lying around"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 The [GP2X Game System (GPX2)](https://www.lik-sang.com/info.php?category=126&amp;products_id=7728) looks like a good cheap alternative to the video iPod offered by Apple, especially if you already have a 1Gb SD card lying around like me.  
   

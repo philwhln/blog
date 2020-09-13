@@ -7,8 +7,6 @@ slug: "sclogging-a-different-slant-on-blogging"
 category: "Marketing"
 tags: []
 description: "This week I had an idea for a different form of blogging. This stemmed from the fact that we've been seeing a great response with opt-in email and"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 <a href="https://1.bp.blogspot.com/_PQOgjfAsIN4/SOA38YKpuVI/AAAAAAAAAH8/bxVNE75O3Uo/s1600-h/Envelope.png" onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}">
 

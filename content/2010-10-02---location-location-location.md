@@ -21,8 +21,6 @@ tags:
   - startup
   - twitter
 description: "I've been meeting other Vancouver entrepreneurs at various networking events and discussing ideas with them. A common theme I'm seeing is that most of them are"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 I’ve been meeting other Vancouver entrepreneurs at various networking events and discussing ideas with them. A common theme I’m seeing is that most of them are very focused on building technology with location-based data at the heart of the application. This is the next (or current) big thing and it feels like everyone is jumping on the bandwagon.
 

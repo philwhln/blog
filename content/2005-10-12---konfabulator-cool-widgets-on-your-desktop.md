@@ -7,8 +7,6 @@ slug: "konfabulator-cool-widgets-on-your-desktop"
 category: "old"
 tags: []
 description: "Konfabulator has lots of interesting things you can use on your desktop, or on a separate screen that fades in and out over your desktop. Weather reports, tv"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 [Konfabulator](https://www.konfabulator.com/info)  
   

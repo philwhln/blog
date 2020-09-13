@@ -17,8 +17,6 @@ tags:
   - supervisord
   - systemexit
 description: "Recently, we hit a problem with Ruby's exit command. If something went horribly wrong and it made no sense for our application to continue in its current state then we would abort with exit 1. We use supervisord to manage processes, so in this case when we exited with exit status of 1, supervisord would assume something went wrong and restart the process for us. Or at least that is what we thought..."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 Recently, we hit a problem with Ruby’s “[exit](https://www.ruby-doc.org/core-1.9.3/Kernel.html#method-i-exit)” command. If something went horribly wrong and it made no sense for our application to continue in its current state then we would abort with “exit 1″. We use [supervisord](https://supervisord.org/) to manage processes, so in this case when we exited with exit status of 1, [supervisord](https://supervisord.org/) would assume something went wrong and restart the process for us. Or at least that is what we thought…
 

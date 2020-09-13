@@ -7,8 +7,6 @@ slug: "twit-this-week-in-tech-the-most-popular-podcast"
 category: "old"
 tags: []
 description: "I'm enjoying listening to these fun hour long discussions from Leo Laporte's gang on anything tech related. Currently they're doing it just for the love of it,"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 I’m enjoying listening to these fun hour long discussions from Leo Laporte’s gang on anything tech related. Currently they’re doing it just for the love of it, but with a quarter of a million listeners and a growing fan-base will they sell out and go commercial? They don’t think so.
 

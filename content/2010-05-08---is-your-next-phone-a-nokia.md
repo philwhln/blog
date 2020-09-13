@@ -16,8 +16,6 @@ tags:
   - phone
   - smartphone
 description: "This week I attended Mobile Geeks Vancouver where we were given a presentation by Samir Agarwal, Head of Maemo Operations at Nokia in Mountain View, California."
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 This week I attended [Mobile Geeks Vancouver](https://www.womworld.com/nokia/tag/mobile-geeks-of-vancouver/) where we were given a presentation by Samir Agarwal, Head of Maemo Operations at Nokia in Mountain View, California. The presentation by Samir was definitely eye opening. After [winning an Android phone](/?p=63 "An Android Developer, I Am") at the Vancouver Android Developers Meetup last week I thought I’d covered all the bases of what’s happening in the mobile world. If I were a mobile applications developer, and I might be, should I be developing for the iPhone or for Android? Well, it appears there’s now a third choice. The N900 was demo’d with a promise of a far superior phone in the second half of 2010. It was running the Meego platform, which we’re told we should all be excited about.
 

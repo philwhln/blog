@@ -14,8 +14,6 @@ tags:
   - mac osx
   - ssh-keygen
 description: "This post has been depreciated. A newer post is available. Gitolite Installation Step-By-Step Recently, netSIGN asked me to setup gitolite to give"
-socialImage:
-  publicURL: "/media/images/photo.jpg"
 ---
 <div style="border: 1px #ddd solid; margin: 5px; padding: 5px; background-color: #FFFF99;">
 <strong>This post has been depreciated. A newer post is available.<br/>
