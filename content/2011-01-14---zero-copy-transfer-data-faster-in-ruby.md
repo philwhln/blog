@@ -95,7 +95,7 @@ It is hard to make a clear opinion on the exact speed increase, since the perfor
 
 If you want to run your own tests to replicate this then [the Java source code](https://www.ibm.com/developerworks/apps/download/index.jsp?contentid=333543&amp;filename=j-zerocopy.zip&amp;method=http&amp;locale=worldwide) is available on their article.
 
-Some other recent benchmarks by [Iñaki Baz Castillo](https://dev.sipdoc.net), which were written in Ruby, can be found [here](https://librelist.com/browser//ruby.io.splice/2010/12/22/some-benchmarks/). I use code from these benchmarks in [the example below](/zero-copy-transfer-data-faster-in-ruby#ruby-example-copy-file-to-file).
+Some other recent benchmarks by Iñaki Baz Castillo, which were written in Ruby, can be found [here](https://librelist.com/browser//ruby.io.splice/2010/12/22/some-benchmarks/). I use code from these benchmarks in [the example below](/zero-copy-transfer-data-faster-in-ruby#ruby-example-copy-file-to-file).
 
 ## Ruby Implementation
 
@@ -105,13 +105,13 @@ In Ruby there is an implementation of zero-copy called [io\_splice](https://bogo
 
 You can install the gem in the same way you install other gems.
 
-```
+```bash
 gem install io_splice
 ```
 
 The usual gem install output…
 
-```
+```bash
 Building native extensions.  This could take a while...
 Successfully installed io_splice-2.2.0
 1 gem installed
@@ -127,13 +127,13 @@ In this example I will copy a file from one location to another.
 
 Let’s create an input file first, called _input\_file.txt_
 
-```
+```bash
 ruby -e '1_000_000.times { puts rand.to_s }' > input_file.txt
 ```
 
 Now, I’m going to write a short Ruby script called _test\_filecopy.rb_. I have taken the meat of this script from [Iñaki Baz Castillo](https://dev.sipdoc.net)‘s benchmark code. 
 
-```
+```ruby
 #!/usr/bin/ruby
 
 require 'io/splice'

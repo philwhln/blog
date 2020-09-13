@@ -16,6 +16,9 @@ description: "In this post I am going to demonstrate, step-by-step, a way to A/B
 socialImage:
   publicURL: "/media/images/photo.jpg"
 ---
+
+_Update: FluidFeatures is no longer an active project_
+
 In this post I am going to demonstrate, step-by-step, a way to A/B test new features from within Ruby-On-Rails using FluidFeatures. FluidFeatures is currently in closed-beta and requires request for inclusion in the beta program. We are looking for enthusiastic A/B testers, so we can get feedback on the service before releasing it to the masses.
 
 ## A/B Testing?
