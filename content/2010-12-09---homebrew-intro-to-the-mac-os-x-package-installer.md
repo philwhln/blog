@@ -714,7 +714,7 @@ curl: (22) The requested URL returned error: 404</p>
               <cite class="fn">franc</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Tuesday, October 30th, 2012, 2:43 pm">October 30, 2012</abbr> at <abbr class="comment-time" title="Tuesday, October 30th, 2012, 2:43 pm">2:43 pm</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Tuesday, October 30th, 2012, 2:43 pm">October 30, 2012</abbr> at <abbr class="comment-time" title="Tuesday, October 30th, 2012, 2:43 pm">2:43 pm</abbr></div>
           <div class="comment-text">
             <p>On the website:</p>
             <p>https://mxcl.github.com/homebrew/</p>
@@ -734,7 +734,7 @@ curl: (22) The requested URL returned error: 404</p>
                   <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
                 </div>
                 <!-- .comment-author .vcard -->
-                <abbr class="comment-date" title="Tuesday, October 30th, 2012, 2:49 pm">October 30, 2012</abbr> at <abbr class="comment-time" title="Tuesday, October 30th, 2012, 2:49 pm">2:49 pm</abbr> | Permalink  </div>
+                <abbr class="comment-date" title="Tuesday, October 30th, 2012, 2:49 pm">October 30, 2012</abbr> at <abbr class="comment-time" title="Tuesday, October 30th, 2012, 2:49 pm">2:49 pm</abbr></div>
               <div class="comment-text">
                 <p>Thanks Franc! I have updated the post above.</p>
               </div>
@@ -754,7 +754,7 @@ curl: (22) The requested URL returned error: 404</p>
           <cite class="fn">Ann</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, November 4th, 2012, 9:49 pm">November 4, 2012</abbr> at <abbr class="comment-time" title="Sunday, November 4th, 2012, 9:49 pm">9:49 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, November 4th, 2012, 9:49 pm">November 4, 2012</abbr> at <abbr class="comment-time" title="Sunday, November 4th, 2012, 9:49 pm">9:49 pm</abbr></div>
       <div class="comment-text">
         <p>When I pasted it at the terminal prompt, I got:</p>
         <p>Failed during: Error: /usr/bin/xcode-select returned unexpected error. init -q</p>
@@ -769,7 +769,7 @@ curl: (22) The requested URL returned error: 404</p>
               <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Sunday, November 4th, 2012, 9:57 pm">November 4, 2012</abbr> at <abbr class="comment-time" title="Sunday, November 4th, 2012, 9:57 pm">9:57 pm</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Sunday, November 4th, 2012, 9:57 pm">November 4, 2012</abbr> at <abbr class="comment-time" title="Sunday, November 4th, 2012, 9:57 pm">9:57 pm</abbr></div>
           <div class="comment-text">
             <p>Do you mean you pasted this into the terminal?<br />
 ruby -e “$(curl -fsSkL raw.github.com/mxcl/homebrew/go)”</p>
@@ -789,7 +789,7 @@ ruby -e “$(curl -fsSkL raw.github.com/mxcl/homebrew/go)”</p>
           <cite class="fn">Mark Scarton</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, January 21st, 2013, 12:01 pm">January 21, 2013</abbr> at <abbr class="comment-time" title="Monday, January 21st, 2013, 12:01 pm">12:01 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Monday, January 21st, 2013, 12:01 pm">January 21, 2013</abbr> at <abbr class="comment-time" title="Monday, January 21st, 2013, 12:01 pm">12:01 pm</abbr></div>
       <div class="comment-text">
         <p>Hi, I’m new to MacOS (long time Unix and Linux user) and am running the latest update of Mountain Lion. I’d really like to use homebrew to gain access to my GNU tools. But when I attempt to run the script that you provided, I am receiving the following error:</p>
         <p>ruby -e “$(curl -fsSkL raw.github.com/mxcl/homebrew/go)”<br />
@@ -807,7 +807,7 @@ ruby -e “$(curl -fsSkL raw.github.com/mxcl/homebrew/go)”</p>
               <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Wednesday, January 23rd, 2013, 9:43 am">January 23, 2013</abbr> at <abbr class="comment-time" title="Wednesday, January 23rd, 2013, 9:43 am">9:43 am</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Wednesday, January 23rd, 2013, 9:43 am">January 23, 2013</abbr> at <abbr class="comment-time" title="Wednesday, January 23rd, 2013, 9:43 am">9:43 am</abbr></div>
           <div class="comment-text">
             <p>Hi Mark,</p>
             <p>That’s your shell complaining about the characters that you are pasting into it. I think the double quotes and some other character is being cut and pasted from this blog post incorrectly. Try typing it in and that should work.</p>
@@ -827,7 +827,7 @@ Phil</p>
           <cite class="fn">Ranjna</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, March 21st, 2013, 10:34 am">March 21, 2013</abbr> at <abbr class="comment-time" title="Thursday, March 21st, 2013, 10:34 am">10:34 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Thursday, March 21st, 2013, 10:34 am">March 21, 2013</abbr> at <abbr class="comment-time" title="Thursday, March 21st, 2013, 10:34 am">10:34 am</abbr></div>
       <div class="comment-text">
         <p>I am using mountain lion and was able to install homebrew, however, when i try installing any software using brew, I get Curl (7):failed to connect to 0.9.0.4: No route to host.</p>
         <p>I checked my firewall and it is not on. I even tried changing the url to use that really works in the rb file, but still get the same error. Any idea?</p>
@@ -841,7 +841,7 @@ Phil</p>
               <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Saturday, March 23rd, 2013, 10:56 pm">March 23, 2013</abbr> at <abbr class="comment-time" title="Saturday, March 23rd, 2013, 10:56 pm">10:56 pm</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Saturday, March 23rd, 2013, 10:56 pm">March 23, 2013</abbr> at <abbr class="comment-time" title="Saturday, March 23rd, 2013, 10:56 pm">10:56 pm</abbr></div>
           <div class="comment-text">
             <p>That sounds like a DNS issue you’re having. 0.9.0.4 is a bogus IP address and it’s unlikely that Homebrew has any hard-coded IP addresses in it’s code (at least I hope not).</p>
           </div>
@@ -858,7 +858,7 @@ Phil</p>
           <cite class="fn" title="https://www.google.com/profiles/109657025376754851402">Michael Stoneham</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, April 7th, 2013, 5:45 am">April 7, 2013</abbr> at <abbr class="comment-time" title="Sunday, April 7th, 2013, 5:45 am">5:45 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, April 7th, 2013, 5:45 am">April 7, 2013</abbr> at <abbr class="comment-time" title="Sunday, April 7th, 2013, 5:45 am">5:45 am</abbr></div>
       <div class="comment-text">
         <p>I am trying to find a list of what the apps are in Homebrew. and not just a list but an explanation of what the apps are and do. </p>
         <p>also i want to let you know that i found a gui for Homebrew https://github.com/vincentsaluzzo/Homebrew-GUI/downloads which is easy to install and use. this gui would rock if it had descriptions for the apps built in.</p>

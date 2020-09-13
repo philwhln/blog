@@ -999,7 +999,7 @@ And my mapper output is a predicted structure but not in order</p>
           <cite class="fn" title="https://www.ayushnet.com">Dr. SHyam Sarkar</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, September 23rd, 2011, 7:47 pm">September 23, 2011</abbr> at <abbr class="comment-time" title="Friday, September 23rd, 2011, 7:47 pm">7:47 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, September 23rd, 2011, 7:47 pm">September 23, 2011</abbr> at <abbr class="comment-time" title="Friday, September 23rd, 2011, 7:47 pm">7:47 pm</abbr></div>
       <div class="comment-text">
         <p>Hello,</p>
         <p>We have following properties set :</p>
@@ -1048,7 +1048,7 @@ S.Sarkar</p>
           <cite class="fn">Joao Salcedo</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, February 12th, 2012, 12:52 am">February 12, 2012</abbr> at <abbr class="comment-time" title="Sunday, February 12th, 2012, 12:52 am">12:52 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, February 12th, 2012, 12:52 am">February 12, 2012</abbr> at <abbr class="comment-time" title="Sunday, February 12th, 2012, 12:52 am">12:52 am</abbr></div>
       <div class="comment-text">
         <p>Nice tutorial, Everything work just how it should be !!!</p>
         <p>Just a small question , what if I wanna connect to the instance , where I can find the key in order to connect to it.</p>
@@ -1065,7 +1065,7 @@ S.Sarkar</p>
           <cite class="fn" title="https://andrii.vozniuk.com">Andrii Vozniuk</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Tuesday, May 15th, 2012, 9:27 am">May 15, 2012</abbr> at <abbr class="comment-time" title="Tuesday, May 15th, 2012, 9:27 am">9:27 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Tuesday, May 15th, 2012, 9:27 am">May 15, 2012</abbr> at <abbr class="comment-time" title="Tuesday, May 15th, 2012, 9:27 am">9:27 am</abbr></div>
       <div class="comment-text">
         <p>Phil, thanks for the detailed tutorial!<br />
 I had my custom MapReduce application up and running on an EC2 cluster just in a few hours.<br />
@@ -1080,7 +1080,7 @@ I reproduced the steps with whirr-0.7.1 and hadoop-0.20.2-cdh3u4.</p>
               <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Tuesday, May 15th, 2012, 3:40 pm">May 15, 2012</abbr> at <abbr class="comment-time" title="Tuesday, May 15th, 2012, 3:40 pm">3:40 pm</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Tuesday, May 15th, 2012, 3:40 pm">May 15, 2012</abbr> at <abbr class="comment-time" title="Tuesday, May 15th, 2012, 3:40 pm">3:40 pm</abbr></div>
           <div class="comment-text">
             <p>Great! I’m glad the process still working and the blog post is still valid. Thanks for the comment.</p>
           </div>
@@ -1097,7 +1097,7 @@ I reproduced the steps with whirr-0.7.1 and hadoop-0.20.2-cdh3u4.</p>
           <cite class="fn">bodla dharani kumar</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Saturday, February 15th, 2014, 10:58 pm">February 15, 2014</abbr> at <abbr class="comment-time" title="Saturday, February 15th, 2014, 10:58 pm">10:58 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Saturday, February 15th, 2014, 10:58 pm">February 15, 2014</abbr> at <abbr class="comment-time" title="Saturday, February 15th, 2014, 10:58 pm">10:58 pm</abbr></div>
       <div class="comment-text">
         <p>hi to all,<br />
 Good Morning,<br />

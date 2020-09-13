@@ -641,7 +641,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/What-are-the-programming-languages-and-frameworks-the-top-NYC-startups-are-using#ans614276">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, July 3rd, 2011, 12:22 am">July 3, 2011</abbr> at <abbr class="comment-time" title="Sunday, July 3rd, 2011, 12:22 am">12:22 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, July 3rd, 2011, 12:22 am">July 3, 2011</abbr> at <abbr class="comment-time" title="Sunday, July 3rd, 2011, 12:22 am">12:22 am</abbr></div>
       <div class="comment-text">
         <p>
           <strong>What are the programming languages and frameworks the top NYC startups are using?…</strong>
@@ -658,7 +658,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/Whats-the-architecture-of-Quora-like#ans619044">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, July 6th, 2011, 12:04 am">July 6, 2011</abbr> at <abbr class="comment-time" title="Wednesday, July 6th, 2011, 12:04 am">12:04 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Wednesday, July 6th, 2011, 12:04 am">July 6, 2011</abbr> at <abbr class="comment-time" title="Wednesday, July 6th, 2011, 12:04 am">12:04 am</abbr></div>
       <div class="comment-text">
         <p>
           <strong>What’s the architecture of Quora like?…</strong>
@@ -675,7 +675,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/Can-I-build-site-like-Quora-on-wordpress-framework#ans623381">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, July 8th, 2011, 1:09 pm">July 8, 2011</abbr> at <abbr class="comment-time" title="Friday, July 8th, 2011, 1:09 pm">1:09 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, July 8th, 2011, 1:09 pm">July 8, 2011</abbr> at <abbr class="comment-time" title="Friday, July 8th, 2011, 1:09 pm">1:09 pm</abbr></div>
       <div class="comment-text">
         <p>
           <strong>Can I build site like Quora on wordpress framework?…</strong>
@@ -692,7 +692,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/How-is-Quora-planning-to-get-further-traction">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, August 18th, 2011, 1:27 pm">August 18, 2011</abbr> at <abbr class="comment-time" title="Thursday, August 18th, 2011, 1:27 pm">1:27 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Thursday, August 18th, 2011, 1:27 pm">August 18, 2011</abbr> at <abbr class="comment-time" title="Thursday, August 18th, 2011, 1:27 pm">1:27 pm</abbr></div>
       <div class="comment-text">
         <p>
           <strong>How is Quora planning to get further traction?…</strong>
@@ -709,7 +709,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/What-front-end-back-end-technologies-does-Quora-use#ans699602">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Saturday, September 3rd, 2011, 9:25 am">September 3, 2011</abbr> at <abbr class="comment-time" title="Saturday, September 3rd, 2011, 9:25 am">9:25 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Saturday, September 3rd, 2011, 9:25 am">September 3, 2011</abbr> at <abbr class="comment-time" title="Saturday, September 3rd, 2011, 9:25 am">9:25 am</abbr></div>
       <div class="comment-text">
         <p>
           <strong>What front-end &amp; back-end technologies does Quora use?…</strong>
@@ -726,7 +726,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/Is-Quora-a-digital-media-company-a-technology-company-or-both#ans701827">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, September 5th, 2011, 1:31 pm">September 5, 2011</abbr> at <abbr class="comment-time" title="Monday, September 5th, 2011, 1:31 pm">1:31 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Monday, September 5th, 2011, 1:31 pm">September 5, 2011</abbr> at <abbr class="comment-time" title="Monday, September 5th, 2011, 1:31 pm">1:31 pm</abbr></div>
       <div class="comment-text">
         <p>
           <strong>Is Quora a digital media company, a technology company, or both?…</strong>
@@ -743,7 +743,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.quora.com/Why-does-Quora-use-so-much-RAM#comment108295">Quora</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, December 21st, 2011, 1:41 am">December 21, 2011</abbr> at <abbr class="comment-time" title="Wednesday, December 21st, 2011, 1:41 am">1:41 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Wednesday, December 21st, 2011, 1:41 am">December 21, 2011</abbr> at <abbr class="comment-time" title="Wednesday, December 21st, 2011, 1:41 am">1:41 am</abbr></div>
       <div class="comment-text">
         <p>
           <strong>Why does Quora use so much RAM?…</strong>
@@ -760,7 +760,7 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
           <cite class="fn" title="https://www.tommychheng.com">Tommy</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, December 7th, 2012, 10:40 am">December 7, 2012</abbr> at <abbr class="comment-time" title="Friday, December 7th, 2012, 10:40 am">10:40 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, December 7th, 2012, 10:40 am">December 7, 2012</abbr> at <abbr class="comment-time" title="Friday, December 7th, 2012, 10:40 am">10:40 am</abbr></div>
       <div class="comment-text">
         <p>Quora is also using Scala for backend services:<br />
 https://www.quora.com/Quora-Infrastructure/Is-the-Quora-team-considering-adopting-Scala-Why</p>
@@ -775,7 +775,7 @@ https://www.quora.com/Quora-Infrastructure/Is-the-Quora-team-considering-adoptin
           <cite class="fn">krishnas</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, April 14th, 2014, 12:48 am">April 14, 2014</abbr> at <abbr class="comment-time" title="Monday, April 14th, 2014, 12:48 am">12:48 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Monday, April 14th, 2014, 12:48 am">April 14, 2014</abbr> at <abbr class="comment-time" title="Monday, April 14th, 2014, 12:48 am">12:48 am</abbr></div>
       <div class="comment-text">
         <p>Great article.  One question I got is why HAProxy is used instead of AWS autoscalaing. Any thoughts?</p>
       </div>

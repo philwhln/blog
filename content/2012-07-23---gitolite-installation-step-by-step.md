@@ -931,7 +931,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
           <cite class="fn">D Israel</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, May 17th, 2013, 2:14 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 2:14 pm">2:14 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, May 17th, 2013, 2:14 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 2:14 pm">2:14 pm</abbr></div>
       <div class="comment-text">
         <p>This is great!  However, I think I’m a little unclear about something.</p>
         <p>You create a key for each user, but how does gitolite know which user you are?  Do I have to do something else there?</p>
@@ -946,7 +946,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
               <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Friday, May 17th, 2013, 3:11 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 3:11 pm">3:11 pm</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Friday, May 17th, 2013, 3:11 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 3:11 pm">3:11 pm</abbr></div>
           <div class="comment-text">
             <p>It knows based on which ssh key you authenticate with.</p>
           </div>
@@ -959,7 +959,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
                   <cite class="fn">D Israel</cite>
                 </div>
                 <!-- .comment-author .vcard -->
-                <abbr class="comment-date" title="Friday, May 17th, 2013, 3:18 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 3:18 pm">3:18 pm</abbr> | Permalink  </div>
+                <abbr class="comment-date" title="Friday, May 17th, 2013, 3:18 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 3:18 pm">3:18 pm</abbr></div>
               <div class="comment-text">
                 <p>I’m new to these key settings.  Does this mean I change my ssh config file to the new username and identity file ?  I didn’t see where you made that change.</p>
                 <p>Thanks again.</p>
@@ -980,7 +980,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
           <cite class="fn">D Israel</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, May 17th, 2013, 3:22 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 3:22 pm">3:22 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, May 17th, 2013, 3:22 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 3:22 pm">3:22 pm</abbr></div>
       <div class="comment-text">
         <p>Oh oh.  Is that what the comment (above) from Geoff Ford is about?  Just replace the Identity file with the newly created private key (User remains gitolite)?</p>
         <p>Thanks.</p>
@@ -995,7 +995,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
           <cite class="fn">Geoff Ford</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, May 17th, 2013, 6:04 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 6:04 pm">6:04 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, May 17th, 2013, 6:04 pm">May 17, 2013</abbr> at <abbr class="comment-time" title="Friday, May 17th, 2013, 6:04 pm">6:04 pm</abbr></div>
       <div class="comment-text">
         <p>
           <img src="/media/images/smilies/icon_wink.gif" alt=";-)" class="wp-smiley" />
@@ -1011,7 +1011,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
           <cite class="fn">Ovidiu Visan</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Tuesday, May 21st, 2013, 1:05 pm">May 21, 2013</abbr> at <abbr class="comment-time" title="Tuesday, May 21st, 2013, 1:05 pm">1:05 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Tuesday, May 21st, 2013, 1:05 pm">May 21, 2013</abbr> at <abbr class="comment-time" title="Tuesday, May 21st, 2013, 1:05 pm">1:05 pm</abbr></div>
       <div class="comment-text">
         <p>Thank you very much for this tutorial. It worked great!</p>
       </div>
@@ -1025,7 +1025,7 @@ export GIT_EXEC_PATH=/usr/libexec/git-core</p>
           <cite class="fn">Amit Dixit</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, May 24th, 2013, 12:20 am">May 24, 2013</abbr> at <abbr class="comment-time" title="Friday, May 24th, 2013, 12:20 am">12:20 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, May 24th, 2013, 12:20 am">May 24, 2013</abbr> at <abbr class="comment-time" title="Friday, May 24th, 2013, 12:20 am">12:20 am</abbr></div>
       <div class="comment-text">
         <p>I did exactly the same as Geoff Ford described to add new user with new workstation.</p>
         <p>My .ssh/config file was as below:</p>
@@ -1056,7 +1056,7 @@ Amit Dixit</p>
           <cite class="fn" title="https://www.google.com/profiles/111354133050015265445">chinmay hundekari</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, June 24th, 2013, 9:56 pm">June 24, 2013</abbr> at <abbr class="comment-time" title="Monday, June 24th, 2013, 9:56 pm">9:56 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Monday, June 24th, 2013, 9:56 pm">June 24, 2013</abbr> at <abbr class="comment-time" title="Monday, June 24th, 2013, 9:56 pm">9:56 pm</abbr></div>
       <div class="comment-text">
         <p>Thanks a lot for this article.. I finally managed to set up gitolite. </p>
         <p>But I am not able to commit into a new repository. I added  a line in gitolite.conf and i was able to push it and creat a blank repo.<br />
@@ -1074,7 +1074,7 @@ But then when i try to push with the below command it asks for my password. and 
           <cite class="fn" title="https://www.google.com/profiles/101861729150657836468">Josivan Souza</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Tuesday, July 2nd, 2013, 6:44 pm">July 2, 2013</abbr> at <abbr class="comment-time" title="Tuesday, July 2nd, 2013, 6:44 pm">6:44 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Tuesday, July 2nd, 2013, 6:44 pm">July 2, 2013</abbr> at <abbr class="comment-time" title="Tuesday, July 2nd, 2013, 6:44 pm">6:44 pm</abbr></div>
       <div class="comment-text">
         <p>After create a repository following your blog. How can I clone it from a windows wosktation.</p>
         <p>Thanks</p>
@@ -1089,7 +1089,7 @@ But then when i try to push with the below command it asks for my password. and 
           <cite class="fn">Ido</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, July 7th, 2013, 11:36 pm">July 7, 2013</abbr> at <abbr class="comment-time" title="Sunday, July 7th, 2013, 11:36 pm">11:36 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, July 7th, 2013, 11:36 pm">July 7, 2013</abbr> at <abbr class="comment-time" title="Sunday, July 7th, 2013, 11:36 pm">11:36 pm</abbr></div>
       <div class="comment-text">
         <p>Hi Phil,</p>
         <p>I followed your blog (Which is great BTW) but I still face permission problem when I try:</p>
@@ -1113,7 +1113,7 @@ Ido</p>
               <cite class="fn">Ido</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Monday, July 8th, 2013, 12:25 am">July 8, 2013</abbr> at <abbr class="comment-time" title="Monday, July 8th, 2013, 12:25 am">12:25 am</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Monday, July 8th, 2013, 12:25 am">July 8, 2013</abbr> at <abbr class="comment-time" title="Monday, July 8th, 2013, 12:25 am">12:25 am</abbr></div>
           <div class="comment-text">
             <p>I was able to solve this!</p>
             <p>I soon found that the user you login with let’s call it ‘git’ and the key file name – must be identical.<br />
@@ -1135,7 +1135,7 @@ Then run ‘/home/git/bin/gitolite setup again.</p>
                   <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
                 </div>
                 <!-- .comment-author .vcard -->
-                <abbr class="comment-date" title="Monday, July 8th, 2013, 6:08 pm">July 8, 2013</abbr> at <abbr class="comment-time" title="Monday, July 8th, 2013, 6:08 pm">6:08 pm</abbr> | Permalink  </div>
+                <abbr class="comment-date" title="Monday, July 8th, 2013, 6:08 pm">July 8, 2013</abbr> at <abbr class="comment-time" title="Monday, July 8th, 2013, 6:08 pm">6:08 pm</abbr></div>
               <div class="comment-text">
                 <p>Great! Glad you solved it Ido. Thanks for also posting the resolution! I just got back from a trip to Japan, so was not up-to-date with comments.</p>
               </div>
@@ -1155,7 +1155,7 @@ Then run ‘/home/git/bin/gitolite setup again.</p>
           <cite class="fn">Shuaib</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, July 17th, 2013, 8:06 am">July 17, 2013</abbr> at <abbr class="comment-time" title="Wednesday, July 17th, 2013, 8:06 am">8:06 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Wednesday, July 17th, 2013, 8:06 am">July 17, 2013</abbr> at <abbr class="comment-time" title="Wednesday, July 17th, 2013, 8:06 am">8:06 am</abbr></div>
       <div class="comment-text">
         <p>Hi Phil,</p>
         <p>What’s the recommended setup when you want to host the repositories<br />
@@ -1172,7 +1172,7 @@ directory somewhere other than /home/git on your server?</p>
           <cite class="fn">Eshwar</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, July 17th, 2013, 8:44 am">July 17, 2013</abbr> at <abbr class="comment-time" title="Wednesday, July 17th, 2013, 8:44 am">8:44 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Wednesday, July 17th, 2013, 8:44 am">July 17, 2013</abbr> at <abbr class="comment-time" title="Wednesday, July 17th, 2013, 8:44 am">8:44 am</abbr></div>
       <div class="comment-text">
         <p>Phil,</p>
         <p>I followed through your article, but i couldn’t clone gitolite:admin repo.<br />
@@ -1192,7 +1192,7 @@ I have created a user called ‘gitolitee’ as the user ‘gitolite’ is reser
           <cite class="fn">Mehran</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, September 6th, 2013, 5:53 am">September 6, 2013</abbr> at <abbr class="comment-time" title="Friday, September 6th, 2013, 5:53 am">5:53 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, September 6th, 2013, 5:53 am">September 6, 2013</abbr> at <abbr class="comment-time" title="Friday, September 6th, 2013, 5:53 am">5:53 am</abbr></div>
       <div class="comment-text">
         <p>Hey phil when i run this command.<br />
 git clone gitbox:myserver</p>
@@ -1210,7 +1210,7 @@ gitosis:myserver’s password:</p>
           <cite class="fn">Shlomit</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, October 13th, 2013, 4:02 am">October 13, 2013</abbr> at <abbr class="comment-time" title="Sunday, October 13th, 2013, 4:02 am">4:02 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, October 13th, 2013, 4:02 am">October 13, 2013</abbr> at <abbr class="comment-time" title="Sunday, October 13th, 2013, 4:02 am">4:02 am</abbr></div>
       <div class="comment-text">
         <p>Hi,</p>
         <p>Your tutorial is so clear – Thanks,</p>
@@ -1229,7 +1229,7 @@ How git know to go through gitolite? </p>
           <cite class="fn">Shlomit</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, October 13th, 2013, 6:27 am">October 13, 2013</abbr> at <abbr class="comment-time" title="Sunday, October 13th, 2013, 6:27 am">6:27 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Sunday, October 13th, 2013, 6:27 am">October 13, 2013</abbr> at <abbr class="comment-time" title="Sunday, October 13th, 2013, 6:27 am">6:27 am</abbr></div>
       <div class="comment-text">
         <p>It’s me again,<br />
 I saw that even that I change the file conf/gitolite.conf and I run ‘gitolite setup’, when I run ssh to the git server I got the basic conf that came with the gitolite installation.<br />
@@ -1246,7 +1246,7 @@ How can I refresh the conf file?</p>
           <cite class="fn">hopsj</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, November 21st, 2013, 1:20 am">November 21, 2013</abbr> at <abbr class="comment-time" title="Thursday, November 21st, 2013, 1:20 am">1:20 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Thursday, November 21st, 2013, 1:20 am">November 21, 2013</abbr> at <abbr class="comment-time" title="Thursday, November 21st, 2013, 1:20 am">1:20 am</abbr></div>
       <div class="comment-text">
         <p>Hello and thank you for your tutorial. One suggestion that may help make things more clear is to use usernames that are not exactly the same as the name of the program.  It can be hard for noobs such as myself to interpret the meaning of ‘gitolite’ especially when it appears 4 times in the same command (username, directory, file?)  I found Sitaram’s own tutorials to be difficult to follow for this reason as well.  I would suggest something like gitadmin to refer to the gitolite user, and real-world names such as bob to refer to individual users.</p>
       </div>
@@ -1259,7 +1259,7 @@ How can I refresh the conf file?</p>
               <cite class="fn" title="https://www.google.com/profiles/101358683928607234715">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Thursday, November 21st, 2013, 5:45 pm">November 21, 2013</abbr> at <abbr class="comment-time" title="Thursday, November 21st, 2013, 5:45 pm">5:45 pm</abbr> | Permalink  </div>
+            <abbr class="comment-date" title="Thursday, November 21st, 2013, 5:45 pm">November 21, 2013</abbr> at <abbr class="comment-time" title="Thursday, November 21st, 2013, 5:45 pm">5:45 pm</abbr></div>
           <div class="comment-text">
             <p>Thanks! That’s great feedback and will keep it in mind for future posts.</p>
           </div>
@@ -1276,7 +1276,7 @@ How can I refresh the conf file?</p>
           <cite class="fn" title="https://-">yewin</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, March 5th, 2014, 9:31 pm">March 5, 2014</abbr> at <abbr class="comment-time" title="Wednesday, March 5th, 2014, 9:31 pm">9:31 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Wednesday, March 5th, 2014, 9:31 pm">March 5, 2014</abbr> at <abbr class="comment-time" title="Wednesday, March 5th, 2014, 9:31 pm">9:31 pm</abbr></div>
       <div class="comment-text">
         <p>Hi Phil,</p>
         <p>Thank you for your wonderful tutorial.</p>
@@ -1307,7 +1307,7 @@ yewin</p>
           <cite class="fn">rballen</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, April 4th, 2014, 6:54 am">April 4, 2014</abbr> at <abbr class="comment-time" title="Friday, April 4th, 2014, 6:54 am">6:54 am</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, April 4th, 2014, 6:54 am">April 4, 2014</abbr> at <abbr class="comment-time" title="Friday, April 4th, 2014, 6:54 am">6:54 am</abbr></div>
       <div class="comment-text">
         <p>Thanks man! I’ve spent hours going round and round trying to install gitolite.  Then I found your article 20 minutes ago and now my pi gitbox is finally working perfectly. Awesome!</p>
       </div>
@@ -1321,7 +1321,7 @@ yewin</p>
           <cite class="fn">Maciej Cygan</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, April 25th, 2014, 4:21 pm">April 25, 2014</abbr> at <abbr class="comment-time" title="Friday, April 25th, 2014, 4:21 pm">4:21 pm</abbr> | Permalink  </div>
+        <abbr class="comment-date" title="Friday, April 25th, 2014, 4:21 pm">April 25, 2014</abbr> at <abbr class="comment-time" title="Friday, April 25th, 2014, 4:21 pm">4:21 pm</abbr></div>
       <div class="comment-text">
         <p>Hello Phil</p>
         <p>I have tested this and it works great. However !<br />

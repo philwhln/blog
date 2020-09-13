@@ -95,7 +95,7 @@ socialImage:
           <cite class="fn">Antti Siira</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Saturday, September 25th, 2010, 11:16 pm">September 25, 2010</abbr> at <abbr class="comment-time" title="Saturday, September 25th, 2010, 11:16 pm">11:16 pm</abbr> | Permalink  | Reply</div>
+        <abbr class="comment-date" title="Saturday, September 25th, 2010, 11:16 pm">September 25, 2010</abbr> at <abbr class="comment-time" title="Saturday, September 25th, 2010, 11:16 pm">11:16 pm</abbr></div>
       <div class="comment-text">
         <p>If you want to see bloom filters used in spam processing, you could check out gross[1] that uses them for greylisting. It has proven[2] itself quite efficient way to block large amount of spam.</p>
         <p>[1] https://code.google.com/p/gross/<br />
@@ -111,7 +111,7 @@ socialImage:
               <cite class="fn">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Monday, September 27th, 2010, 2:35 am">September 27, 2010</abbr> at <abbr class="comment-time" title="Monday, September 27th, 2010, 2:35 am">2:35 am</abbr> | Permalink  | Reply</div>
+            <abbr class="comment-date" title="Monday, September 27th, 2010, 2:35 am">September 27, 2010</abbr> at <abbr class="comment-time" title="Monday, September 27th, 2010, 2:35 am">2:35 am</abbr></div>
           <div class="comment-text">
             <p>Hi Antti,</p>
             <p>My experience, from working with our customers at MailChannels, was that grey-listing started to become ineffective a couple of years ago as the spambot writers started to incorporate this technology into their software and perform retries, just as a legitimate email server would. Not actually having worked with grey-listing myself, I do have any hard figures to back-up conversations with customers, who sometimes became our customers whilst looking for alternatives to grey-listing.</p>
@@ -132,7 +132,7 @@ Phil</p>
           <cite class="fn" title="https://vaporizer-store.net">Michael Fever</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, September 27th, 2010, 2:36 pm">September 27, 2010</abbr> at <abbr class="comment-time" title="Monday, September 27th, 2010, 2:36 pm">2:36 pm</abbr> | Permalink  | Reply</div>
+        <abbr class="comment-date" title="Monday, September 27th, 2010, 2:36 pm">September 27, 2010</abbr> at <abbr class="comment-time" title="Monday, September 27th, 2010, 2:36 pm">2:36 pm</abbr></div>
       <div class="comment-text">
         <p>Thats awesome, congratulations. It’s really refreshing to see these kinds of innovations coming out of Canada, even it if it Vancouver and not Toronto lol =)</p>
       </div>
@@ -146,7 +146,7 @@ Phil</p>
               <cite class="fn">Phil Whelan</cite>
             </div>
             <!-- .comment-author .vcard -->
-            <abbr class="comment-date" title="Monday, September 27th, 2010, 11:09 pm">September 27, 2010</abbr> at <abbr class="comment-time" title="Monday, September 27th, 2010, 11:09 pm">11:09 pm</abbr> | Permalink  | Reply</div>
+            <abbr class="comment-date" title="Monday, September 27th, 2010, 11:09 pm">September 27, 2010</abbr> at <abbr class="comment-time" title="Monday, September 27th, 2010, 11:09 pm">11:09 pm</abbr></div>
           <div class="comment-text">
             <p>Thanks Michael. Hopefully Toronto will catch up with the technological juggernaut that Vancouver is.</p>
             <p>On a serious note, MailChannels is developing some very cool stuff in the anti-spam space. They’re expanding the development team right now, so if there is anyone in Vancouver interested, you should pop in and say hi.</p>
@@ -164,7 +164,7 @@ Phil</p>
           <cite class="fn" title="https://websitecenter.ca/">Montreal Web Design</cite>
         </div>
         <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, December 26th, 2010, 7:37 pm">December 26, 2010</abbr> at <abbr class="comment-time" title="Sunday, December 26th, 2010, 7:37 pm">7:37 pm</abbr> | Permalink  | Reply</div>
+        <abbr class="comment-date" title="Sunday, December 26th, 2010, 7:37 pm">December 26, 2010</abbr> at <abbr class="comment-time" title="Sunday, December 26th, 2010, 7:37 pm">7:37 pm</abbr></div>
       <div class="comment-text">
         <p>You might want to look at s4 by Yahoo. They recently open-sourced it.</p>
       </div>
