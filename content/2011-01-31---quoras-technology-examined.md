@@ -533,42 +533,6 @@ In this post I will look at the technology infrastructure behind <a href="https:
       <!-- .comment-text -->
     </li>
     <!-- .comment -->
-    <li id="comment-1057" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/What-are-the-good-resources-to-learn-about-distributed-scalable-robust-software-architecture-infrastructure-building#comment252843">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Saturday, February 12th, 2011, 8:02 pm">February 12, 2011</abbr> at <abbr class="comment-time" title="Saturday, February 12th, 2011, 8:02 pm">8:02 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>
-          <strong>What are the good resources to learn about distributed, scalable, robust software architecture/infrastructure building?…</strong>
-        </p>
-        <p>You can add Phil Whelan’s article on Quora’s architecture too: https://www.bigfastblog.com/quoras-technology-examined...</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-1192" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/Does-Quora-use-an-evented-server-And-if-so-which-one#ans409276">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, February 25th, 2011, 12:50 pm">February 25, 2011</abbr> at <abbr class="comment-time" title="Friday, February 25th, 2011, 12:50 pm">12:50 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>
-          <strong>Does Quora use an evented server? And if so which one?…</strong>
-        </p>
-        <p>They use Tornado, and a framework called LiveNode. https://www.bigfastblog.com/quoras-technology-examined provides an excellent, recent summary gleaned from the founders’ answers on this site….</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
     <li id="comment-1443" class="comment even thread-even depth-1 comment reader">
       <img alt="XU Qiang" src="https://1.gravatar.com/avatar/70e2c152a34c9a1ed77076fa1bf12341?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
       <div class="comment-meta comment-meta-data">
@@ -580,24 +544,6 @@ In this post I will look at the technology infrastructure behind <a href="https:
       </div>
       <div class="comment-text">
         <p>very nice post. it is really helpful. thanks a lot!</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-1474" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Naoya Makino (via Quora)" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/Naoya-Makino/I-find-these-article-super-cool-http-www.bigfastblog.com-quoras-technology-examined-and-http-www.bigfastblog.com">Naoya Makino (via Quora)</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, March 10th, 2011, 12:18 pm">March 10, 2011</abbr> at <abbr class="comment-time" title="Thursday, March 10th, 2011, 12:18 pm">12:18 pm</abbr>
-      </div>
-      <div class="comment-text">
-        <p>I find these articles super cool:</p>
-        <p>https://www.bigfastblog.com/quoras-technology-examined<br />
-and<br />
-https://www.bigfastblog.com/summifys-technology-examined</p>
       </div>
       <!-- .comment-text -->
     </li>
@@ -630,125 +576,6 @@ Just like you said,”Quora is a great example of a modern tech start-up.”</p>
       </div>
       <div class="comment-text">
         <p>It is a great post and very insightful. Thank you.</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-3576" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/What-are-the-programming-languages-and-frameworks-the-top-NYC-startups-are-using#ans614276">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Sunday, July 3rd, 2011, 12:22 am">July 3, 2011</abbr> at <abbr class="comment-time" title="Sunday, July 3rd, 2011, 12:22 am">12:22 am</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>What are the programming languages and frameworks the top NYC startups are using?…</strong>
-        </p>
-        <p>Twitter: Main application is made on RoR. Using, Scala for insights and data mining at the back end. Facebook:is having a hard time because it was initially made on PHP. FB chat + All newer features post 2006 are based on frameworks in Erlang, Haskell,…</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-3622" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/Whats-the-architecture-of-Quora-like#ans619044">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, July 6th, 2011, 12:04 am">July 6, 2011</abbr> at <abbr class="comment-time" title="Wednesday, July 6th, 2011, 12:04 am">12:04 am</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>What’s the architecture of Quora like?…</strong>
-        </p>
-        <p>Good summary here by Phil Whelan: https://www.bigfastblog.com/quoras-technology-examined...</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-3655" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/Can-I-build-site-like-Quora-on-wordpress-framework#ans623381">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Friday, July 8th, 2011, 1:09 pm">July 8, 2011</abbr> at <abbr class="comment-time" title="Friday, July 8th, 2011, 1:09 pm">1:09 pm</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>Can I build site like Quora on wordpress framework?…</strong>
-        </p>
-        <p>You could build a site like Quora (Questions &amp; Answers) but not exactly like Quora. Quora uses some open source but also in-house developed technologies and you or who is developing your site using WordPress will need to replicate, not an easy task (es…</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-4293" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/How-is-Quora-planning-to-get-further-traction">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Thursday, August 18th, 2011, 1:27 pm">August 18, 2011</abbr> at <abbr class="comment-time" title="Thursday, August 18th, 2011, 1:27 pm">1:27 pm</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>How is Quora planning to get further traction?…</strong>
-        </p>
-        <p>I have been thinking about Quora recently and it’s current traction. I like Quora a lot and think that it’s one of the smartest companies out there but here’s the thing. What is happening with it’s traction? There is no doubt that it is cutting edg…</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-4553" class="trackback even thread-even depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/What-front-end-back-end-technologies-does-Quora-use#ans699602">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Saturday, September 3rd, 2011, 9:25 am">September 3, 2011</abbr> at <abbr class="comment-time" title="Saturday, September 3rd, 2011, 9:25 am">9:25 am</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>What front-end &amp; back-end technologies does Quora use?…</strong>
-        </p>
-        <p>The answer to this question is in this blog url: https://www.bigfastblog.com/quoras-technology-examined...</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-4576" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/Is-Quora-a-digital-media-company-a-technology-company-or-both#ans701827">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Monday, September 5th, 2011, 1:31 pm">September 5, 2011</abbr> at <abbr class="comment-time" title="Monday, September 5th, 2011, 1:31 pm">1:31 pm</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>Is Quora a digital media company, a technology company, or both?…</strong>
-        </p>
-        <p>My take is a bit different. I would say that Quora is, at this time, more of a technology company and less than a media one. Why? Because they have built among the first real time Q&amp;A websites (as far as I know none of the rivals has something like thi…</p>
-      </div>
-      <!-- .comment-text -->
-    </li>
-    <!-- .comment -->
-    <li id="comment-6819" class="trackback odd alt thread-odd thread-alt depth-1 trackback reader">
-      <img alt="Quora" src="https://0.gravatar.com/avatar/?d=https://www.bigfastblog.com/css/library/media/images/trackback.png&amp;s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />
-      <div class="comment-meta comment-meta-data">
-        <div class="comment-author vcard">
-          <cite class="fn" title="https://www.quora.com/Why-does-Quora-use-so-much-RAM#comment108295">Quora</cite>
-        </div>
-        <!-- .comment-author .vcard -->
-        <abbr class="comment-date" title="Wednesday, December 21st, 2011, 1:41 am">December 21, 2011</abbr> at <abbr class="comment-time" title="Wednesday, December 21st, 2011, 1:41 am">1:41 am</abbr></div>
-      <div class="comment-text">
-        <p>
-          <strong>Why does Quora use so much RAM?…</strong>
-        </p>
-        <p>Well, if we look in the source code we see that almost the whole this page is generated using Javascript. Now, I am not a front end developer but I do know that Javascript is not easy on the processor and RAM (try opening this page for example What sta…</p>
       </div>
       <!-- .comment-text -->
     </li>
