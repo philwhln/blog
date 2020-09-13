@@ -259,12 +259,13 @@ Execution time: 0.5 seconds
 
 SQLShell passes SQL statements in full to the database, so you can use any commands that your database understands.
 
-##Conclusion
+## Conclusion
 
 The initial purpose of this blog post was to demonstrate SQLShell with a NoSQL database, but unfortunately I failed to find a JDBC driver that implemented all the features that SQLShell requires. I’m hoping that development of such drivers will continue, as it will be good to have standard inferface to all these NoSQL technologies directly from the command-line. I look forward to seeing how SQLShell and these JDBC develop over time.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">2 responses to “SQLShell. A Cross-Database SQL Tool With NoSQL Potential”</h3>
   <ol class="comment-list">
     <li id="comment-21155" class="comment even thread-even depth-1 comment reader">
       <img alt="Endre" src="https://1.gravatar.com/avatar/3f3b0ce9b2bad9e2181945e64e85bc48?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

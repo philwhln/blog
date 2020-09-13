@@ -268,8 +268,9 @@ You can download the code from the application at
 
 *   Changed fluidfeature\_current\_user to fluidfeature__s__\_current\_user <small>(2013-01-17)</small>
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “A/B Testing in Ruby On Rails”</h3>
   <ol class="comment-list">
     <li id="comment-23676" class="comment even thread-even depth-1 comment reader">
       <img alt="alex kuznetsov" src="https://1.gravatar.com/avatar/d03097fc0e24158dcddf952f9d4d0800?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

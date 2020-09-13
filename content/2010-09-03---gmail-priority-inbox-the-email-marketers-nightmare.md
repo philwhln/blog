@@ -27,8 +27,9 @@ This may seriously impact the ability of&nbsp;many marketing companies to do the
 
 Do you sympathize with the email marketers?&nbsp;Will you use the Gmail Priority Inbox? If you do, do you think you’ll start ignoring your original Inbox if the Gmail Priority Inbox works well?
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">2 responses to “Gmail Priority Inbox – The Email Marketer’s Nightmare”</h3>
   <ol class="comment-list">
     <li id="comment-63" class="comment even thread-even depth-1 comment reader">
       <img alt="Dizzley" src="https://0.gravatar.com/avatar/cd7fe4dc92d411b7b050409ca402ecc3?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

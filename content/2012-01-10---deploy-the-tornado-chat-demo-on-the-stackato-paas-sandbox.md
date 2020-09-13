@@ -238,8 +238,9 @@ The Stackato sandbox gives you a great way to get a small taste of what Stackato
 *   [Other Stackato Demo Applications](https://github.com/ActiveState/stackato-samples)
 *   [Cloud Foundry Homepage](https://www.cloudfoundry.com/)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">2 responses to “Deploy The Tornado Chat Demo On The Stackato PaaS Sandbox”</h3>
   <ol class="comment-list">
     <li id="comment-7782" class="comment even thread-even depth-1 comment reader">
       <img alt="jiaxiaolei" src="https://1.gravatar.com/avatar/b2bf7f0f9e98806ba6cfc56f5dd66ab9?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

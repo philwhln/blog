@@ -407,8 +407,9 @@ I think we will be hearing much more from Summify’s founders, Cristian and Mir
 
 At the time of writing this Summify has aggregated more than 200 million stories.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">9 responses to “Summify’s Technology Examined”</h3>
   <ol class="comment-list">
     <li id="comment-1317" class="comment byuser comment-author-mirceapasoi even thread-even depth-1 comment role-subscriber user-mirceapasoi">
       <img alt="Mircea Paşoi" src="https://1.gravatar.com/avatar/9fda40028c6fd432f278c5d2aa2e9daf?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

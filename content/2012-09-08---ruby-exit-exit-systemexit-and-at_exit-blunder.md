@@ -63,8 +63,9 @@ Alternatively, and a better solution, is that we never call “exit” inside an
 
 [Jonathan Rochkind](https://bibwild.wordpress.com/) made a really great clarification of the exit / at\_exit situation in [a comment](/ruby-exit-exit-systemexit-and-at_exit-blunder/comment-page-1#comment-21913) below. I think it is important to read it.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">11 responses to “Ruby exit, exit!, SystemExit and at_exit blunder”</h3>
   <ol class="comment-list">
     <li id="comment-21416" class="comment byuser comment-author-avdi-grimm even thread-even depth-1 comment role-subscriber user-avdi-grimm">
       <img alt="Avdi Grimm" src="https://1.gravatar.com/avatar/fea3202718832fe11a0db6bb44a5cc37?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

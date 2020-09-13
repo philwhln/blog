@@ -305,12 +305,13 @@ Cluster hbase destroyed
 
 <a id="conclusion"></a>
 
-##Conclusion
+## Conclusion
 
 Congratulations! If you have followed through this example, then you now have your own HBase cluster running in the cloud. Now… what to do with that HBase cluster? [/](Stay tuned for a future posts).
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">6 responses to “Run The Latest Whirr And Deploy HBase In Minutes”</h3>
   <ol class="comment-list">
     <li id="comment-851" class="comment even thread-even depth-1 comment reader">
       <img alt="Lars George" src="https://1.gravatar.com/avatar/b66b4b8f23c553ed389edd73522d4cd1?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

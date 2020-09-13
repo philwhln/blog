@@ -30,8 +30,9 @@ When it works Delicious Library imports you whole collection very quickly. This 
 
 There’s another interesting post about the aquistion at <a href="https://profy.com/2008/08/25/amazon-acquires-shelfari-awkward-competition/" rel="nofollow">profy.com – Amazon Acquires Shelfari and Places It in an Awkward Competition</a>
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Amazon Buys Shelfari. Will They Buy Delicious Library Too?”</h3>
   <ol class="comment-list">
     <li id="comment-19417" class="comment even thread-even depth-1 comment reader">
       <img alt="sastian" src="https://0.gravatar.com/avatar/6a11225614c5dbe320a8c981fc984145?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

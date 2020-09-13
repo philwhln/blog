@@ -102,8 +102,9 @@ And there it is. Not much more to say about that other than how easy it was. Alt
 *   [CodeRay on GitHub](https://github.com/rubychan/coderay)
 *   [More CodeRay examples (1470 of them!)](https://coderay.rubychan.de/rays)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">9 responses to “Colorful Ruby Code In HTML Using CodeRay”</h3>
   <ol class="comment-list">
     <li id="comment-21217" class="comment byuser comment-author-tednielsen even thread-even depth-1 comment role-subscriber user-tednielsen">
       <img alt="Ted Nielsen" src="https://0.gravatar.com/avatar/6a7c0d92f8bd76d56550bdc8ee1dd5f3?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

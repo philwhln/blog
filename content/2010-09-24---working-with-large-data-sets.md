@@ -11,9 +11,9 @@ socialImage:
   publicURL: "/media/images/photo.jpg"
 ---
 
+## Comments
 
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">13 responses to “Working With Large Data Sets”</h3>
   <ol class="comment-list">
     <li id="comment-41" class="comment even thread-even depth-1 comment reader">
       <img alt="SL" src="https://1.gravatar.com/avatar/74e69ac9f70069738b907b47bd2c6c50?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

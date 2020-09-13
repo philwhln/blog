@@ -393,8 +393,9 @@ To gitbox:gitolite-admin
 
 I hope that gives you a good overview of how to install gitolite. If you found this helpful, please subscribe to this blog or follow me on twitter [@philwhln](https://www.twitter.com/philwhln).
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">47 responses to “Gitolite Installation Step-By-Step”</h3>
   <ol class="comment-list">
     <li id="comment-19584" class="comment even thread-even depth-1 comment reader">
       <img alt="Dakiss" src="https://0.gravatar.com/avatar/236c8c94d65381b3b8912d689fa7ede4?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

@@ -289,21 +289,9 @@ If you found this post useful then please [__leave a comment__](/quoras-technolo
 <li><a href="https://stevesouders.com/hpws/rules.php">Steve Souders’ 14 Rules for Faster-Loading Web Sites</a></li>
 </ul>
 
-<div class="hentry post publish post-1 odd author-admin category-start-ups category-web-development post_tag-algorithms post_tag-amazon-ec2 post_tag-django post_tag-gunicorn post_tag-guy-kawasaki post_tag-iphone-api post_tag-jquery-template post_tag-json-api post_tag-mongodb post_tag-mysql post_tag-nginx post_tag-python post_tag-redis post_tag-slow-clients post_tag-summify post_tag-the-long-tail post_tag-tornado post_tag-tornado-swirl" id="post-1248">
-<h2 class="entry-title"><a href="/summifys-technology-examined" rel="bookmark" title="Summify’s Technology Examined">Summify’s Technology Examined</a></h2>
-<p class="byline"><span class="byline-prep byline-prep-author">By</span> <span class="author vcard"><span class="fn">Phil Whelan</span></span> <span class="byline-prep byline-prep-published">on</span> <abbr class="published" title="Monday, March 7th, 2011, 2:11 am">March 7, 2011</abbr> </p>
-<div style="float: left;"><img alt="summify_technology_sq" class="attachment-post-thumbnail wp-post-image" height="180" src="/media/images/2011/03/summify_technology_sq.jpg" title="summify_technology_sq" width="180"/></div>
-<div class="entry-content">
-<p>In this post I will look at the technology infrastructure behind <a href="https://summify.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','summify.com/']);">Summify.com</a>, a website that strives to make our lives easier and helps us deal with the information overload we all experience every time we sit down at our computers. Summify has aggregated over 200 million stories from the web and serves them up on-demand through a series of different mediums. The website uses Tornado to push real-time updates out to the users and they have developed over a dozen backend systems, some of which I will cover in this blog post.</p>
-</div>
-<p><!-- .entry-content --></p>
-<div class="continue-reading"><a href="/summifys-technology-examined"><strong>Continue reading…</strong></a></div>
-</div>
-
-In this post I will look at the technology infrastructure behind <a href="https://summify.com/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','summify.com/']);">Summify.com</a>, a website that strives to make our lives easier and helps us deal with the information overload we all experience every time we sit down at our computers. Summify has aggregated over 200 million stories from the web and serves them up on-demand through a series of different mediums. The website uses Tornado to push real-time updates out to the users and they have developed over a dozen backend systems, some of which I will cover in this blog post.
+## Comments
 
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">36 responses to “Quora’s Technology Examined”</h3>
   <ol class="comment-list">
     <li id="comment-909" class="comment even thread-even depth-1 comment reader">
       <img alt="Ellie Kesselman" src="https://0.gravatar.com/avatar/8cce7b70d30f42045bc6c8569f5549e2?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

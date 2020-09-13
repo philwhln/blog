@@ -503,8 +503,9 @@ __Please post any questions or suggestions you have in the comments below. They 
 If you are interested in learning more about Hadoop, then I recommend reading  
 [Hadoop: The Definitive Guide (2nd Edition)](https://www.amazon.com/gp/product/1449389732?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1449389732) by Tom White.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">29 responses to “Map-Reduce With Ruby Using Hadoop”</h3>
   <ol class="comment-list">
     <li id="comment-679" class="comment odd alt thread-odd thread-alt depth-1 comment reader">
       <img alt="andy" src="https://1.gravatar.com/avatar/10a8337cf8879d37affd54e1cab4d79e?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

@@ -169,8 +169,9 @@ Other posts in this series
 *   [Part 1 : Event-based Programming](/rubys-eventmachine-part-1-event-based-programming)
 *   [Part 2 : Asynchronous != Faster](/ruby-eventmachine-part-2-asynchronous-not-equal-faster)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">9 responses to “Ruby’s EventMachine – Part 2 : Asynchronous != Faster”</h3>
   <ol class="comment-list">
     <li id="comment-22146" class="comment even thread-even depth-1 comment reader">
       <img alt="yuan" src="https://0.gravatar.com/avatar/47081f2906ff164aadfa8eea575c4189?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

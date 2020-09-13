@@ -162,8 +162,9 @@ Fear not, the smart people at the institute of super smart people have a solutio
 *   [Geohash implementation in Scala](https://github.com/mumoshu/geohash-scala)
 *   [Geohash implementation in Clojure](https://bitbucket.org/sunng/clojure-geohash)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Geohash Intro”</h3>
   <ol class="comment-list">
     <li id="comment-58314" class="comment even thread-even depth-1 comment reader">
       <img alt="George" src="https://0.gravatar.com/avatar/e79cac53f6398497534d2e1bab788dc8?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

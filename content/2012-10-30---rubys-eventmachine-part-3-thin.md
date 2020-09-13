@@ -131,8 +131,9 @@ EventMachine-LE is a fork (although it likes to be thought of as a "branch") of 
 
 One of the authors of this is [Iñaki Baz Castillo](https://github.com/ibc), who was also featured in a early blog-post I wrote, [Zero-Copy. Transfer Data Faster In Ruby](/zero-copy-transfer-data-faster-in-ruby).
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Ruby’s EventMachine – Part 3 : Thin”</h3>
   <ol class="comment-list">
     <li id="comment-24689" class="comment even thread-even depth-1 comment reader">
       <img alt="Martinos" src="https://0.gravatar.com/avatar/ed77c0d1c8da409c4f69f67f934ff0bb?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

@@ -86,8 +86,9 @@ __Related Posts On This Blog__
 *   [Working With Large Data Sets](/?p=149)
 *   [Data Mining Without Hadoop](/?p=238)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">19 responses to “How To Get Experience Working With Large Datasets”</h3>
   <ol class="comment-list">
     <li id="comment-245" class="comment even thread-even depth-1 comment reader">
       <img alt="Chris Hemedinger" src="https://0.gravatar.com/avatar/2f0476d7b3be190241c3537b3948d2fa?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

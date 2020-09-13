@@ -137,8 +137,9 @@ Rouen, France
 Martinique, Martinique  
 Trento, Italy
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">4 responses to “54 Hours In The Okanagan Building A Startup”</h3>
   <ol class="comment-list">
     <li id="comment-10415" class="comment byuser comment-author-angeliqueduffield even thread-even depth-1 comment role-subscriber user-angeliqueduffield">
       <img alt="Angelique Duffield" src="https://1.gravatar.com/avatar/5338607eb8aa8628eb55140539f155fc?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

@@ -37,10 +37,12 @@ Enter Highchart.
 
 I discovered Highchart recently while working with [netSIGN](https://www.netsign.com). We were looking at graphing options in Ruby On Rails and came across Highchart. It’s much like Flot.js, but it is a commercial venture. Flot.js is free; released under the MIT license and is sponsored by [IOLA](https://www.iola.dk/) in Denmark. Developers on a shoe-string are unlikely to look at Highchart, just because of price tag, but for most projects I think the price it reasonable. What do you get for your money?
 
-__Documentation__  
+## Documentation
+
 Highchart feels more polished than Flot.js and many of the standard features, simply work out of the box. Flots basic chart is very basic and you have to pass all the options to get something that starts to look nice. Maybe you prefer that though. Finding those options is so much nicer with Highcharts’ [Options Reference](https://www.highcharts.com/ref/). It’s easy to drill down and see exactly how the options piece together through the hierarchical menu. I do not want to knock Flot.js, since it does have documentation, but it is written more like a novel than the reference document and referring to it is time consuming.
 
-__Rendering Offline__  
+## Rendering Offline
+  
 “Wow!”, was all I could think when I saw that Highchart can actually render the graphs on the server as PNG files. Ok, it’s not a perfect solution and still requires a web-browser, but as long the user is viewing the graph, a copy of the graph can be sent to the server for generation as a PNG or other file format.
 
 How does it do it? The JavaScript in the browser generates SVG, which the browser can render visually. Highchart simply passes that generated SVG back, from the browser, to the server. The server then takes the SVG file and passes it to [SVG Rasterizer](https://xmlgraphics.apache.org/batik/tools/rasterizer.html), which is an Apache Project. It’s a Java program that can be called to follows
@@ -49,14 +51,17 @@ How does it do it? The JavaScript in the browser generates SVG, which the browse
 java -jar batik-rasterizer.jar graph.svg
 ```
 
-__Limitations__  
+## Limitations
+
 The main limitation with both Flot.js and Highchart is that of generating offline reports. Even though Highchart gets further down the road, it cannot be done without first rendering the graph in the browser. I have not investigated, but I have a feeling that you could do this if you have a [server that can run JavaScript code](https://developer.mozilla.org/en/JavaScript_shells), such as [node.js](https://nodejs.org/).
 
-__Conclusion__  
+## Conclusion
+
 Yes, there is a cost, but I think it’s worth going with Highchart. Flot.js has not evolved much in the time I’ve known it and I think Highchart is a more mature product and is quicker to get up and running with. If you are a commercial venture (Highchart is free for non-commercial) and you do not want to spend a penny then Flot.js is still a great solution and I would not dissuade anyone from using it.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">9 responses to “Highchart Vs Flot.js – Comparing JavaScript Graphing Engines”</h3>
   <ol class="comment-list">
     <li id="comment-490" class="comment even thread-even depth-1 comment reader">
       <img alt="Montreal Web Design" src="https://0.gravatar.com/avatar/2e41d52b2986c0c63a2f464e34b7b3f3?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

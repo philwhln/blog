@@ -56,8 +56,9 @@ Here’s an interesting post that suggests <a href="https://osxdaily.com/2010/07
 
 Please let me hear your 3G + iOS 4 pain in the comments.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “iPhone 3G’s iOS 4.1 Upgrade Cannot Come Soon Enough”</h3>
   <ol class="comment-list">
     <li id="comment-37" class="comment even thread-even depth-1 comment reader">
       <img alt="@thepegisin" src="https://1.gravatar.com/avatar/3c8b72ac7a4355cbdb277457bb2a9bdb?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

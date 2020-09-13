@@ -248,8 +248,9 @@ To visit the Homebrew homepage type:
 
 I hope you find this quick intro to Homebrew helpful. Please leave a comment to question.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">33 responses to “Homebrew – Intro To The Mac OS X Package Installer”</h3>
   <ol class="comment-list">
     <li id="comment-995" class="comment even thread-even depth-1 comment reader">
       <img alt="Sukima" src="https://0.gravatar.com/avatar/a33233f156a5531707f130c28565de69?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

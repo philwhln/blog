@@ -36,8 +36,9 @@ The down-side is that the image is base64 encoded, so it is much larger than it�
 *   [RFC2397 – The “data” URL scheme](https://tools.ietf.org/html/rfc2397)
 *   [Wikipedia – Data URI scheme](https://en.wikipedia.org/wiki/Data_URI_scheme)
 
+## Comment
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Embed Base64-Encoded Images Inline In HTML”</h3>
   <ol class="comment-list">
     <li id="comment-223983" class="comment even thread-even depth-1 comment reader">
       <img alt="Base64 Image" src="https://0.gravatar.com/avatar/0501df3c813883759ff60ee864721fe5?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

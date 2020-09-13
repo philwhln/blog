@@ -103,8 +103,9 @@ Cluster mycassandracluster destroyed
 
 Whirr makes it very easy to start and stop a Cassandra cluster in the cloud without leaving the comfort of your laptop. What you do with that cluster is up to you, but I will be give you some ideas of what you could do in future posts.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">4 responses to “Quickly Launch A Cassandra Cluster On Amazon EC2”</h3>
   <ol class="comment-list">
     <li id="comment-1141" class="comment even thread-even depth-1 comment reader">
       <img alt="Kevin Rood" src="https://0.gravatar.com/avatar/0aae2c417490c285d978499f04292a9c?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

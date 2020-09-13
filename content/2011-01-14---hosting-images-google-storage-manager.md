@@ -104,8 +104,9 @@ You can replace a file quite easily. You will get a prompt asking if you want to
 
 In this post I have shown my first encounter with Google Storage Manager and the ease of uploading some image files. If you notice any problems with the images loading in this post (slow loading, not loading) then please leave a comment below.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">2 responses to “Hosting Images With Google Storage Manager”</h3>
   <ol class="comment-list">
     <li id="comment-963" class="comment even thread-even depth-1 comment reader">
       <img alt="Anton Babenko" src="https://1.gravatar.com/avatar/fc9fce3c16a287d672ec5433430f11ca?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

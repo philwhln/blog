@@ -156,8 +156,9 @@ If you found this blog post useful then please leave a comment below. I would li
 *   [Apache Incubator](https://incubator.apache.org/)
 *   [Justice League on Wikipedia](https://en.wikipedia.org/wiki/Justice_League)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">8 responses to “The Apache Projects – The Justice League Of Scalability”</h3>
   <ol class="comment-list">
     <li id="comment-671" class="comment even thread-even depth-1 comment reader">
       <img alt="Allen Wittenauer" src="https://1.gravatar.com/avatar/f9ba9fc53b19911b7c27822084eb3ffb?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

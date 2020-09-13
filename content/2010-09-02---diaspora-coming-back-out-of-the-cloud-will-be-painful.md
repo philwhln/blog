@@ -28,8 +28,9 @@ Facebook will charge ahead as Diaspora struggles to support all different platfo
 
 I understand the sentiment of the Diaspora developers and the 6479 backers on KickStarter. They’re just trying to find an solution to the monopolistic data control situations we find ourselves in with the web as it is, but I’m not sure they’ve really thought it through enough. I know I haven’t, so your thoughts on this would be highly appreciated. Hopefully some further ideas and projects will come out of this Diaspora idea, but I do not think Diaspora will work the way it’s described. It might have worked in the days of Napster, but not now. We’ve moved too far into the cloud.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">3 responses to “Diaspora – Coming back out of the cloud will be painful”</h3>
   <ol class="comment-list">
     <li id="comment-34" class="comment even thread-even depth-1 comment reader">
       <img alt="Shawn Taylor" src="https://1.gravatar.com/avatar/b243327e8990bfdb48d029cb64a99014?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

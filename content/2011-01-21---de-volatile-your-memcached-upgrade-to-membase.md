@@ -113,8 +113,9 @@ While the focus of this blog post has been on Membase as a replacement to Memcac
 *   [“Moxi – Memcached Proxy”. Good presentation on Slideshare](https://www.slideshare.net/northscale/moxi-memcached-proxy)
 *   [Membase NoSQL Whitepaper (PDF)](https://www.membase.com/sites/default/files/uploads/all/whitepapers/Membase-NoSQL-Whitepaper.pdf)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">6 responses to “De-volatile Your Memcached. Upgrade to Membase”</h3>
   <ol class="comment-list">
     <li id="comment-829" class="comment even thread-even depth-1 comment reader">
       <img alt="Perry Krug" src="https://1.gravatar.com/avatar/70b38bbe52aff967313a7acf9dd8f43d?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

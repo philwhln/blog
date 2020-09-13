@@ -14,8 +14,9 @@ For nearly 3 years now I’ve been using <a id="though2">Lunarpages</a> web host
 This time there was a small problem with my website, so I tried out their IRC browser chat with their support staff. A couple of minutes later my problem was fixed, and once again I felt hope that good support is still available in the world. But for product I get and price it costs, I’m surprised they offer any support.  
 Lunarpages, if you’re listening, I hope you one day offer dedicated servers, or hopefully support rsync to make life much easier and quicker for uploads. Keep up the great work!
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Lunarpages – Amazing support!”</h3>
   <ol class="comment-list">
     <li id="comment-3" class="comment even thread-even depth-1 comment reader">
       <img alt="Phil Whelan" src="https://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />

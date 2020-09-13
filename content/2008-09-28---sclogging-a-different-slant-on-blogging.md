@@ -35,8 +35,9 @@ Please leave a comment if you have any thoughts on this. Or would you prefer to 
 
 <script src="https://digg.com/tools/diggthis.js" type="text/javascript"></script>
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">One response to “Sclogging – A Different Slant On Blogging”</h3>
   <ol class="comment-list">
     <li id="comment-6" class="comment even thread-even depth-1 comment reader">
       <img alt="David Cawley" src="https://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />

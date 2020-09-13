@@ -182,8 +182,9 @@ cd ~/gitolite-admin
 
 This will be used for managing your users and git repositories. By simply editing _conf/gitolite.conf_ and pushing it to the gitolite server you can create new repositories. Adding new users will involve adding an ssh key to the _keydir_. I will cover more on these in a follow-up post.
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">19 responses to “Install Gitolite To Manage Your Git Repositories”</h3>
   <ol class="comment-list">
     <li id="comment-168" class="comment byuser comment-author-admin bypostauthor even thread-even depth-1 comment role-administrator user-admin entry-author">
       <img alt="Phil Whelan" src="https://1.gravatar.com/avatar/5f357d996da96ccd36d3374e3728bf29?s=80&amp;d=https%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

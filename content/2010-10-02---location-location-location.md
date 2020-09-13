@@ -49,8 +49,9 @@ My final question is, does FourSquare work on the moon?
 
 [Here I am! Longitude 49.286226, Latitude -123.11641](https://goo.gl/maps/mXRZ)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">2 responses to “Location, Location, Location”</h3>
   <ol class="comment-list">
     <li id="comment-68" class="comment even thread-even depth-1 comment reader">
       <img alt="j pimmel" src="https://0.gravatar.com/avatar/ee986a99a41d8de0c52821cae0e00fd1?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />

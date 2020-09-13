@@ -18,8 +18,9 @@ One of the first places I went was YouTube. I was astonished by the fact that vi
 
 Is anyone else seeing these major performance problems with Flash in Google Chrome?
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">4 responses to “Google Chrome In Parallels – Flash Is Too Slow”</h3>
   <ol class="comment-list">
     <li id="comment-4" class="comment even thread-even depth-1 comment reader">
       <img alt="ramirek" src="https://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=80" class="avatar avatar-80 photo avatar-default" height="80" width="80" />

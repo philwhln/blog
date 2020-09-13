@@ -185,8 +185,9 @@ Zero-copy is way to increase performance when transferring static data between t
 *   [Ruby IO Splice Homepage](https://bogomips.org/ruby_io_splice/)
 *   [How to create PI sequentially in Ruby](https://stackoverflow.com/questions/3137594/how-to-create-pi-sequentially-in-ruby)
 
+## Comments
+
 <div id="comments">
-  <h3 id="comments-number" class="comments-header">2 responses to “Zero-Copy. Transfer Data Faster In Ruby”</h3>
   <ol class="comment-list">
     <li id="comment-807" class="comment even thread-even depth-1 comment reader">
       <img alt="iq9" src="https://0.gravatar.com/avatar/092ff97a9cf1189c671baecc59f8bf65?s=80&amp;d=https%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D80&amp;r=PG" class="avatar avatar-80 photo" height="80" width="80" />
