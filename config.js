@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Musings on technology',
   copyright: 'Copyright © 2020 Phil Whelan',
   disqusShortname: '',
-  postsPerPage: 10,
+  postsPerPage: 16,
   googleAnalyticsId: 'UA-15826070-1',
   useKatex: false,
   menu: [
