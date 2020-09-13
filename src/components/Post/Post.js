@@ -26,9 +26,8 @@ const Post = ({ post }: Props) => {
         <Content body={html} title={title} />
       </div>
 
-      <Link className={styles['post__home-button']} to="/"><b>More posts</b></Link>
-
       <div className={styles['post__footer']}>
+        <Link to="/"><b>See more posts</b></Link>
         <Meta date={date} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
         <Author />
