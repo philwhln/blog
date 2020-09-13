@@ -11,6 +11,22 @@ socialImage:
   publicURL: "/media/images/photo.jpg"
 ---
 
+For the past three and a half years I have been working for a start-up in downtown Vancouver. We have been developing a high performance SMTP proxy that can scale to handle tens of thousands of connections per second on each machine, even with pretty standard hardware.
+
+For the past 18 months I’ve moved from working on the SMTP proxy to working on our other systems, all of which make use of the data we collect from each connection. It’s a fair amount of data and it can be up to 2Kb in size for each connection. Our servers receive approximately 1000 of these pieces of data per second, which is fairly sustained due to our global distribution of customers. If you compare that to [Twitter’s peak of 3,283 tweets per second](https://mashable.com/2010/06/25/tps-record/) (maximum of 140 characters), you can see it’s not a small amount of data that we are dealing with here.
+
+So what do we do with this data? We have a real-time global reputation network of IP addresses that send email. We use this is identify good and bad senders. The bad being spambots. We also pump this data into our custom-built distributed search engine, built using Apache Lucene, which is no small task when we aim to get search results live within 30 seconds of the connection taking place. This is close enough to real-time for our purposes.
+
+I recently set out to scientifically prove the benefits of throttling, which is our technology for slowing down connections in order to detect spambots, who are kind enough to disconnect quite quickly when they see a slow connection. Due to the nature of the data we had, I needed to work with a long range of data to show evidence that an IP that appeared on Spamhaus had previously been throttled and disconnected, and then measure the duration until it appeared on Spamhaus. I set a job to pre-process a selected set of customers data and arbitrarily decided 66 days would be a good amount to process, as this was 2 months plus a little breathing room. I knew from my experience it was possible that it might take 2 months for a bad IP to be picked up by Spamhaus.
+
+I will not go into the details of the results here, as they can be found on the MailChannels blog post entitled [Comparing Spamhaus with Proactive Connection Throttling](https://blog.mailchannels.com/2010/09/spamhaus-vs-throttling), but the cool things about this was the amount of data that needed to be processed. I extracted 28,204,693 distinct IPs, some of which were seen over million times in this data set. Here the graph of the results I found. I thought the logarithmic graph looked perfect.
+
+![](/media/images/2010/09/spamhaus_detection_graph.png)
+
+_Graph taken from the MailChannels analysis of Spamhaus Vs Throttling_
+
+Have you worked with large amounts of data that does not get the same fanfare attention as the Twitter firehose by bloggers such as Mashable? I’d really like to hear your stories.
+
 ## Comments
 
 <div id="comments">

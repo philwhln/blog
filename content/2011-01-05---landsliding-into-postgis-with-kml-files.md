@@ -71,8 +71,7 @@ sudo su postgres
 
 Now we will create a template database for PostGIS within PostgreSQL from which we can create our own PostGIS database.
 
-```
-
+```bash
 TEMPLATE_DB_NAME=template_postgis
 
 # Create the template spatial database.
@@ -97,13 +96,11 @@ GRANT SELECT, UPDATE, INSERT, DELETE ON TABLE public.geometry_columns TO PUBLIC;
 GRANT SELECT, UPDATE, INSERT, DELETE ON TABLE public.spatial_ref_sys TO PUBLIC;
 VACUUM FULL FREEZE;
 EOS
-
 ```
 
 ### Create The Database From The Template
 
-```
-
+```bash
 DB_NAME="landslide_db"
 DB_USER="landslide_user"
 
@@ -121,7 +118,7 @@ done
 
 I will use some test data from [San Francisco Bay-Area Landslides](https://earthquake.usgs.gov/regional/nca/bayarea/landslides.php). From [earthquake.usgs.gov](https://earthquake.usgs.gov) we can download a [KMZ file](https://earthquake.usgs.gov/regional/nca/bayarea/kml/landslides.kmz) which contains the geographic information, in the form of 2-D polygons, of the landslide areas.
 
-```
+```bash
 wget https://earthquake.usgs.gov/regional/nca/bayarea/kml/landslides.kmz
 ```
 
@@ -133,7 +130,7 @@ On my Mac I will install gdal, and hence ogr2ogr, using [Homebrew](/homebrew-int
 
 We first have to install [libkml](https://code.google.com/p/libkml/), which is dependency of gdal if we want read KML 2.2 files. libkml is a KML file parsing engine written by Google and is used in Google Earth and Google Maps. Ogr2ogr can use libkml to read the KML files. It does have it’s own KML parser, but that will not work with the KML 2.2 file we will try to convert and generally is not as good as libkml at reading KML files. Usually, I would install libkml using [Homebrew](/homebrew-intro-to-the-mac-os-x-package-installer), but I found that you can only install libkml 1.2 and gdal 1.8.0beta1 requires libkml 1.3. Therefore, I will install libkml from the libkml source respository, which is currently only way to get libkml 1.3.
 
-```
+```bash
 sudo brew install libkml # only version 1.2
 
 svn checkout https://libkml.googlecode.com/svn/trunk libkml # currently version 1.3
@@ -142,12 +139,11 @@ cd libkml
 ./configure
 make
 sudo make install
-
 ```
 
 That’s libkml installed. Now, let’s use [Homebrew](/homebrew-intro-to-the-mac-os-x-package-installer) to install the latest version of gdal.
 
-```
+```bash
 sudo brew install gdal --HEAD --complete
 ```
 
@@ -157,7 +153,7 @@ _–HEAD_ is used to download the latest version from the gdal Subversion reposi
 
 Now the _ogr2ogr_ conversion utility should be installed. KMZ is a zipped KML file. It is just a regular zip file, so we can unzip this by simply using the unzip command. libkml does recognize the kmz extension, so we would not usually need to do this step, but landslides.kmz does not contain the data we want, only references to it via several [NetworkLinks](https://code.google.com/apis/kml/documentation/kml_tut.html#network_links) to other KMZ files. 
 
-```
+```bash
 unzip landslides.kmz
 ```
 
@@ -165,8 +161,7 @@ unzip landslides.kmz
 
 When we unzip landslides.kmz, we find it contains only one file called _doc.kml_. Here is a what the doc.kml looks like…
 
-```
-
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="https://www.opengis.net/kml/2.2" xmlns:gx="https://www.google.com/kml/ext/2.2" xmlns:kml="https://www.opengis.net/kml/2.2" xmlns:atom="https://www.w3.org/2005/Atom">
 <Document>
@@ -260,7 +255,7 @@ For this example, I’m just going to grab the first of these referenced KMZ fil
 
 We will first convert this KMZ into a ESRI Shapefile using ogr2ogr.
 
-```
+```bash
 ogr2ogr -f "ESRI Shapefile" landslides.shp Landslides_Aetna_Springs.kmz
 ```
 
@@ -309,8 +304,6 @@ We also specifiy _landslides_ as the name of database table that we will be inse
 
 Here are the other options I have used for the _shp2pgsql_ command.
 
-<small></small>
-
 <table>
 <tr>
 <td style="width: 30px">-c</td>
@@ -339,8 +332,6 @@ Previously I have also used the _-S_ switch with shp2pgsql, but for this KMZ fil
 We have a Multipolygon with 40 parts, can't use -S switch!
 ```
 
-<small></small>
-
 <table>
 <tr>
 <td>-S</td>
@@ -348,13 +339,11 @@ We have a Multipolygon with 40 parts, can't use -S switch!
 </tr><tr>
 </tr></table>
 
-
-
 ## The SQL
 
 Let’s take a look at the SQL generated…
 
-```
+```sql
 SET CLIENT_ENCODING TO UTF8;
 SET STANDARD_CONFORMING_STRINGS TO ON;
 BEGIN;
@@ -406,13 +395,13 @@ The INSERT commands are pretty long, so I’ve truncated them here, but you can 
 
 We can now load the SQL we generated into our database. This is an easy step.
 
-```
+```bash
 psql -d $DB_NAME $DB_USER < landslides.sql
 ```
 
 You see something like this, if all goes well.
 
-```
+```sql
 SET
 SET
 BEGIN
@@ -434,8 +423,7 @@ COMMIT
 
 ## Running SQL Queries Against Our PostGIS Database
 
-```
-
+```bash
 DB_NAME="landslide_db"
 DB_USER="landslide_user"
 
@@ -444,7 +432,7 @@ psql -d $DB_NAME $DB_USER
 
 Our landslide database has four definitions of landslides, each mapping to a complex set of polgons (table column “the\_geom” is TYPE:MULTIPOLYGON). Here are their names.
 
-```
+```sql
 landslide_db=> SELECT name FROM landslides;
        name
 ------------------
@@ -457,19 +445,18 @@ landslide_db=> SELECT name FROM landslides;
 
 Let’s look for landslides at latitude and longtitude position -122.3800, 38.7499. Here we find a bad location (meaning you would not build your house there) since this is in the bounds of “Mostly Landslide”.
 
-```
+```sql
 landslide_db=> SELECT name FROM landslides WHERE ST_Contains(the_geom,
 ST_GeomFromWKB(ST_AsEWKB('POINT(-122.3800 38.7499)'::geometry), 4326));
        name
 ------------------
  Mostly Landslide
 (1 row)
-
 ```
 
 Let’s find somewhere with less landslides. Maybe -122.3752, 38.7321?
 
-```
+```sql
 landslide_db=> SELECT name FROM landslides WHERE ST_Contains(the_geom,
 ST_GeomFromWKB(ST_AsEWKB('POINT(-122.3752 38.73215)'::geometry), 4326));
       name
@@ -480,7 +467,7 @@ ST_GeomFromWKB(ST_AsEWKB('POINT(-122.3752 38.73215)'::geometry), 4326));
 
 That is pretty good, but flat land would be better.
 
-```
+```sql
 landslide_db=> SELECT name FROM landslides WHERE ST_Contains(the_geom,
 ST_GeomFromWKB(ST_AsEWKB('POINT(-122.4015 38.74941)'::geometry), 4326));
    name
