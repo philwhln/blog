@@ -25,7 +25,12 @@ const Feed = ({ edges }: Props) => (
         <h2 className={styles['feed__item-title']}>
           <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
-        <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
+        <div className="clearfix">
+          {edge.node.frontmatter.socialImage
+          && <img className={styles['feed__item-image']} src={edge.node.frontmatter.socialImage.publicURL.publicURL} />
+          }
+          <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
+        </div>
         <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read</Link>
       </div>
     ))}
