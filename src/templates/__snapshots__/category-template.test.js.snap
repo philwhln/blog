@@ -278,11 +278,15 @@ exports[`CategoryTemplate renders correctly 1`] = `
                 test_0
               </a>
             </h2>
-            <p
-              className="feed__item-description"
+            <div
+              className="clearfix"
             >
-              test_0
-            </p>
+              <p
+                className="feed__item-description"
+              >
+                test_0
+              </p>
+            </div>
             <a
               className="feed__item-readmore"
               href="/test_0"
@@ -326,11 +330,15 @@ exports[`CategoryTemplate renders correctly 1`] = `
                 test_1
               </a>
             </h2>
-            <p
-              className="feed__item-description"
+            <div
+              className="clearfix"
             >
-              test_1
-            </p>
+              <p
+                className="feed__item-description"
+              >
+                test_1
+              </p>
+            </div>
             <a
               className="feed__item-readmore"
               href="/test_1"

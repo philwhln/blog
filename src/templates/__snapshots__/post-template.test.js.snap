@@ -34,17 +34,16 @@ exports[`PostTemplate renders correctly 1`] = `
         />
       </div>
     </div>
-    <a
-      className="post__home-button"
-      href="/"
-    >
-      <b>
-        More posts
-      </b>
-    </a>
     <div
       className="post__footer"
     >
+      <a
+        href="/"
+      >
+        <b>
+          See more posts
+        </b>
+      </a>
       <div
         className="meta"
       >

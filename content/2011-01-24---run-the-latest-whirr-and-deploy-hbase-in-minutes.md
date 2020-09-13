@@ -25,8 +25,6 @@ socialImage:
 In a few of my recent posts I have covered the ease of deploying clusters of <a href="/map-reduce-with-ruby-using-hadoop">Hadoop</a> and <a href="/quickly-launch-a-cassandra-cluster-on-amazon-ec2">Cassandra using Whirr</a>. With Whirr you can simply write a configuration file specifying which cloud provider you are using, your credentials and the definition of the cluster you desire and it will build it for you. In this post, I am going to look at the latest Whirr, version 0.3.0, which is currently in <em>release candidate</em> status. I will show you how you can find and build the latest Whirr and live on the edge of what it possible.
 </div>
 
-
-
 <ul style="padding-bottom: 30px">
 <li><a href="#grabbing-the-source-code">Grabbing The Source Code</a></li>
 <li><a href="#make-sure-you-have-those-dependencies">Make Sure You Have Those Dependencies</a></li>
@@ -49,9 +47,9 @@ We will use the code from [trunk](https://svn.apache.org/repos/asf/incubator/whi
 Even though version 0.2.0 is currently the most recent stable version we can download on [the official Whirr site](https://incubator.apache.org/whirr/), 0.3.0 is available here under the tagged releases and hence the trunk. So let’s download the source for that. Version 0.3.0 will soon be made the official release, but by following this step-by-step guide, you will be ahead of the pack.
 
 ```
-
 cd ~/src
-svn co 
+svn co https://svn.apache.org/repos/asf/incubator/whirr/trunk whirr-trunk
+cd whirr-trunk
 ```
 
 <a id="make-sure-you-have-those-dependencies"></a>
@@ -64,17 +62,19 @@ cat BUILD.txt
 
 Looking at the dependencies in [BUILD.txt](https://svn.apache.org/repos/asf/incubator/whirr/trunk/BUILD.txt), you can see there is a few things we need. 
 
-<blockquote style="background: #eeeeee; padding: 15px; margin: 15px;"><p>Apache Whirr Build Instructions</p>
-<p>REQUIREMENTS</p>
-<p>- Java 1.6<br/>
-- Apache Maven 2.2.1 or greater<br/>
-- Ruby 1.8.7 or greater (to run build-tools/update-versions)</p>
-<p>BUILDING</p>
-<p>To run unit tests and install artifacts locally:</p>
-<p>mvn clean install</p>
-<p>To build a source package:</p>
-<p>mvn package -Ppackage
-</p></blockquote>
+```
+Apache Whirr Build Instructions
+
+REQUIREMENTS
+- Java 1.6
+- Apache Maven 2.2.1 or greater
+- Ruby 1.8.7 or greater (to run build-tools/update-versions)
+BUILDING
+To run unit tests and install artifacts locally:
+mvn clean install
+To build a source package:
+mvn package -Ppackage
+```
 
 If you have followed through one of my [previous](/quickly-launch-a-cassandra-cluster-on-amazon-ec2) [posts](/map-reduce-with-ruby-using-hadoop), then you will likely have these dependencies all installed, but I will review them just encase.
 
@@ -97,7 +97,6 @@ If you are using the latest Mac OS X then you should have Ruby 1.8.7 and Java 1.
 Here’s how to check your versions and what I’m currently running…
 
 ```
-
 # Ruby
 ruby -v
 ruby 1.9.2p94 (2010-12-08 revision 30140) [x86_64-darwin10.5.0]
