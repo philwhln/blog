@@ -2,7 +2,7 @@
 title: "Service Discovery Solutions"
 date: "2014-05-28T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "service-discovery-solutions"
 category: "DevOps"
 tags:

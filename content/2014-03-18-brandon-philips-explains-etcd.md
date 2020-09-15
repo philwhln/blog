@@ -2,7 +2,7 @@
 title: "Brandon Philips Explains etcd"
 date: "2014-03-18T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "brandon-philips-explains-etcd"
 category: "DevOps"
 tags:

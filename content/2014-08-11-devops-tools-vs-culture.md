@@ -2,7 +2,7 @@
 title: "DevOps: Tools Vs Culture"
 date: "2014-08-11T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "devops-tools-vs-culture"
 category: "DevOps"
 tags:

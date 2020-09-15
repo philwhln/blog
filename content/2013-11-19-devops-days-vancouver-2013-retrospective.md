@@ -2,7 +2,7 @@
 title: "DevOps Days Vancouver 2013 Retrospective"
 date: "2013-11-19T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "devops-days-vancouver-2013-retrospective"
 category: "DevOps"
 tags:

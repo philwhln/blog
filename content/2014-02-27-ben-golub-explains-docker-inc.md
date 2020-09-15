@@ -2,7 +2,7 @@
 title: "Ben Golub Explains Docker Inc"
 date: "2014-02-27T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "ben-golub-explains-docker-inc"
 category: "DevOps"
 tags:

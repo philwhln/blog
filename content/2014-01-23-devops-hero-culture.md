@@ -2,7 +2,7 @@
 title: "DevOps: Hero Culture"
 date: "2014-01-23T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "devops-hero-culture"
 category: "DevOps"
 tags:

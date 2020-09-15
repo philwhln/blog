@@ -2,7 +2,7 @@
 title: "DevOps Days Comes To Vancouver, October 25-26th"
 date: "2013-08-20T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "devops-days-comes-to-vancouver"
 category: "DevOps"
 tags:

@@ -2,7 +2,7 @@
 title: "libswarm – Docker Orchestration Announced"
 date: "2014-06-10T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "libswarm-docker-orchestration-announced"
 category: "DevOps"
 tags:

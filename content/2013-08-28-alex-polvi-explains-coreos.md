@@ -2,7 +2,7 @@
 title: "Alex Polvi Explains CoreOS"
 date: "2013-08-28T00:00:00-07:00"
 template: "post"
-draft: false
+draft: true
 slug: "alex-polvi-explains-coreos"
 category: "DevOps"
 tags:
