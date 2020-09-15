@@ -246,8 +246,6 @@ Steve Souders, author of High Performance Web Sites and Even Faster Web Sites, l
 > <small>[ – Charlie Cheever, Quora](https://www.quora.com/Why-is-the-Quora-website-so-fast)</small>
 > 
 
-<div>
-<div style="float: left">
 Steve Souders’ 14 rules are…
 <ul>
 <li>Make Fewer HTTP Requests</li>
@@ -265,13 +263,6 @@ Steve Souders’ 14 rules are…
 <li>Configure ETags</li>
 <li>Make AJAX Cacheable</li>
 </ul>
-</div>
-<div style="float: left; padding-left: 80px;">
-<a href="https://www.amazon.com/gp/product/0596529309?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596529309"><img border="0" src="https://images-na.ssl-images-amazon.com/media/images/I/41COtT-V1UL._SL160_.jpg"/></a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=0596529309" style="border:none !important; margin:0px !important;" width="1"/>
-<p><a href="https://www.amazon.com/gp/product/0596522304?ie=UTF8&amp;tag=getafil-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=0596522304"><img border="0" src="https://images-na.ssl-images-amazon.com/media/images/I/41vfOvQugoL._SL160_.jpg"/></a><img alt="" border="0" height="1" src="https://www.assoc-amazon.com/e/ir?t=getafil-20&amp;l=as2&amp;o=1&amp;a=0596522304" style="border:none !important; margin:0px !important;" width="1"/></p>
-</div>
-<div style="clear:both;"></div>
-</div>
 
 <h2 id="conclusion">Conclusion</h2>
 
