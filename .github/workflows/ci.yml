@@ -69,27 +69,36 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+
       - uses: actions/checkout@v2
 
       - uses: actions/setup-node@v1
         with:
           node-version: 14.x
 
-      - run: npm install -g yarn
-      - uses: actions/cache@v2
+      - name: Install yarn
+        run: npm install -g yarn
+
+      - name: Restore dependencies cache
+        uses: actions/cache@v2
         id: yarn-cache
         with:
           path: '**/node_modules'
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-      - run: yarn install --frozen-lockfile
+
+      - name: Install dependencies (if not cached)
+        run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
+
+      - name: Build blog
+        run: yarn build
 
       - name: Install SSH Client 🔑
         uses: webfactory/ssh-agent@ef0ce0ca
         with:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
 
-      - name: Deploy 🚀
+      - name: Deploy blog 🚀
         uses: JamesIves/github-pages-deploy-action@01d0dd92
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
