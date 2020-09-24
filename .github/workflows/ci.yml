@@ -70,6 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -82,8 +83,14 @@ jobs:
           key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
       - run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
+
+      - name: Install SSH Client 🔑
+        uses: webfactory/ssh-agent@ef0ce0ca
+        with:
+          ssh-private-key: ${{ secrets.DEPLOY_KEY }}
+
       - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@3.6.1
+          uses: JamesIves/github-pages-deploy-action@a3c1ca2e
           with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             FOLDER: public
