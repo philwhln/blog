@@ -1,5 +1,5 @@
 ---
-title: "Remote working is eating the world"
+title: "Remote Working Is Eating The World"
 date: "2020-09-24T11:59:00-07:00"
 template: "post"
 draft: false
