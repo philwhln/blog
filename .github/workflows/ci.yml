@@ -22,14 +22,21 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install -g yarn
-    - uses: actions/cache@v2
+
+    - name: Install yarn
+      run: npm install -g yarn
+
+    - name: Restore dependencies cache
+      uses: actions/cache@v2
       id: yarn-cache
       with:
         path: '**/node_modules'
         key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
-    - run: yarn install --frozen-lockfile
+
+    - name: Install dependencies (if not cached)
+      run: yarn install --frozen-lockfile
       if: steps.yarn-cache.outputs.cache-hit != 'true'
+
     - run: yarn run lint
     - run: yarn run test --runInBand --no-cache
       env:
@@ -93,12 +100,12 @@ jobs:
       - name: Build blog
         run: yarn build
 
-      - name: Install SSH Client 🔑
+      - name: Install SSH Client
         uses: webfactory/ssh-agent@ef0ce0ca
         with:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
 
-      - name: Deploy blog 🚀
+      - name: Deploy blog
         uses: JamesIves/github-pages-deploy-action@01d0dd92
         with:
           SSH: true
