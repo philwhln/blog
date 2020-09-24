@@ -90,7 +90,7 @@ jobs:
           ssh-private-key: ${{ secrets.DEPLOY_KEY }}
 
       - name: Deploy 🚀
-          uses: JamesIves/github-pages-deploy-action@01d0dd92
+          uses: "JamesIves/github-pages-deploy-action@01d0dd92"
           with:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
             FOLDER: public
