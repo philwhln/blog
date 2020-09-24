@@ -101,7 +101,7 @@ jobs:
       - name: Deploy blog 🚀
         uses: JamesIves/github-pages-deploy-action@01d0dd92
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SSH: true
           FOLDER: public
           REPOSITORY_NAME: philwhln/philwhln.github.io
           BRANCH: master
