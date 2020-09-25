@@ -86,7 +86,7 @@ jobs:
 
       - name: Codecov
         run: yarn codecov
-        with:
+        env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
   deploy:
