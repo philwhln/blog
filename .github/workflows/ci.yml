@@ -42,27 +42,7 @@ jobs:
       env:
         CI: true
 
-#  coverage:
-#    runs-on: ubuntu-latest
-#    strategy:
-#      matrix:
-#        node-version: [14.x]
-#    steps:
-#      - uses: actions/checkout@v2
-#      - name: Use Node.js ${{ matrix.node-version }}
-#        uses: actions/setup-node@v1
-#        with:
-#          node-version: ${{ matrix.node-version }}
-#      - run: npm install -g yarn
-#      - run: yarn install --frozen-lockfile
-#      - run: yarn test:coverage --runInBand --no-cache
-#
-
-  codecov:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x]
+  coverage:
     steps:
       - uses: actions/checkout@v2
 
@@ -84,8 +64,11 @@ jobs:
         run: yarn install --frozen-lockfile
         if: steps.yarn-cache.outputs.cache-hit != 'true'
 
-      - name: Codecov
-        run: yarn codecov
+      - name: Run tests with coverage
+        run: yarn test:coverage --runInBand --no-cache
+
+      - name: Upload to codecov
+        run: yarn codecov --disable=gcov
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
