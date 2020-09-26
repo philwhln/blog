@@ -6,7 +6,7 @@ module.exports = {
   title: 'Big Fast Blog',
   subtitle: 'Musings on technology',
   copyright: 'Copyright © 2020 Phil Whelan',
-  disqusShortname: '',
+  disqusShortname: 'bigfastblog',
   postsPerPage: 16,
   googleAnalyticsId: 'UA-15826070-1',
   useKatex: false,
