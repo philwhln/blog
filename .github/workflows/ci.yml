@@ -43,6 +43,7 @@ jobs:
         CI: true
 
   coverage:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
